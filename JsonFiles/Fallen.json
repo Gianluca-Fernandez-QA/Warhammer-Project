@@ -1,0 +1,6538 @@
+﻿{
+	"catalogue": {
+		"categoryEntries": {
+			"categoryEntry": {
+				"_id": "cd82-15ee-cad6-4909",
+				"_name": "Fallen Angels",
+				"_hidden": "false"
+			}
+		},
+		"selectionEntries": {
+			"selectionEntry": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "1026-b9a8-7310-7c21",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "9cd6-e123-2e46-7b0a",
+							"_value": "0.0"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "9cd6-e123-2e46-7b0a",
+							"_type": "max"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "f6bb-0f04-28cb-d42d",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "c845-c72c-6afe-3fc2",
+							"_primary": "true"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "-1.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "c821-2625-b5eb-5ae4",
+					"_name": "Gifts of Chaos (1 Relic)",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "c821-2625-b5eb-5ae4",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "a3fb-35bf-9cc9-6eb4",
+							"_value": "0.0"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "a3fb-35bf-9cc9-6eb4",
+							"_type": "max"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "2776-609b-2d66-3399",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "c845-c72c-6afe-3fc2",
+							"_primary": "true"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "-3.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "1026-b9a8-7310-7c21",
+					"_name": "Gifts of Chaos (2 Relics)",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				}
+			]
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "5afb-3d0f-8838-b6b7",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "35e8-f827-bc94-388d",
+							"_name": "Fallen Angels",
+							"_hidden": "false",
+							"_targetId": "cd82-15ee-cad6-4909",
+							"_primary": "false"
+						}
+					},
+					"_id": "1cd4-ef48-c06a-96da",
+					"_name": "Cypher",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "90fa-7e44-02fc-0db0",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "5afb-3d0f-8838-b6b7",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "cb47-406c-9d77-aec8",
+							"_name": "Fallen Angels",
+							"_hidden": "false",
+							"_targetId": "cd82-15ee-cad6-4909",
+							"_primary": "false"
+						}
+					},
+					"_id": "658d-c741-d637-1886",
+					"_name": "Fallen",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0cfc-b724-eeed-7177",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "0f1f-01a6-cdef-78d6",
+					"_name": "Specialist Detachment",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1431-f0a4-42a6-bbc5",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "5afb-3d0f-8838-b6b7",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "6e41-55d5-6e88-42d0",
+					"_name": "Chaos Rhino",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b76d-3fd6-ae75-f2b8",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "5afb-3d0f-8838-b6b7",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "0703-053b-63eb-e7d0",
+					"_name": "Sorcerer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f34e-3d5d-31b2-3b3c",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "5afb-3d0f-8838-b6b7",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "c7c8-ce9c-553b-f002",
+							"_name": "Faction: Imperium",
+							"_hidden": "false",
+							"_targetId": "84e2-9fa9-ebe6-1d18",
+							"_primary": "false"
+						}
+					},
+					"_id": "7ecb-9286-5e13-2f48",
+					"_name": "Fallen",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0cfc-b724-eeed-7177",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "5afb-3d0f-8838-b6b7",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "328e-3181-b508-05d9",
+							"_name": "Faction: Imperium",
+							"_hidden": "false",
+							"_targetId": "84e2-9fa9-ebe6-1d18",
+							"_primary": "false"
+						}
+					},
+					"_id": "ebbb-256b-83c1-ed44",
+					"_name": "Cypher",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "90fa-7e44-02fc-0db0",
+					"_type": "selectionEntry"
+				}
+			]
+		},
+		"rules": {
+			"rule": {
+				"description": "All ADEPTUS ASTARTES, HERETIC ASTARTES and FALLEN models gain this ability.\nInstead of following the normal rules for Rapid Fire weapons, models in this unit firing Rapid Fire bolt weapons make double the number of attacks if any of the following apply:\n• The firing model’s target is within half the weapon’s maximum range.\n• The firing model is INFANTRY and every model in its unit remained stationary in your previous Movement phase.\n• The firing model is a TERMINATOR, BIKER, CENTURION, DREADNOUGHT or HELBRUTE.\nFor the purposes of this ability, a Rapid Fire bolt weapon is any weapon with the Rapid Fire type whose profile includes the word ‘bolt’ (e.g. boltgun, bolt rifle, storm bolter, combi-bolter, hurricane bolter, inferno boltgun, etc.). This also applies when firing the boltgun profile of combi-weapons (including the bolt weapon profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a Rapid Fire bolt weapon, so long as the relic is also a Rapid Fire weapon (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also Rapid Fire bolt weapons, as is the guardian spear used by Deathwatch Watch Masters.",
+				"_id": "47e0-2f52-0200-d91d",
+				"_name": "Bolter Discipline",
+				"_hidden": "false"
+			}
+		},
+		"sharedSelectionEntries": {
+			"selectionEntry": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "5afb-3d0f-8838-b6b7",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "add",
+							"_field": "category",
+							"_value": "cd82-15ee-cad6-4909"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "197d-a96e-ebfa-50d6",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "7\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "2+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "2+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "4"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "5"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "4"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "9"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "1ac0-514e-80d5-6937",
+								"_name": "Cypher",
+								"_page": "",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Cypher can use his pistols in your Shooting phase even if he has Advanced or Fallen Back in the same turn."
+									}
+								},
+								"_id": "2471-5af3-0c5d-2660",
+								"_name": "Blazing Weapons",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Cypher has a 4+ invulnerable save. In addition, roll a D6 if Cypher is slain. On a roll of 2+, Cypher's model is still removed from play, but he is not considered to have been slain for the purposes of any mission victory conditions."
+									}
+								},
+								"_id": "b046-3183-1d1e-d48b",
+								"_name": "Mysterious Protection",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "You can re-roll hit rolls of 1 made for friendly FALLEN units within 6\" of Cypher"
+									}
+								},
+								"_id": "e87e-d603-d257-226a",
+								"_name": "Lord Cypher",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Cypher cannot use the Daemonic Ritual ability, even though he has the CHAOS and CHARACTER keywords."
+									}
+								},
+								"_id": "586c-9e62-ea8d-dc06",
+								"_name": "No-one's Puppet",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "force",
+												"_value": "0.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "5afb-3d0f-8838-b6b7",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "hidden",
+										"_value": "true"
+									}
+								},
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Enemy units within 12\" of CYPHER cannot use any abilities, Warlord Traits or Relics that allow them to gain, return or refund Command Points. The range of this ability is increased to 18\" while there are 10 or more other friendly FALLEN ANGELS models within 12\" of CYPHER. The range of this ability is instead increased to 24\" while there are 20 or more other friendly FALLEN ANGELS models within 12\" of CYPHER."
+									}
+								},
+								"_id": "f9d2-96f2-41b8-41b5",
+								"_name": "Agent of Discord",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "2adf-9f5a-3c9a-9047",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "0859-0d80-d5ad-0e8c",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+								"_primary": "true"
+							},
+							{
+								"_id": "04dd-fb51-3751-b3d0",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "8b6a-70be-db6d-8e06",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5cf1-acf2-ca3b-c2e5",
+								"_primary": "false"
+							},
+							{
+								"_id": "55a0-c6f8-5e06-2758",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e12c-dd25-cbab-a30d",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "a0cf-e1b4-e33c-a960",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "2f35-83b6-afe3-0899",
+											"_type": "min"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "16\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Pistol 3"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "4"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-1"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "-"
+												}
+											]
+										},
+										"_id": "6943-79c0-dde3-d281",
+										"_name": "Cypher's bolt pistol",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "d4bb-e35f-e8a5-9cd8",
+								"_name": "Cypher's bolt pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "649d-b125-8b5d-e42c",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "095d-63a0-5e99-d965",
+											"_type": "min"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "12\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Pistol 2"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "8"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-3"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "2"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "-"
+												}
+											]
+										},
+										"_id": "7966-a7b3-1fb8-4f2d",
+										"_name": "Cypher's plasma pistol",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "fd14-b46e-2da2-92d5",
+								"_name": "Cypher's plasma pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "81ba-f65f-8c0a-8166",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "2d22-4fe9-8fd6-a4ef",
+											"_type": "max"
+										}
+									]
+								},
+								"_id": "f256-a9e9-162d-e7c4",
+								"_name": "Frag & Krak grenades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "cddf-945e-1335-e681",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "d150-0a82-997a-0170",
+								"_name": "Warlord",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c1db-1126-92e2-e807",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "85.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "4.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "90fa-7e44-02fc-0db0",
+					"_name": "Cypher",
+					"_page": "",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "0cfc-b724-eeed-7177",
+										"_value": "5.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_childId": "model",
+										"_type": "greaterThan"
+									}
+								},
+								"_type": "increment",
+								"_field": "e356-c769-5920-6e14",
+								"_value": "4"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "force",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_childId": "5afb-3d0f-8838-b6b7",
+										"_type": "equalTo"
+									}
+								},
+								"_type": "add",
+								"_field": "category",
+								"_value": "cd82-15ee-cad6-4909"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "6\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "3+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "3+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "4"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "1"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "3"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "9"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "f1f2-8085-b7f2-b8f7",
+								"_name": "Fallen Champion",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "6"
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "3+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "3+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "4"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "1"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "2"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "8"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "103a-3c30-638b-25b1",
+								"_name": "Fallen",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "7f50-495b-2a8f-27ee",
+							"_name": "Fallen Angels",
+							"_hidden": "false",
+							"_targetId": "efe6-7bbc-5953-3290",
+							"_type": "profile"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "8386-b97c-d8a2-81d8",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "168c-f9d1-e781-617f",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+								"_primary": "true"
+							},
+							{
+								"_id": "16fb-88dd-927c-cc83",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5cf1-acf2-ca3b-c2e5",
+								"_primary": "false"
+							},
+							{
+								"_id": "9a28-74b0-7d93-2bc7",
+								"_name": "Faction: Fallen",
+								"_hidden": "false",
+								"_targetId": "e12c-dd25-cbab-a30d",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntryGroups": {
+						"selectionEntryGroup": {
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "5.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "27e4-8a5d-8fcf-cd18",
+										"_type": "min"
+									},
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "10.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "c196-c1c3-3ba5-2829",
+										"_type": "max"
+									}
+								]
+							},
+							"selectionEntries": {
+								"selectionEntry": [
+									{
+										"modifiers": {
+											"modifier": {
+												"_type": "set",
+												"_field": "7cbb-5220-36d4-aa12",
+												"_value": "0.0"
+											}
+										},
+										"constraints": {
+											"constraint": [
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "9.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "5155-9c6f-67a9-9a42",
+													"_type": "max"
+												},
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "4.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "7cbb-5220-36d4-aa12",
+													"_type": "min"
+												}
+											]
+										},
+										"entryLinks": {
+											"entryLink": [
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "1897-183a-8c1f-8222",
+																"_type": "max"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "c5d0-c6f7-707b-e696",
+																"_type": "min"
+															}
+														]
+													},
+													"_id": "b6cb-f203-3896-7d54",
+													"_name": "Frag & Krak grenades",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "cddf-945e-1335-e681",
+													"_type": "selectionEntry"
+												},
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "e210-257e-73f1-d5bf",
+																"_type": "max"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "5277-2267-8f70-ef37",
+																"_type": "min"
+															}
+														]
+													},
+													"_id": "5320-abcb-6309-1a34",
+													"_name": "Bolt pistol",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "37d3-7098-d596-9948",
+													"_type": "selectionEntry"
+												},
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "095f-21b3-66c3-7662",
+																"_type": "min"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "023d-0805-2715-3334",
+																"_type": "max"
+															}
+														]
+													},
+													"_id": "85b6-a7e2-f9db-b0f2",
+													"_name": "Boltgun",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "ca06-ac13-d02f-6f9a",
+													"_type": "selectionEntry"
+												}
+											]
+										},
+										"costs": {
+											"cost": [
+												{
+													"_name": "pts",
+													"_typeId": "points",
+													"_value": "14.0"
+												},
+												{
+													"_name": " PL",
+													"_typeId": "e356-c769-5920-6e14",
+													"_value": "0.0"
+												},
+												{
+													"_name": "CP",
+													"_typeId": "2d3b-b544-ad49-fb75",
+													"_value": "0.0"
+												}
+											]
+										},
+										"_id": "3661-e8b2-b9a5-d7a0",
+										"_name": "Fallen w/ boltgun",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_type": "model"
+									},
+									{
+										"constraints": {
+											"constraint": [
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "7574-a602-a476-e601",
+													"_type": "min"
+												},
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "f5d8-77f6-0446-d035",
+													"_type": "max"
+												}
+											]
+										},
+										"entryLinks": {
+											"entryLink": [
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "a8ba-90a0-ec98-b29e",
+																"_type": "max"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "733a-3c1b-b361-d40b",
+																"_type": "min"
+															}
+														]
+													},
+													"_id": "7546-20d6-e999-5a52",
+													"_name": "Frag & Krak grenades",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "bb78-534a-7b77-edbc",
+													"_type": "selectionEntry"
+												},
+												{
+													"constraints": {
+														"constraint": {
+															"_field": "selections",
+															"_scope": "parent",
+															"_value": "2.0",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "false",
+															"_includeChildForces": "false",
+															"_id": "d4ae-4a7e-b170-b828",
+															"_type": "min"
+														}
+													},
+													"_id": "ff8f-d6f2-1634-664c",
+													"_name": "Fallen Champion Equipment",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "1f91-a49d-4212-e2ce",
+													"_type": "selectionEntryGroup"
+												}
+											]
+										},
+										"costs": {
+											"cost": [
+												{
+													"_name": "pts",
+													"_typeId": "points",
+													"_value": "14.0"
+												},
+												{
+													"_name": " PL",
+													"_typeId": "e356-c769-5920-6e14",
+													"_value": "0.0"
+												},
+												{
+													"_name": "CP",
+													"_typeId": "2d3b-b544-ad49-fb75",
+													"_value": "0.0"
+												}
+											]
+										},
+										"_id": "7a23-c43a-fe08-2a9d",
+										"_name": "Fallen Champion",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_type": "model"
+									},
+									{
+										"modifiers": {
+											"modifier": [
+												{
+													"conditions": {
+														"condition": {
+															"_field": "selections",
+															"_scope": "8037-44b7-f9f2-45bc",
+															"_value": "1.0",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "false",
+															"_childId": "1e5c-7492-b14e-1edb",
+															"_type": "equalTo"
+														}
+													},
+													"_type": "set",
+													"_field": "name",
+													"_value": "Fallen w/ Heavy weapon"
+												},
+												{
+													"conditions": {
+														"condition": {
+															"_field": "selections",
+															"_scope": "8037-44b7-f9f2-45bc",
+															"_value": "1.0",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "false",
+															"_childId": "7633-de22-b73b-e128",
+															"_type": "equalTo"
+														}
+													},
+													"_type": "set",
+													"_field": "name",
+													"_value": "Fallen w/ Special weapon"
+												}
+											]
+										},
+										"constraints": {
+											"constraint": {
+												"_field": "selections",
+												"_scope": "parent",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_id": "6797-acdb-dec5-d011",
+												"_type": "max"
+											}
+										},
+										"selectionEntryGroups": {
+											"selectionEntryGroup": {
+												"constraints": {
+													"constraint": [
+														{
+															"_field": "selections",
+															"_scope": "parent",
+															"_value": "1.0",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "true",
+															"_id": "6650-c707-d72a-7b21",
+															"_type": "max"
+														},
+														{
+															"_field": "selections",
+															"_scope": "parent",
+															"_value": "1.0",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "false",
+															"_includeChildForces": "false",
+															"_id": "7030-035f-2b87-5dee",
+															"_type": "min"
+														}
+													]
+												},
+												"selectionEntryGroups": {
+													"selectionEntryGroup": [
+														{
+															"constraints": {
+																"constraint": {
+																	"_field": "selections",
+																	"_scope": "parent",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "false",
+																	"_includeChildForces": "false",
+																	"_id": "9301-7d05-aa0d-3ba9",
+																	"_type": "max"
+																}
+															},
+															"entryLinks": {
+																"entryLink": [
+																	{
+																		"_id": "ad11-c624-8f21-9450",
+																		"_name": "Autocannon",
+																		"_hidden": "false",
+																		"_collective": "false",
+																		"_import": "true",
+																		"_targetId": "5210-8cb2-b5a2-a04f",
+																		"_type": "selectionEntry"
+																	},
+																	{
+																		"_id": "fdc9-3c16-e03a-02f3",
+																		"_name": "Heavy bolter",
+																		"_hidden": "false",
+																		"_collective": "false",
+																		"_import": "true",
+																		"_targetId": "05ab-e7cc-e856-c36f",
+																		"_type": "selectionEntry"
+																	},
+																	{
+																		"_id": "8a85-e211-471d-5541",
+																		"_name": "Lascannon",
+																		"_hidden": "false",
+																		"_collective": "false",
+																		"_import": "true",
+																		"_targetId": "a908-4664-11cd-f8b2",
+																		"_type": "selectionEntry"
+																	},
+																	{
+																		"_id": "1ca7-8ddb-e029-d2da",
+																		"_name": "Missile launcher",
+																		"_hidden": "false",
+																		"_collective": "false",
+																		"_import": "true",
+																		"_targetId": "1469-1964-7a91-94d4",
+																		"_type": "selectionEntry"
+																	}
+																]
+															},
+															"_id": "1e5c-7492-b14e-1edb",
+															"_name": "Heavy weapons",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true"
+														},
+														{
+															"constraints": {
+																"constraint": {
+																	"_field": "selections",
+																	"_scope": "parent",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "false",
+																	"_includeChildForces": "false",
+																	"_id": "f7ff-ae3d-c2e9-a975",
+																	"_type": "max"
+																}
+															},
+															"entryLinks": {
+																"entryLink": [
+																	{
+																		"_id": "12e3-529a-7342-acd3",
+																		"_name": "Flamer",
+																		"_hidden": "false",
+																		"_collective": "false",
+																		"_import": "true",
+																		"_targetId": "fd22-6743-2d4c-dd62",
+																		"_type": "selectionEntry"
+																	},
+																	{
+																		"_id": "e6fa-be70-16a1-c543",
+																		"_name": "Meltagun",
+																		"_hidden": "false",
+																		"_collective": "false",
+																		"_import": "true",
+																		"_targetId": "efc8-c51d-5b02-a3a2",
+																		"_type": "selectionEntry"
+																	},
+																	{
+																		"_id": "4178-345f-5ba4-776c",
+																		"_name": "Plasma gun",
+																		"_hidden": "false",
+																		"_collective": "false",
+																		"_import": "true",
+																		"_targetId": "8c14-22cc-93ce-b85a",
+																		"_type": "selectionEntry"
+																	}
+																]
+															},
+															"_id": "7633-de22-b73b-e128",
+															"_name": "Special weapons",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true"
+														}
+													]
+												},
+												"_id": "0b6a-24cf-5912-afc3",
+												"_name": "Weapon Options",
+												"_hidden": "false",
+												"_collective": "false",
+												"_import": "true"
+											}
+										},
+										"entryLinks": {
+											"entryLink": [
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "51fc-ff42-26d5-7a06",
+																"_type": "max"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "18bb-a42f-9ad7-1396",
+																"_type": "min"
+															}
+														]
+													},
+													"_id": "ec1d-287a-3c4c-9ff3",
+													"_name": "Frag & Krak grenades",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "bb78-534a-7b77-edbc",
+													"_type": "selectionEntry"
+												},
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "87d3-37d7-5b43-1d79",
+																"_type": "max"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "2e0d-a47e-526e-e3bd",
+																"_type": "min"
+															}
+														]
+													},
+													"_id": "559e-e125-f806-ea5a",
+													"_name": "Bolt pistol",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "0334-f487-8229-0c1a",
+													"_type": "selectionEntry"
+												}
+											]
+										},
+										"costs": {
+											"cost": [
+												{
+													"_name": "pts",
+													"_typeId": "points",
+													"_value": "14.0"
+												},
+												{
+													"_name": " PL",
+													"_typeId": "e356-c769-5920-6e14",
+													"_value": "0.0"
+												},
+												{
+													"_name": "CP",
+													"_typeId": "2d3b-b544-ad49-fb75",
+													"_value": "0.0"
+												}
+											]
+										},
+										"_id": "8037-44b7-f9f2-45bc",
+										"_name": "Fallen w/ heavy or special weapon",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_type": "model"
+									},
+									{
+										"constraints": {
+											"constraint": {
+												"_field": "selections",
+												"_scope": "parent",
+												"_value": "9.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_id": "7437-d1e3-51c0-5c03",
+												"_type": "max"
+											}
+										},
+										"entryLinks": {
+											"entryLink": [
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "0633-cbf0-6b70-8b30",
+																"_type": "max"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "ed12-a632-51c1-eb2f",
+																"_type": "min"
+															}
+														]
+													},
+													"_id": "2f5f-7ce5-ab67-646b",
+													"_name": "Frag & Krak grenades",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "cddf-945e-1335-e681",
+													"_type": "selectionEntry"
+												},
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "4541-6d54-a348-ffc7",
+																"_type": "max"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "6af4-d736-7112-0d99",
+																"_type": "min"
+															}
+														]
+													},
+													"_id": "215c-98d6-2d4e-f297",
+													"_name": "Bolt pistol",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "37d3-7098-d596-9948",
+													"_type": "selectionEntry"
+												},
+												{
+													"constraints": {
+														"constraint": [
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "89e0-384e-62e5-8b06",
+																"_type": "min"
+															},
+															{
+																"_field": "selections",
+																"_scope": "parent",
+																"_value": "1.0",
+																"_percentValue": "false",
+																"_shared": "true",
+																"_includeChildSelections": "false",
+																"_includeChildForces": "false",
+																"_id": "04c2-5588-c0ba-4d8b",
+																"_type": "max"
+															}
+														]
+													},
+													"_id": "36d4-58ed-3eb3-a78b",
+													"_name": "Chainsword",
+													"_hidden": "false",
+													"_collective": "false",
+													"_import": "true",
+													"_targetId": "4334-d2da-32f5-dc53",
+													"_type": "selectionEntry"
+												}
+											]
+										},
+										"costs": {
+											"cost": [
+												{
+													"_name": "pts",
+													"_typeId": "points",
+													"_value": "14.0"
+												},
+												{
+													"_name": " PL",
+													"_typeId": "e356-c769-5920-6e14",
+													"_value": "0.0"
+												},
+												{
+													"_name": "CP",
+													"_typeId": "2d3b-b544-ad49-fb75",
+													"_value": "0.0"
+												}
+											]
+										},
+										"_id": "19a5-4e63-c66e-47a3",
+										"_name": "Fallen w/ chainsword",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_type": "model"
+									}
+								]
+							},
+							"selectionEntryGroups": {
+								"selectionEntryGroup": {
+									"constraints": {
+										"constraint": {
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "4.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "f32f-5c81-2041-88d2",
+											"_type": "max"
+										}
+									},
+									"selectionEntries": {
+										"selectionEntry": [
+											{
+												"selectionEntryGroups": {
+													"selectionEntryGroup": {
+														"constraints": {
+															"constraint": [
+																{
+																	"_field": "selections",
+																	"_scope": "parent",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "true",
+																	"_includeChildForces": "true",
+																	"_id": "b877-522a-ca5d-c520",
+																	"_type": "max"
+																},
+																{
+																	"_field": "selections",
+																	"_scope": "parent",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "false",
+																	"_includeChildForces": "false",
+																	"_id": "c11c-290b-215c-4f6a",
+																	"_type": "min"
+																}
+															]
+														},
+														"selectionEntries": {
+															"selectionEntry": {
+																"profiles": {
+																	"profile": {
+																		"characteristics": {
+																			"characteristic": [
+																				{
+																					"_name": "Range",
+																					"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+																					"__text": "Melee"
+																				},
+																				{
+																					"_name": "Type",
+																					"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+																					"__text": "Melee"
+																				},
+																				{
+																					"_name": "S",
+																					"_typeId": "59b1-319e-ec13-d466",
+																					"__text": "+1"
+																				},
+																				{
+																					"_name": "AP",
+																					"_typeId": "75aa-a838-b675-6484",
+																					"__text": "-1"
+																				},
+																				{
+																					"_name": "D",
+																					"_typeId": "ae8a-3137-d65b-4ca7",
+																					"__text": "1"
+																				},
+																				{
+																					"_name": "Abilities",
+																					"_typeId": "837d-5e63-aeb7-1410",
+																					"__text": "-"
+																				}
+																			]
+																		},
+																		"_id": "9cb1-c835-6f38-6f25",
+																		"_name": "Chainaxe",
+																		"_hidden": "false",
+																		"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+																		"_typeName": "Weapon"
+																	}
+																},
+																"costs": {
+																	"cost": [
+																		{
+																			"_name": "pts",
+																			"_typeId": "points",
+																			"_value": "1.0"
+																		},
+																		{
+																			"_name": " PL",
+																			"_typeId": "e356-c769-5920-6e14",
+																			"_value": "0.0"
+																		},
+																		{
+																			"_name": "CP",
+																			"_typeId": "2d3b-b544-ad49-fb75",
+																			"_value": "0.0"
+																		}
+																	]
+																},
+																"_id": "8da7-ae67-9566-12ba",
+																"_name": "Chainaxe",
+																"_hidden": "false",
+																"_collective": "false",
+																"_import": "true",
+																"_type": "upgrade"
+															}
+														},
+														"entryLinks": {
+															"entryLink": [
+																{
+																	"_id": "080a-3122-7264-fad0",
+																	"_name": "Chainsword",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "0dd1-2e2b-7dd1-5495",
+																	"_type": "selectionEntry"
+																},
+																{
+																	"_id": "1045-a657-475a-1bc9",
+																	"_name": "Lightning Claw",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "90de-7b01-e401-888b",
+																	"_type": "selectionEntry"
+																},
+																{
+																	"_id": "a379-13ef-f7ae-6e4c",
+																	"_name": "Power axe",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "3292-34e6-f679-d5b9",
+																	"_type": "selectionEntry"
+																},
+																{
+																	"_id": "5f86-22c9-f96b-0634",
+																	"_name": "Power fist",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "f122-3720-fa32-4215",
+																	"_type": "selectionEntry"
+																},
+																{
+																	"_id": "1953-b312-73b9-9967",
+																	"_name": "Power maul",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "6ea7-1195-7144-438e",
+																	"_type": "selectionEntry"
+																},
+																{
+																	"_id": "0cc8-e9ce-d174-6561",
+																	"_name": "Power sword",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "bc9e-551d-9afb-78d5",
+																	"_type": "selectionEntry"
+																},
+																{
+																	"_id": "afc7-f84a-2cf4-b37f",
+																	"_name": "Thunder hammer",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "0e57-eaf5-763f-9c45",
+																	"_type": "selectionEntry"
+																}
+															]
+														},
+														"_id": "43bc-34f9-24a5-111f",
+														"_name": "Melee Options",
+														"_hidden": "false",
+														"_collective": "false",
+														"_import": "true"
+													}
+												},
+												"entryLinks": {
+													"entryLink": [
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "3f80-f2ec-7dee-a128",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "06d1-059d-f11f-1a9e",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "d539-2f8f-c7cb-e866",
+															"_name": "Frag & Krak grenades",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "bb78-534a-7b77-edbc",
+															"_type": "selectionEntry"
+														},
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "a45d-f3e5-d5bd-6f30",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "8949-7fb1-376d-0830",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "f71d-c5f1-5d32-cebd",
+															"_name": "Bolt pistol",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "0334-f487-8229-0c1a",
+															"_type": "selectionEntry"
+														},
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "16ad-66cc-90ad-f127",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "13d8-897b-20d3-5e3d",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "9a45-f32f-ac57-2c30",
+															"_name": "Boltgun",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "b61f-a3c1-827d-c5b6",
+															"_type": "selectionEntry"
+														}
+													]
+												},
+												"costs": {
+													"cost": [
+														{
+															"_name": "pts",
+															"_typeId": "points",
+															"_value": "14.0"
+														},
+														{
+															"_name": " PL",
+															"_typeId": "e356-c769-5920-6e14",
+															"_value": "0.0"
+														},
+														{
+															"_name": "CP",
+															"_typeId": "2d3b-b544-ad49-fb75",
+															"_value": "0.0"
+														}
+													]
+												},
+												"_id": "3ee7-36b3-2c19-27a6",
+												"_name": "Fallen w/ Melee weapon",
+												"_hidden": "false",
+												"_collective": "false",
+												"_import": "true",
+												"_type": "model"
+											},
+											{
+												"modifiers": {
+													"modifier": [
+														{
+															"conditions": {
+																"condition": {
+																	"_field": "selections",
+																	"_scope": "15b3-dff7-ecc3-ec7e",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "true",
+																	"_includeChildForces": "false",
+																	"_childId": "8aeb-2c9f-e020-c29a",
+																	"_type": "equalTo"
+																}
+															},
+															"_type": "set",
+															"_field": "name",
+															"_value": "Fallen w/ Special weapon"
+														},
+														{
+															"conditions": {
+																"condition": {
+																	"_field": "selections",
+																	"_scope": "15b3-dff7-ecc3-ec7e",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "true",
+																	"_includeChildForces": "false",
+																	"_childId": "f929-5a2b-7d4b-fbae",
+																	"_type": "equalTo"
+																}
+															},
+															"_type": "set",
+															"_field": "name",
+															"_value": "Fallen w/ Combi weapon"
+														}
+													]
+												},
+												"selectionEntryGroups": {
+													"selectionEntryGroup": {
+														"constraints": {
+															"constraint": [
+																{
+																	"_field": "selections",
+																	"_scope": "parent",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "true",
+																	"_includeChildForces": "true",
+																	"_id": "cefd-38a4-14f4-9fa6",
+																	"_type": "max"
+																},
+																{
+																	"_field": "selections",
+																	"_scope": "parent",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "false",
+																	"_includeChildForces": "false",
+																	"_id": "43c9-93c2-5a4b-c459",
+																	"_type": "min"
+																}
+															]
+														},
+														"selectionEntryGroups": {
+															"selectionEntryGroup": [
+																{
+																	"constraints": {
+																		"constraint": {
+																			"_field": "selections",
+																			"_scope": "parent",
+																			"_value": "1.0",
+																			"_percentValue": "false",
+																			"_shared": "true",
+																			"_includeChildSelections": "false",
+																			"_includeChildForces": "false",
+																			"_id": "d119-da32-bd2f-5eb7",
+																			"_type": "max"
+																		}
+																	},
+																	"entryLinks": {
+																		"entryLink": [
+																			{
+																				"_id": "797e-3b48-548f-9e45",
+																				"_name": "Flamer",
+																				"_hidden": "false",
+																				"_collective": "false",
+																				"_import": "true",
+																				"_targetId": "fd22-6743-2d4c-dd62",
+																				"_type": "selectionEntry"
+																			},
+																			{
+																				"_id": "bad7-615b-705e-8c64",
+																				"_name": "Meltagun",
+																				"_hidden": "false",
+																				"_collective": "false",
+																				"_import": "true",
+																				"_targetId": "efc8-c51d-5b02-a3a2",
+																				"_type": "selectionEntry"
+																			},
+																			{
+																				"_id": "c48f-2e2b-e085-0d73",
+																				"_name": "Plasma gun",
+																				"_hidden": "false",
+																				"_collective": "false",
+																				"_import": "true",
+																				"_targetId": "8c14-22cc-93ce-b85a",
+																				"_type": "selectionEntry"
+																			}
+																		]
+																	},
+																	"_id": "8aeb-2c9f-e020-c29a",
+																	"_name": "Special weapons",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true"
+																},
+																{
+																	"constraints": {
+																		"constraint": {
+																			"_field": "selections",
+																			"_scope": "parent",
+																			"_value": "1.0",
+																			"_percentValue": "false",
+																			"_shared": "true",
+																			"_includeChildSelections": "false",
+																			"_includeChildForces": "false",
+																			"_id": "8fb1-d161-0740-7e0f",
+																			"_type": "max"
+																		}
+																	},
+																	"entryLinks": {
+																		"entryLink": [
+																			{
+																				"_id": "218e-c1c6-3294-6f29",
+																				"_name": "Combi-bolter",
+																				"_hidden": "false",
+																				"_collective": "false",
+																				"_import": "true",
+																				"_targetId": "eba0-9fc6-5334-a390",
+																				"_type": "selectionEntry"
+																			},
+																			{
+																				"_id": "2e53-26de-715e-fda5",
+																				"_name": "Combi-flamer",
+																				"_hidden": "false",
+																				"_collective": "false",
+																				"_import": "true",
+																				"_targetId": "c6a1-e0c4-c1b1-dce1",
+																				"_type": "selectionEntry"
+																			},
+																			{
+																				"_id": "9926-8c69-2399-aca0",
+																				"_name": "Combi-melta",
+																				"_hidden": "false",
+																				"_collective": "false",
+																				"_import": "true",
+																				"_targetId": "c445-e211-f316-5d83",
+																				"_type": "selectionEntry"
+																			},
+																			{
+																				"_id": "a91f-791b-c365-1313",
+																				"_name": "Combi-plasma",
+																				"_hidden": "false",
+																				"_collective": "false",
+																				"_import": "true",
+																				"_targetId": "fdce-cdf7-21a9-f9ac",
+																				"_type": "selectionEntry"
+																			}
+																		]
+																	},
+																	"_id": "f929-5a2b-7d4b-fbae",
+																	"_name": "Combi-weapons",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true"
+																}
+															]
+														},
+														"_id": "41dd-769a-2964-b3c4",
+														"_name": "Weapon Options",
+														"_hidden": "false",
+														"_collective": "false",
+														"_import": "true"
+													}
+												},
+												"entryLinks": {
+													"entryLink": [
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "8f36-94d1-091c-1cf6",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "c165-59b6-6306-cedf",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "94b4-92d9-f312-a847",
+															"_name": "Frag & Krak grenades",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "bb78-534a-7b77-edbc",
+															"_type": "selectionEntry"
+														},
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "1373-ea66-a31d-5497",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "064a-79ef-10af-8232",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "9b06-8fb5-3f95-f3af",
+															"_name": "Bolt pistol",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "0334-f487-8229-0c1a",
+															"_type": "selectionEntry"
+														}
+													]
+												},
+												"costs": {
+													"cost": [
+														{
+															"_name": "pts",
+															"_typeId": "points",
+															"_value": "14.0"
+														},
+														{
+															"_name": " PL",
+															"_typeId": "e356-c769-5920-6e14",
+															"_value": "0.0"
+														},
+														{
+															"_name": "CP",
+															"_typeId": "2d3b-b544-ad49-fb75",
+															"_value": "0.0"
+														}
+													]
+												},
+												"_id": "15b3-dff7-ecc3-ec7e",
+												"_name": "Fallen w/ special or combi weapon",
+												"_hidden": "false",
+												"_collective": "false",
+												"_import": "true",
+												"_type": "model"
+											},
+											{
+												"entryLinks": {
+													"entryLink": [
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "44e5-6849-3ce4-5cad",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "b58f-45ea-dcc3-db0e",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "afab-8d30-3440-da20",
+															"_name": "Frag & Krak grenades",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "bb78-534a-7b77-edbc",
+															"_type": "selectionEntry"
+														},
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "75a3-05c1-f6d9-1d0b",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "3cc3-da4d-ef99-d16d",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "3b8e-b8f6-fada-2ac2",
+															"_name": "Lightning Claw (Pair)",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "7603-6241-ab8b-4603",
+															"_type": "selectionEntry"
+														}
+													]
+												},
+												"costs": {
+													"cost": [
+														{
+															"_name": "pts",
+															"_typeId": "points",
+															"_value": "14.0"
+														},
+														{
+															"_name": " PL",
+															"_typeId": "e356-c769-5920-6e14",
+															"_value": "0.0"
+														},
+														{
+															"_name": "CP",
+															"_typeId": "2d3b-b544-ad49-fb75",
+															"_value": "0.0"
+														}
+													]
+												},
+												"_id": "1738-6213-2cc9-07aa",
+												"_name": "Fallen w/ lightning claws",
+												"_hidden": "false",
+												"_collective": "false",
+												"_import": "true",
+												"_type": "model"
+											},
+											{
+												"selectionEntryGroups": {
+													"selectionEntryGroup": {
+														"constraints": {
+															"constraint": [
+																{
+																	"_field": "selections",
+																	"_scope": "parent",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "false",
+																	"_includeChildForces": "false",
+																	"_id": "ef9a-2452-b23e-88d2",
+																	"_type": "min"
+																},
+																{
+																	"_field": "selections",
+																	"_scope": "parent",
+																	"_value": "1.0",
+																	"_percentValue": "false",
+																	"_shared": "true",
+																	"_includeChildSelections": "false",
+																	"_includeChildForces": "false",
+																	"_id": "9807-75a7-b20a-7629",
+																	"_type": "max"
+																}
+															]
+														},
+														"entryLinks": {
+															"entryLink": [
+																{
+																	"constraints": {
+																		"constraint": {
+																			"_field": "selections",
+																			"_scope": "parent",
+																			"_value": "1.0",
+																			"_percentValue": "false",
+																			"_shared": "true",
+																			"_includeChildSelections": "false",
+																			"_includeChildForces": "false",
+																			"_id": "0369-a7ec-8db4-ea11",
+																			"_type": "max"
+																		}
+																	},
+																	"_id": "b1a4-1174-9598-e25d",
+																	"_name": "Boltgun",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "b61f-a3c1-827d-c5b6",
+																	"_type": "selectionEntry"
+																},
+																{
+																	"constraints": {
+																		"constraint": {
+																			"_field": "selections",
+																			"_scope": "parent",
+																			"_value": "1.0",
+																			"_percentValue": "false",
+																			"_shared": "true",
+																			"_includeChildSelections": "false",
+																			"_includeChildForces": "false",
+																			"_id": "43eb-3a1e-25f1-1e89",
+																			"_type": "max"
+																		}
+																	},
+																	"_id": "8ab0-a45e-44f1-899b",
+																	"_name": "Chainsword",
+																	"_hidden": "false",
+																	"_collective": "false",
+																	"_import": "true",
+																	"_targetId": "0dd1-2e2b-7dd1-5495",
+																	"_type": "selectionEntry"
+																}
+															]
+														},
+														"_id": "e053-939f-0b2a-9a4d",
+														"_name": "Boltgun option",
+														"_hidden": "false",
+														"_collective": "false",
+														"_import": "true"
+													}
+												},
+												"entryLinks": {
+													"entryLink": [
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "79f4-6ba2-9adc-8801",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "0bb6-7e38-2096-bcf0",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "5d5f-1736-e5f8-1b92",
+															"_name": "Frag & Krak grenades",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "bb78-534a-7b77-edbc",
+															"_type": "selectionEntry"
+														},
+														{
+															"constraints": {
+																"constraint": [
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "83e3-660f-d55c-e061",
+																		"_type": "max"
+																	},
+																	{
+																		"_field": "selections",
+																		"_scope": "parent",
+																		"_value": "1.0",
+																		"_percentValue": "false",
+																		"_shared": "true",
+																		"_includeChildSelections": "false",
+																		"_includeChildForces": "false",
+																		"_id": "1ee5-efa1-c8b7-e3df",
+																		"_type": "min"
+																	}
+																]
+															},
+															"_id": "53ba-b6ad-31ab-8d01",
+															"_name": "Plasma pistol",
+															"_hidden": "false",
+															"_collective": "false",
+															"_import": "true",
+															"_targetId": "83be-1ba9-c326-4760",
+															"_type": "selectionEntry"
+														}
+													]
+												},
+												"costs": {
+													"cost": [
+														{
+															"_name": "pts",
+															"_typeId": "points",
+															"_value": "14.0"
+														},
+														{
+															"_name": " PL",
+															"_typeId": "e356-c769-5920-6e14",
+															"_value": "0.0"
+														},
+														{
+															"_name": "CP",
+															"_typeId": "2d3b-b544-ad49-fb75",
+															"_value": "0.0"
+														}
+													]
+												},
+												"_id": "e74e-757e-0743-98b6",
+												"_name": "Fallen w/ plasma pistol",
+												"_hidden": "false",
+												"_collective": "false",
+												"_import": "true",
+												"_type": "model"
+											}
+										]
+									},
+									"_id": "8c7d-c098-2a83-18c7",
+									"_name": "Fallen w/ Weapon option (max 4)",
+									"_hidden": "false",
+									"_collective": "false",
+									"_import": "true"
+								}
+							},
+							"_id": "a714-db44-a0b1-854c",
+							"_name": "Fallen",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "1406-8d29-bd38-be61",
+								"_name": "Has Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "5dfc-ebf6-3577-e5f7",
+								"_name": "Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "6.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "0cfc-b724-eeed-7177",
+					"_name": "Fallen",
+					"_page": "",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "force",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "3e19-dc49-575c-53b6",
+							"_type": "max"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "528d-bac9-93c3-873d",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "c845-c72c-6afe-3fc2",
+							"_primary": "true"
+						}
+					},
+					"entryLinks": {
+						"entryLink": {
+							"_id": "c6a2-d64e-4a76-91c6",
+							"_name": "Specialist Detachments",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "7e67-64c7-6caa-52b7",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "1431-f0a4-42a6-bbc5",
+					"_name": "Specialist Detachment",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"modifierGroups": {
+						"modifierGroup": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "5afb-3d0f-8838-b6b7",
+									"_type": "equalTo"
+								}
+							},
+							"modifiers": {
+								"modifier": [
+									{
+										"_type": "add",
+										"_field": "category",
+										"_value": "cd82-15ee-cad6-4909"
+									},
+									{
+										"_type": "remove",
+										"_field": "category",
+										"_value": "84e2-9fa9-ebe6-1d18"
+									}
+								]
+							}
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "*"
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "6+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "*"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "6"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "7"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "10"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "*"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "8"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "99e9-4f45-c7e0-8c17",
+								"_name": "Chaos Rhino",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "8e45-c866-b2d4-c9ab",
+											"__text": "-"
+										},
+										{
+											"_name": "Characteristic 1",
+											"_typeId": "bf41-c860-50bc-2a7e",
+											"__text": "M"
+										},
+										{
+											"_name": "Characteristic 2",
+											"_typeId": "dc18-e51f-309b-8efa",
+											"__text": "BS"
+										},
+										{
+											"_name": "Characteristic 3",
+											"_typeId": "df06-8eca-150f-90ba",
+											"__text": "A"
+										}
+									]
+								},
+								"_id": "cd01-b7c0-e40b-45a6",
+								"_name": "Chaos Rhino",
+								"_hidden": "false",
+								"_typeId": "5f4f-ea74-0630-4afe",
+								"_typeName": "Wound Track"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "8e45-c866-b2d4-c9ab",
+											"__text": "6-10+"
+										},
+										{
+											"_name": "Characteristic 1",
+											"_typeId": "bf41-c860-50bc-2a7e",
+											"__text": "12\""
+										},
+										{
+											"_name": "Characteristic 2",
+											"_typeId": "dc18-e51f-309b-8efa",
+											"__text": "3+"
+										},
+										{
+											"_name": "Characteristic 3",
+											"_typeId": "df06-8eca-150f-90ba",
+											"__text": "3"
+										}
+									]
+								},
+								"_id": "31d8-33d8-2224-bb90",
+								"_name": "Chaos Rhino1",
+								"_hidden": "false",
+								"_typeId": "5f4f-ea74-0630-4afe",
+								"_typeName": "Wound Track"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "8e45-c866-b2d4-c9ab",
+											"__text": "3-5"
+										},
+										{
+											"_name": "Characteristic 1",
+											"_typeId": "bf41-c860-50bc-2a7e",
+											"__text": "6\""
+										},
+										{
+											"_name": "Characteristic 2",
+											"_typeId": "dc18-e51f-309b-8efa",
+											"__text": "4+"
+										},
+										{
+											"_name": "Characteristic 3",
+											"_typeId": "df06-8eca-150f-90ba",
+											"__text": "D3"
+										}
+									]
+								},
+								"_id": "7a30-f469-2784-5c44",
+								"_name": "Chaos Rhino2",
+								"_hidden": "false",
+								"_typeId": "5f4f-ea74-0630-4afe",
+								"_typeName": "Wound Track"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "8e45-c866-b2d4-c9ab",
+											"__text": "1-2"
+										},
+										{
+											"_name": "Characteristic 1",
+											"_typeId": "bf41-c860-50bc-2a7e",
+											"__text": "3\""
+										},
+										{
+											"_name": "Characteristic 2",
+											"_typeId": "dc18-e51f-309b-8efa",
+											"__text": "5+"
+										},
+										{
+											"_name": "Characteristic 3",
+											"_typeId": "df06-8eca-150f-90ba",
+											"__text": "1"
+										}
+									]
+								},
+								"_id": "db34-8905-af22-bcde",
+								"_name": "Chaos Rhino3",
+								"_hidden": "false",
+								"_typeId": "5f4f-ea74-0630-4afe",
+								"_typeName": "Wound Track"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Capacity",
+										"_typeId": "15aa-1916-a38b-d223",
+										"__text": "This model can transport 10 FALLEN INFANTRY models. It cannot, however, transport TERMINATORS , CULT OF DESTRUCTION or JUMP PACK models."
+									}
+								},
+								"_id": "1e25-c5dc-c1ea-6ce8",
+								"_name": "Chaos Rhino",
+								"_hidden": "false",
+								"_typeId": "b3a8-0452-7436-44d1",
+								"_typeName": "Transport"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Roll a D6 at the start of each of your turns; on a 6, this unit heals one wound."
+									}
+								},
+								"_id": "51c0-1450-ae1c-ec04",
+								"_name": "Self-repair",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "157b-8713-9ff1-46f6",
+							"_name": "Explodes",
+							"_hidden": "false",
+							"_targetId": "9446-1148-da70-4028",
+							"_type": "profile"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "36b6-aeb5-999d-254a",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5cf1-acf2-ca3b-c2e5",
+								"_primary": "false"
+							},
+							{
+								"_id": "5249-a644-fd63-d4ef",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "1b66-3f5f-6705-079a",
+								"_primary": "true"
+							},
+							{
+								"_id": "d816-30bb-988b-5c38",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "6cc4-1b62-8e8a-05cd",
+								"_primary": "false"
+							},
+							{
+								"_id": "3fd0-ead8-b805-62df",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "c8fd-783f-3230-493e",
+								"_primary": "false"
+							},
+							{
+								"_id": "22ae-b313-e900-6b89",
+								"_name": "Faction: Fallen",
+								"_hidden": "false",
+								"_targetId": "e12c-dd25-cbab-a30d",
+								"_primary": "false"
+							},
+							{
+								"_id": "bc48-6395-7df0-fb22",
+								"_name": "Fallen Angels",
+								"_hidden": "false",
+								"_targetId": "cd82-15ee-cad6-4909",
+								"_primary": "false"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "63cd-abe4-1806-5621",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "14d4-4a06-cde3-6deb",
+											"_type": "min"
+										}
+									]
+								},
+								"_id": "347b-67ea-d9a8-3388",
+								"_name": "Smoke Launchers",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "2da9-e64f-fece-7504",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "d06b-5e8f-23e1-9ca3",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "113b-530b-8c73-c26f",
+											"_type": "min"
+										}
+									]
+								},
+								"_id": "f441-b757-52fc-de50",
+								"_name": "Combi-bolter",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "eba0-9fc6-5334-a390",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "181b-4b46-e20e-dc73",
+								"_name": "Havoc launcher",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5ed3-1d35-b562-2108",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "8ad9-4983-2635-0a11",
+								"_name": "Combi-weapons",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "ffc2-d6e9-682a-771b",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "5a49-7b93-1dde-c166",
+								"_name": "Has Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "3910-58f2-b285-4071",
+								"_name": "Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "65.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "4.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "b76d-3fd6-ae75-f2b8",
+					"_name": "Chaos Rhino",
+					"_page": "",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "9d11-e402-eaec-8da1",
+							"_type": "max"
+						}
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "4b6d-7cdd-2c72-ba58",
+							"_name": "Havoc launcher",
+							"_hidden": "false",
+							"_targetId": "a6fe-c733-e20e-612a",
+							"_type": "profile"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "6.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "5ed3-1d35-b562-2108",
+					"_name": "Havoc launcher",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": {
+									"_name": "Description",
+									"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+									"__text": "Once per game, instead of shooting any weapons in the Shooting phase, this model can use its Smoke Launchers; until your next Shooting phase your opponent must subtract 1 from all hit rolls for ranged weapons that target this vehicle."
+								}
+							},
+							"_id": "30c0-0ba5-ce4f-7027",
+							"_name": "Smoke Launchers",
+							"_hidden": "false",
+							"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+							"_typeName": "Abilities"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "2da9-e64f-fece-7504",
+					"_name": "Smoke Launchers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "force",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_childId": "5afb-3d0f-8838-b6b7",
+										"_type": "equalTo"
+									}
+								},
+								"_type": "add",
+								"_field": "category",
+								"_value": "cd82-15ee-cad6-4909"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "f34e-3d5d-31b2-3b3c",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_childId": "9f03-5778-e1a7-41ef",
+										"_type": "equalTo"
+									}
+								},
+								"_type": "set",
+								"_field": "name",
+								"_value": "Sorcerer with Jump Pack"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "f34e-3d5d-31b2-3b3c",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "9f03-5778-e1a7-41ef",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "0bdf-a96e-9e38-7779",
+										"_value": "12\""
+									}
+								},
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "6\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "3+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "3+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "4"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "4"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "3"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "9"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "bc69-9c94-60bc-3ed3",
+								"_name": "Sorcerer",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Cast",
+											"_typeId": "5afb-9914-904b-d3b3",
+											"__text": "2"
+										},
+										{
+											"_name": "Deny",
+											"_typeId": "b5ac-9c20-5d5a-6f9b",
+											"__text": "1"
+										},
+										{
+											"_name": "Powers Known",
+											"_typeId": "69d7-b45e-00a2-7e46",
+											"__text": "Smite and 2 powers from the Dark Hereticus discipline"
+										},
+										{
+											"_name": "Other",
+											"_typeId": "c2e2-f115-0003-5d7b"
+										}
+									]
+								},
+								"_id": "eb17-8fea-be47-cdd7",
+								"_name": "Sorcerer",
+								"_hidden": "false",
+								"_typeId": "bc97-dea9-9e88-bb7d",
+								"_typeName": "Psyker"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "4ea5-7cd5-94f9-685c",
+							"_name": "Fallen Angels",
+							"_hidden": "false",
+							"_targetId": "efe6-7bbc-5953-3290",
+							"_type": "profile"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "e2b0-79d4-ec46-9b55",
+								"_hidden": "false",
+								"_targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+								"_primary": "true"
+							},
+							{
+								"_id": "572e-7a13-56dc-1520",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e691-aad7-d21c-1023",
+								"_primary": "false"
+							},
+							{
+								"_id": "8b8c-7ee3-0e13-d977",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "be40-d057-cda8-4925",
+								"_name": "Faction: Chaos",
+								"_hidden": "false",
+								"_targetId": "5cf1-acf2-ca3b-c2e5",
+								"_primary": "false"
+							},
+							{
+								"_id": "f6b6-7a48-cd0c-1d4c",
+								"_name": "Faction: Fallen",
+								"_hidden": "false",
+								"_targetId": "e12c-dd25-cbab-a30d",
+								"_primary": "false"
+							},
+							{
+								"_id": "16bb-3aa4-96a7-5de7",
+								"_name": "Character",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "97e0-ed18-9e70-ddaa",
+								"_name": "Fallen Angels",
+								"_hidden": "false",
+								"_targetId": "cd82-15ee-cad6-4909",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": {
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "6f5a-c9e0-aeaa-cbc8",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": {
+											"_name": "Description",
+											"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+											"__text": "During deployment, if this model has a jump pack, you can set it up high in the skies instead of placing it on the battlefield. At the end of any of your Movement phases this model can assault from above – set it up anywhere on the battlefield that is more than 9\" away from any enemy models."
+										}
+									},
+									"_id": "788f-58e8-67c3-12c8",
+									"_name": "Jump Pack Assault",
+									"_hidden": "false",
+									"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+									"_typeName": "Abilities"
+								}
+							},
+							"categoryLinks": {
+								"categoryLink": [
+									{
+										"_id": "4071-8f8a-a89c-9edc",
+										"_name": "Fly",
+										"_hidden": "false",
+										"_targetId": "3117-16d8-fcef-4f56",
+										"_primary": "false"
+									},
+									{
+										"_id": "0d6e-d59f-888a-a49c",
+										"_name": "Jump Pack",
+										"_hidden": "false",
+										"_targetId": "f627-f23e-a3b4-dc2c",
+										"_primary": "false"
+									}
+								]
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "1.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "28.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "9f03-5778-e1a7-41ef",
+							"_name": "Jump Pack",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					},
+					"selectionEntryGroups": {
+						"selectionEntryGroup": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "fe30-434a-69ce-f099",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "6954-80c9-1201-df14",
+											"_type": "min"
+										}
+									]
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"constraints": {
+												"constraint": {
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "fc3d-9691-8553-e33a",
+													"_type": "max"
+												}
+											},
+											"_id": "442d-82e2-9977-0148",
+											"_name": "New EntryLink",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "07e7-1f9b-4c1c-aad9",
+											"_type": "selectionEntry"
+										},
+										{
+											"constraints": {
+												"constraint": {
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "b8df-0abf-e136-bf09",
+													"_type": "max"
+												}
+											},
+											"_id": "893e-7989-4ab7-2301",
+											"_name": "Force axe",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "4a0e-0f13-63c2-9aae",
+											"_type": "selectionEntry"
+										},
+										{
+											"constraints": {
+												"constraint": {
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "5e19-7619-5bc3-06ca",
+													"_type": "max"
+												}
+											},
+											"_id": "6202-fa2a-4ed5-6786",
+											"_name": "New EntryLink",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "6f9a-c4fe-3132-d011",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"_id": "3752-d013-f3e5-fa17",
+								"_name": "Force sword options",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_defaultSelectionEntryId": "442d-82e2-9977-0148"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "b9a0-58f0-94fb-737b",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "7ce0-47b3-a872-f6d3",
+											"_type": "min"
+										}
+									]
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"_id": "dda7-09b2-d73a-7454",
+											"_name": "Pistols",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "6a10-ee77-8b15-f6fe",
+											"_type": "selectionEntryGroup"
+										},
+										{
+											"_id": "9fa9-1862-380f-4d3f",
+											"_name": "Combi-weapons",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "ffc2-d6e9-682a-771b",
+											"_type": "selectionEntryGroup"
+										},
+										{
+											"_id": "abf7-8c26-b8e0-d00e",
+											"_name": "Melee Weapons",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "9403-1579-1d82-447a",
+											"_type": "selectionEntryGroup"
+										}
+									]
+								},
+								"_id": "592d-efc9-0933-598c",
+								"_name": "Pistol options",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "af49-eec1-613f-0a68",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "73a6-835a-d9de-5977",
+											"_type": "min"
+										}
+									]
+								},
+								"_id": "3cc2-ffd3-ce7a-7bcc",
+								"_name": "New EntryLink",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "cddf-945e-1335-e681",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "6110-4e9d-1a76-a529",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "ffca-6bdb-7511-3562",
+											"_type": "min"
+										}
+									]
+								},
+								"categoryLinks": {
+									"categoryLink": {
+										"_id": "6c66-9f1e-7110-62c8",
+										"_name": "New CategoryLink",
+										"_hidden": "false",
+										"_targetId": "e691-aad7-d21c-1023",
+										"_primary": "false"
+									}
+								},
+								"_id": "5b0c-b247-d429-6d77",
+								"_name": "Smite",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "03fd-db47-5333-1e1f",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "6191-3392-609d-476b",
+										"_type": "max"
+									}
+								},
+								"_id": "c057-705e-cf15-ef0d",
+								"_name": "Dark Hereticus discipline",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "132d-22b7-35eb-e925",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "59d2-d45f-a2bd-3d50",
+								"_name": "Artefacts of Chaos",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "db42-fef2-6351-be64",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "3fe4-e0c3-542d-be92",
+								"_name": "Warlord",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c1db-1126-92e2-e807",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "2075-6e5f-0dee-0b68",
+								"_name": "Warlord Traits",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8962-8f3a-3b49-7528",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "4c07-4693-08f5-e8ce",
+								"_name": "Is a Custom Character",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "43c4-8968-c599-ad5f",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "8f36-976d-cc0c-f267",
+								"_name": "Custom Character Selections",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8774-e003-4a50-56c7",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "80.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "6.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "f34e-3d5d-31b2-3b3c",
+					"_name": "Sorcerer",
+					"_page": "",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "99b0-8beb-f1d2-4a9e",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "8fa8-72da-72f7-183d",
+								"_type": "max"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "0851-8119-e3ba-8839",
+							"_name": "Warlord",
+							"_hidden": "false",
+							"_targetId": "ae09-117e-a6fa-316b",
+							"_primary": "false"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "c1db-1126-92e2-e807",
+					"_name": "Warlord",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "8f61-8d22-13cf-2032",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Warp Charge",
+										"_typeId": "5ffd-b800-c317-532a",
+										"__text": "8"
+									},
+									{
+										"_name": "Range",
+										"_typeId": "fd64-cbc4-94de-24cc",
+										"__text": "12\""
+									},
+									{
+										"_name": "Details",
+										"_typeId": "ad96-dfa4-b4ed-656d",
+										"__text": "If manifested, select a visible enemy unit within 12\" of the psyker. Until the start of your next Psychic phase, that unit cannot take invulnerable saves."
+									}
+								]
+							},
+							"_id": "2bbc-3130-c1ad-31f8",
+							"_name": "Death Hex",
+							"_hidden": "false",
+							"_typeId": "ae70-4738-0161-bec0",
+							"_typeName": "Psychic Power"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "58c1-81b6-457b-86b8",
+					"_name": "Death Hex",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "acb5-3c7a-9929-e9d2",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Warp Charge",
+										"_typeId": "5ffd-b800-c317-532a",
+										"__text": "5"
+									},
+									{
+										"_name": "Range",
+										"_typeId": "fd64-cbc4-94de-24cc",
+										"__text": "18\""
+									},
+									{
+										"_name": "Details",
+										"_typeId": "ad96-dfa4-b4ed-656d",
+										"__text": "If manifested, select a visible enemy unit within 18\" of the psyker and roll 3 dice. The target suffers one mortal wound for each roll of 4+."
+									}
+								]
+							},
+							"_id": "0e9f-07c1-aa4d-ddec",
+							"_name": "Infernal Gaze",
+							"_hidden": "false",
+							"_typeId": "ae70-4738-0161-bec0",
+							"_typeName": "Psychic Power"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "98a9-fd8d-8cc6-155a",
+					"_name": "Infernal Gaze",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "c32a-784d-3cd6-c5cb",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Warp Charge",
+										"_typeId": "5ffd-b800-c317-532a",
+										"__text": "6"
+									},
+									{
+										"_name": "Range",
+										"_typeId": "fd64-cbc4-94de-24cc",
+										"__text": "6\""
+									},
+									{
+										"_name": "Details",
+										"_typeId": "ad96-dfa4-b4ed-656d",
+										"__text": "If manifested, select an enemy unit that is within 6\" of the psyker and visible to him and roll a D6. If the result is greater than the enemy's Toughness, it suffers D3+3 mortal wounds. If a CHARACTER is slain by this power, you can add a Chaos Spawn to your army and set it up within 1\" of the character before it is removed."
+									}
+								]
+							},
+							"_id": "d56e-120c-a1fa-1501",
+							"_name": "Gift of Chaos",
+							"_hidden": "false",
+							"_typeId": "ae70-4738-0161-bec0",
+							"_typeName": "Psychic Power"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "2019-5c1a-73c4-3c67",
+					"_name": "Gift of Chaos",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "7dae-e376-1e2f-bbc9",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Warp Charge",
+										"_typeId": "5ffd-b800-c317-532a",
+										"__text": "6"
+									},
+									{
+										"_name": "Range",
+										"_typeId": "fd64-cbc4-94de-24cc",
+										"__text": "12\""
+									},
+									{
+										"_name": "Details",
+										"_typeId": "ad96-dfa4-b4ed-656d",
+										"__text": "If manifested, select a HERETIC ASTARTES model within 12\" of the psyker. Until the start of your next Psychic phase, add 2 to the model's Strength characteristic and 1 to its Attacks characteristic."
+									}
+								]
+							},
+							"_id": "c076-ed24-6623-7cdf",
+							"_name": "Diabolic Strength",
+							"_hidden": "false",
+							"_typeId": "ae70-4738-0161-bec0",
+							"_typeName": "Psychic Power"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "2866-73df-a356-1f74",
+					"_name": "Diabolic Strength",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "aee5-d604-4f11-7dd2",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Warp Charge",
+										"_typeId": "5ffd-b800-c317-532a",
+										"__text": "7"
+									},
+									{
+										"_name": "Range",
+										"_typeId": "fd64-cbc4-94de-24cc",
+										"__text": "18\""
+									},
+									{
+										"_name": "Details",
+										"_typeId": "ad96-dfa4-b4ed-656d",
+										"__text": "If manifested, select a HERETIC ASTARTES unit within 18\" of the psyker. You can add 1 to all hit rolls made for that unit until the start of your next Psychic phase."
+									}
+								]
+							},
+							"_id": "1be7-b7dc-ef52-4123",
+							"_name": "Prescience",
+							"_hidden": "false",
+							"_typeId": "ae70-4738-0161-bec0",
+							"_typeName": "Psychic Power"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "48ca-8cc0-8ee9-8b58",
+					"_name": "Prescience",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "93b1-992d-99bb-2075",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Warp Charge",
+										"_typeId": "5ffd-b800-c317-532a",
+										"__text": "6"
+									},
+									{
+										"_name": "Range",
+										"_typeId": "fd64-cbc4-94de-24cc",
+										"__text": "3\""
+									},
+									{
+										"_name": "Details",
+										"_typeId": "ad96-dfa4-b4ed-656d",
+										"__text": "If manifested, pick a friendly HERETIC ASTARTES unit within 3\" of the psyker. That unit can immediately move as if it were its Movement phase. You cannot use Warptime on a unit more than once in each Psychic phase."
+									}
+								]
+							},
+							"_id": "6bfc-352b-d1c5-a4db",
+							"_name": "Warptime",
+							"_hidden": "false",
+							"_typeId": "ae70-4738-0161-bec0",
+							"_typeName": "Psychic Power"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "ac95-ac57-9ca2-0cda",
+					"_name": "Warptime",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "07e7-1f9b-4c1c-aad9",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Range",
+											"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+											"__text": "Melee"
+										},
+										{
+											"_name": "Type",
+											"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+											"__text": "Melee"
+										},
+										{
+											"_name": "S",
+											"_typeId": "59b1-319e-ec13-d466",
+											"__text": "User"
+										},
+										{
+											"_name": "AP",
+											"_typeId": "75aa-a838-b675-6484",
+											"__text": "-3"
+										},
+										{
+											"_name": "D",
+											"_typeId": "ae8a-3137-d65b-4ca7",
+											"__text": "D3"
+										},
+										{
+											"_name": "Abilities",
+											"_typeId": "837d-5e63-aeb7-1410",
+											"__text": "Any attacks with a wound roll of 6+ made with this weapon have a Damage characteristic of D6 instead of D3."
+										}
+									]
+								},
+								"_id": "b38c-4a7b-e0d5-9925",
+								"_name": "Caliban Steel Blade",
+								"_hidden": "false",
+								"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+								"_typeName": "Weapon"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Model with force sword only. The Caliban Steel Blade replaces the bearer’s force sword and has the profile below."
+									}
+								},
+								"_id": "e83f-567f-c2b5-5fc2",
+								"_name": "Caliban Steel Blade",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "11ab-470e-d46c-340c",
+					"_name": "Caliban Steel Blade",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"infoLinks": {
+						"infoLink": {
+							"_id": "311d-23c3-0f6a-35b7",
+							"_name": "Chainaxe",
+							"_hidden": "false",
+							"_targetId": "27bf-3479-cfdc-84b1",
+							"_type": "profile"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "1.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "d908-82ae-4748-cfbb",
+					"_name": "Chainaxe",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "6ea7-1195-7144-438e",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Range",
+											"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+											"__text": "Melee"
+										},
+										{
+											"_name": "Type",
+											"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+											"__text": "Melee"
+										},
+										{
+											"_name": "S",
+											"_typeId": "59b1-319e-ec13-d466",
+											"__text": "+3"
+										},
+										{
+											"_name": "AP",
+											"_typeId": "75aa-a838-b675-6484",
+											"__text": "-2"
+										},
+										{
+											"_name": "D",
+											"_typeId": "ae8a-3137-d65b-4ca7",
+											"__text": "2"
+										},
+										{
+											"_name": "Abilities",
+											"_typeId": "837d-5e63-aeb7-1410",
+											"__text": "Roll a D6 each time a model is slain by the Black Mace; on a 6, that model's unit suffers an additional mortal wound at the end of the phase."
+										}
+									]
+								},
+								"_id": "e34e-ec80-65c9-46bc",
+								"_name": "The Black Mace",
+								"_hidden": "false",
+								"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+								"_typeName": "Weapon"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Models with a power maul or accursed crozius only. The Black Mace replaces the bearer's power maul or accursed crozius."
+									}
+								},
+								"_id": "397e-3bfb-60ce-27cc",
+								"_name": "The Black Mace",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "93d0-7e4b-6d5c-64b2",
+					"_name": "The Black Mace",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "bc9e-551d-9afb-78d5",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Range",
+											"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+											"__text": "Melee"
+										},
+										{
+											"_name": "Type",
+											"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+											"__text": "Melee"
+										},
+										{
+											"_name": "S",
+											"_typeId": "59b1-319e-ec13-d466",
+											"__text": "+1"
+										},
+										{
+											"_name": "AP",
+											"_typeId": "75aa-a838-b675-6484",
+											"__text": "-4"
+										},
+										{
+											"_name": "D",
+											"_typeId": "ae8a-3137-d65b-4ca7",
+											"__text": "1"
+										},
+										{
+											"_name": "Abilities",
+											"_typeId": "837d-5e63-aeb7-1410",
+											"__text": "At the start of the first battle round but before the first turn has begun, you must nominate one enemy CHARACTER to be the target of the bearer of the Murder Sword (this can be a character not yet set up on the battlefield). Remember to tell your opponent which character you have nominated. Each attack made with the Murder Sword that hits the selected character automatically inflicts a mortal wound upon that character instead of the normal damage."
+										}
+									]
+								},
+								"_id": "66a4-8e5c-7d91-476a",
+								"_name": "The Murder Sword",
+								"_hidden": "false",
+								"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+								"_typeName": "Weapon"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Models with a power sword only. The Murder sword replaces the bearer's power sword."
+									}
+								},
+								"_id": "ebc8-e408-7abb-ba7b",
+								"_name": "The Murder Sword",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "bce2-bf42-efc2-27d0",
+					"_name": "The Murder Sword",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				}
+			]
+		},
+		"sharedSelectionEntryGroups": {
+			"selectionEntryGroup": [
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "2.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "2869-a07e-3873-c86c",
+							"_type": "max"
+						}
+					},
+					"selectionEntries": {
+						"selectionEntry": {
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "2.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "2efa-e48c-cd02-2441",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Range",
+												"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+												"__text": "Melee"
+											},
+											{
+												"_name": "Type",
+												"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+												"__text": "Melee"
+											},
+											{
+												"_name": "S",
+												"_typeId": "59b1-319e-ec13-d466",
+												"__text": "+1"
+											},
+											{
+												"_name": "AP",
+												"_typeId": "75aa-a838-b675-6484",
+												"__text": "-1"
+											},
+											{
+												"_name": "D",
+												"_typeId": "ae8a-3137-d65b-4ca7",
+												"__text": "1"
+											},
+											{
+												"_name": "Abilities",
+												"_typeId": "837d-5e63-aeb7-1410",
+												"__text": "-"
+											}
+										]
+									},
+									"_id": "3948-5112-bae8-354f",
+									"_name": "Chainaxe",
+									"_hidden": "false",
+									"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+									"_typeName": "Weapon"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "1.0"
+									},
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "4321-f9dc-55cd-0011",
+							"_name": "Chainaxe",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					},
+					"selectionEntryGroups": {
+						"selectionEntryGroup": {
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_id": "2a91-90c6-94f2-6c98",
+									"_type": "max"
+								}
+							},
+							"entryLinks": {
+								"entryLink": [
+									{
+										"modifiers": {
+											"modifier": {
+												"_type": "set",
+												"_field": "251e-38cb-e2ed-c425",
+												"_value": "0.0"
+											}
+										},
+										"constraints": {
+											"constraint": {
+												"_field": "selections",
+												"_scope": "parent",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_id": "251e-38cb-e2ed-c425",
+												"_type": "min"
+											}
+										},
+										"_id": "4ce9-22b5-4ff5-561c",
+										"_name": "Boltgun",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "b61f-a3c1-827d-c5b6",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "bcb6-19b3-7877-3ba0",
+										"_name": "Combi-bolter",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "eba0-9fc6-5334-a390",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "22c0-1462-a5e3-c962",
+										"_name": "Combi-flamer",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "c6a1-e0c4-c1b1-dce1",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "0fe3-e273-14b7-c017",
+										"_name": "Combi-melta",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "c445-e211-f316-5d83",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "11cc-7404-9f34-b93f",
+										"_name": "Combi-plasma",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "fdce-cdf7-21a9-f9ac",
+										"_type": "selectionEntry"
+									}
+								]
+							},
+							"_id": "b61d-e350-77f1-7d2e",
+							"_name": "Max 1 of these",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"modifiers": {
+									"modifier": {
+										"_type": "set",
+										"_field": "869b-c3da-a40d-1f19",
+										"_value": "0.0"
+									}
+								},
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "2.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "15c4-fe93-fa31-baf7",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "869b-c3da-a40d-1f19",
+											"_type": "min"
+										}
+									]
+								},
+								"_id": "8ce4-70c3-547b-1cc3",
+								"_name": "Bolt pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "0334-f487-8229-0c1a",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "1b4e-4b60-7125-a1d2",
+										"_type": "max"
+									}
+								},
+								"_id": "5d17-f54f-60e6-5844",
+								"_name": "Chainsword",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "0dd1-2e2b-7dd1-5495",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "c2ec-bb41-f79e-50d4",
+										"_type": "max"
+									}
+								},
+								"_id": "9df1-80cf-6853-610e",
+								"_name": "Plasma pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "83be-1ba9-c326-4760",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "4c84-74e8-fce2-8a5b",
+										"_type": "max"
+									}
+								},
+								"_id": "ef85-e067-169d-ff0f",
+								"_name": "Power axe",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "3292-34e6-f679-d5b9",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "cc98-7caf-4532-7df0",
+										"_type": "max"
+									}
+								},
+								"_id": "b027-3eea-1c0e-81b7",
+								"_name": "Power fist",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "f122-3720-fa32-4215",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "00ad-b55a-d984-c5eb",
+										"_type": "max"
+									}
+								},
+								"_id": "a77d-f3e9-aab4-565a",
+								"_name": "Power maul",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "6ea7-1195-7144-438e",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "9498-fea6-03d1-5fc0",
+										"_type": "max"
+									}
+								},
+								"_id": "1b8d-5cc2-63f6-782a",
+								"_name": "Power sword",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "bc9e-551d-9afb-78d5",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "6e9c-b5a5-4c24-eb14",
+										"_type": "max"
+									}
+								},
+								"_id": "4a9e-370f-ca7e-d842",
+								"_name": "Lightning Claw",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "90de-7b01-e401-888b",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"_id": "1f91-a49d-4212-e2ce",
+					"_name": "Fallen Champion Equipment",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "6609-5a9b-f551-e9fb",
+							"_type": "max"
+						}
+					},
+					"selectionEntries": {
+						"selectionEntry": {
+							"modifiers": {
+								"modifier": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "force",
+											"_value": "0.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_childId": "41af-75ce-79d2-ddff",
+											"_type": "notInstanceOf"
+										}
+									},
+									"_type": "set",
+									"_field": "hidden",
+									"_value": "true"
+								}
+							},
+							"infoLinks": {
+								"infoLink": {
+									"_id": "a8a1-ba5c-bd8e-d83d",
+									"_name": "Fallen Angels",
+									"_hidden": "false",
+									"_targetId": "77ef-14af-644c-c8bb",
+									"_type": "rule"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "-1.0"
+									},
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "5afb-3d0f-8838-b6b7",
+							"_name": "Fallen Angels",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					},
+					"_id": "7e67-64c7-6caa-52b7",
+					"_name": "Specialist Detachments",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "ab60-8bba-4b09-5bd9",
+							"_type": "max"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "a3ed-9cd8-d6bb-3338",
+								"_name": "Combi-flamer",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c6a1-e0c4-c1b1-dce1",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "11b9-eecd-3882-daba",
+								"_name": "Combi-melta",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c445-e211-f316-5d83",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "b9ed-7843-fc5c-e6cb",
+								"_name": "New EntryLink",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "fdce-cdf7-21a9-f9ac",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "50b5-52d1-7e43-5554",
+								"_name": "Combi-bolter",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "eba0-9fc6-5334-a390",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"_id": "ffc2-d6e9-682a-771b",
+					"_name": "Combi-weapons",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "c1db-1126-92e2-e807",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "8b36-2b19-40bf-5861",
+							"_type": "max"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "3624-6f23-ded6-8fb3",
+								"_name": "Warlord Traits (BRB)",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "d442-1f03-d9da-e77f",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "9752-a527-181d-1623",
+								"_name": "Warlord Traits (CA)",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "f673-3d9b-bb1b-377f",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "5340-345b-d3bb-2b9a",
+								"_name": "Warlord Traits (Codex)",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "0be5-b600-f824-9ca3",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"_id": "8962-8f3a-3b49-7528",
+					"_name": "Warlord Traits",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				},
+				{
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "025c-7dd8-b032-2de7",
+								"_name": "Infernal Gaze",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "98a9-fd8d-8cc6-155a",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "b144-fd12-42a8-f0c9",
+								"_name": "Diabolic Strength",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "2866-73df-a356-1f74",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "9f08-0fa1-bf90-3ef2",
+								"_name": "Warptime",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "ac95-ac57-9ca2-0cda",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "74fa-75b3-e728-6fe2",
+								"_name": "Gift of Chaos",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "2019-5c1a-73c4-3c67",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "07a7-776e-1890-3bcf",
+								"_name": "Prescience",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "48ca-8cc0-8ee9-8b58",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "7158-e140-a47e-e261",
+								"_name": "Death Hex",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "58c1-81b6-457b-86b8",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"_id": "132d-22b7-35eb-e925",
+					"_name": "Dark Hereticus discipline",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditionGroups": {
+									"conditionGroup": {
+										"conditions": {
+											"condition": [
+												{
+													"_field": "selections",
+													"_scope": "roster",
+													"_value": "0.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "true",
+													"_includeChildForces": "false",
+													"_childId": "ae09-117e-a6fa-316b",
+													"_type": "equalTo"
+												},
+												{
+													"_field": "selections",
+													"_scope": "force",
+													"_value": "0.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "true",
+													"_includeChildForces": "false",
+													"_childId": "c821-2625-b5eb-5ae4",
+													"_type": "equalTo"
+												},
+												{
+													"_field": "selections",
+													"_scope": "force",
+													"_value": "0.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "true",
+													"_includeChildForces": "false",
+													"_childId": "1026-b9a8-7310-7c21",
+													"_type": "equalTo"
+												}
+											]
+										},
+										"_type": "and"
+									}
+								},
+								"_type": "set",
+								"_field": "hidden",
+								"_value": "true"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "force",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_childId": "ae09-117e-a6fa-316b",
+										"_type": "equalTo"
+									}
+								},
+								"_type": "increment",
+								"_field": "4bb1-357e-0bdf-26e1",
+								"_value": "1.0"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "force",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_childId": "c821-2625-b5eb-5ae4",
+										"_type": "equalTo"
+									}
+								},
+								"_type": "increment",
+								"_field": "4bb1-357e-0bdf-26e1",
+								"_value": "1.0"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "force",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_childId": "1026-b9a8-7310-7c21",
+										"_type": "equalTo"
+									}
+								},
+								"_type": "increment",
+								"_field": "4bb1-357e-0bdf-26e1",
+								"_value": "2.0"
+							}
+						]
+					},
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "dadc-814c-8db4-b722",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "0.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "4bb1-357e-0bdf-26e1",
+								"_type": "max"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": {
+							"modifiers": {
+								"modifier": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "0.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "4a0e-0f13-63c2-9aae",
+											"_type": "equalTo"
+										}
+									},
+									"_type": "set",
+									"_field": "hidden",
+									"_value": "true"
+								}
+							},
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_id": "ae7c-0b9f-917e-3bdf",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Range",
+												"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+												"__text": "Melee"
+											},
+											{
+												"_name": "Type",
+												"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+												"__text": "Melee"
+											},
+											{
+												"_name": "S",
+												"_typeId": "59b1-319e-ec13-d466",
+												"__text": "User"
+											},
+											{
+												"_name": "AP",
+												"_typeId": "75aa-a838-b675-6484",
+												"__text": "0"
+											},
+											{
+												"_name": "D",
+												"_typeId": "ae8a-3137-d65b-4ca7",
+												"__text": "1"
+											},
+											{
+												"_name": "Abilities",
+												"_typeId": "837d-5e63-aeb7-1410",
+												"__text": "When resolving an attack made with this weapon, an unmodified wound roll of 4+ inflicts 1 mortal wound on the target in addition to any other damage."
+											}
+										]
+									},
+									"_id": "8bb4-9cee-824b-3ce7",
+									"_name": "Ul'o'cca, The Black Axe",
+									"_hidden": "false",
+									"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+									"_typeName": "Weapon"
+								}
+							},
+							"rules": {
+								"rule": {
+									"description": "In the Fight phase, when this model is chosen to fight with for the first time that phase, roll one D6. On a 1, the model suffers 1 mortal wound and cannot use this weapon further that phase. On a 2+ the model can fight with the weapon as normal.",
+									"_id": "5898-072b-6a27-2692",
+									"_name": "Daemon Weapon",
+									"_hidden": "false"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "3f77-4d46-685c-b85c",
+							"_name": "Ul'o'cca, The Black Axe",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "0cf5-63bd-c8c9-83a1",
+										"_type": "max"
+									}
+								},
+								"_id": "ec7b-2633-b684-4dec",
+								"_name": "Caliban Steel Blade",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "11ab-470e-d46c-340c",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "689f-e311-611e-e4ef",
+										"_type": "max"
+									}
+								},
+								"_id": "30bf-8c2c-d39d-b30d",
+								"_name": "The Black Mace",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "93d0-7e4b-6d5c-64b2",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "1a2f-78f4-a5c8-3bae",
+										"_type": "max"
+									}
+								},
+								"_id": "e7a1-9014-9550-b013",
+								"_name": "The Murder Sword",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "bce2-bf42-efc2-27d0",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"_id": "db42-fef2-6351-be64",
+					"_name": "Artefacts of Chaos",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "false",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "c439-5f3b-8b37-7ba8",
+							"_type": "max"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"modifiers": {
+									"modifier": {
+										"_type": "set",
+										"_field": "8481-dca9-f8ee-8912",
+										"_value": "0.0"
+									}
+								},
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "8481-dca9-f8ee-8912",
+										"_type": "min"
+									}
+								},
+								"_id": "8a68-8259-e39b-f95a",
+								"_name": "Bolt pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "0334-f487-8229-0c1a",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "e813-57e6-a638-98b3",
+								"_name": "Plasma pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "83be-1ba9-c326-4760",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"_id": "6a10-ee77-8b15-f6fe",
+					"_name": "Pistols",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "2.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "ae0c-c8d1-66f6-319a",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "7dc6-0b17-0990-ad06",
+							"_value": "2"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "false",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "7dc6-0b17-0990-ad06",
+							"_type": "max"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "076e-b058-192f-d8a4",
+								"_name": "Chainaxe",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "d908-82ae-4748-cfbb",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "f488-3479-ab38-62f9",
+								"_name": "Chainsword",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "0dd1-2e2b-7dd1-5495",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "b8a8-af1b-5cb8-2f5a",
+										"_type": "max"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "5.0"
+									}
+								},
+								"_id": "ae0c-c8d1-66f6-319a",
+								"_name": "Lightning Claw",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "90de-7b01-e401-888b",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "6be8-453e-30e4-a10e",
+								"_name": "Power axe",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "3292-34e6-f679-d5b9",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "a0bc-0a8c-8e97-7da7",
+								"_name": "Power fist",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "f122-3720-fa32-4215",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "bb23-1707-105f-a6be",
+								"_name": "New EntryLink",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "6ea7-1195-7144-438e",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "f0f1-2c3b-3bed-56f0",
+								"_name": "Power sword",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "bc9e-551d-9afb-78d5",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "4faf-1319-8313-55da",
+								"_name": "Thunder hammer",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "0e57-eaf5-763f-9c45",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"_id": "9403-1579-1d82-447a",
+					"_name": "Melee Weapons",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "a24e-91b9-e53b-e9c0",
+							"_type": "max"
+						}
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "b3af-f87f-75f7-277d",
+										"_type": "max"
+									}
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": {
+												"_name": "Description",
+												"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+												"__text": "You can re-roll failed wound rolls for attacks made by your Warlord in the Fight phase against targets with the ADEPTUS ASTARTES keyword."
+											}
+										},
+										"_id": "af0a-86bf-d6c1-eaa9",
+										"_name": "Eternal Vendetta",
+										"_hidden": "false",
+										"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+										"_typeName": "Abilities"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "1390-66e2-a4e8-0b3d",
+								"_name": "1. Eternal Vendetta",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "ee37-4b24-61ec-1bad",
+										"_type": "max"
+									}
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": {
+												"_name": "Description",
+												"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+												"__text": "If the wound roll for a melee weapon attack made by your Warlord is 6+, it inflicts 1 mortal wound on the target in addition to any other damage."
+											}
+										},
+										"_id": "4385-423c-dbaa-0a0c",
+										"_name": "Flames of Spite",
+										"_hidden": "false",
+										"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+										"_typeName": "Abilities"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "be0c-14e9-f1a0-af16",
+								"_name": "2. Flames of Spite",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "8d92-45a4-a58d-0f3e",
+										"_type": "max"
+									}
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": {
+												"_name": "Description",
+												"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+												"__text": "Add 1 to the Wounds characteristic of your Warlord. In addition, roll a dice each time yourWarlord loses a wound. On a roll of 6, your warlord shrugs off the damage and does not lose the wound."
+											}
+										},
+										"_id": "69d6-efa6-8fe8-b97f",
+										"_name": "Unholy Fortitude",
+										"_hidden": "false",
+										"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+										"_typeName": "Abilities"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "7b7d-7d7c-c992-57e8",
+								"_name": "3. Unholy Fortitude",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "f460-55a3-b5e3-49b8",
+										"_type": "max"
+									}
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": {
+												"_name": "Description",
+												"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+												"__text": "You can re-roll wound rolls of 1 for attacks made by your Warlord."
+											}
+										},
+										"_id": "0193-6eff-66a0-bf5e",
+										"_name": "Hatred Incarnate",
+										"_hidden": "false",
+										"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+										"_typeName": "Abilities"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "c1e2-a303-7e03-1916",
+								"_name": "4. Hatred Incarnate",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "86c7-28f8-098a-0331",
+										"_type": "max"
+									}
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": {
+												"_name": "Description",
+												"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+												"__text": "The opposing player must roll an extra dice when taking Morale tests for units within 6\" of your Warlord, and use the highest result."
+											}
+										},
+										"_id": "1c80-8326-7964-ec2b",
+										"_name": "Lord of Terror",
+										"_hidden": "false",
+										"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+										"_typeName": "Abilities"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "a7b1-b8d8-62c5-afb0",
+								"_name": "5. Lord of Terror",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_id": "eb2a-7b76-2211-d172",
+										"_type": "max"
+									}
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": {
+												"_name": "Description",
+												"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+												"__text": "Add 1 to your Warlord’s Attacks characteristic."
+											}
+										},
+										"_id": "b44e-7299-d830-61b6",
+										"_name": "Exalted Champion",
+										"_hidden": "false",
+										"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+										"_typeName": "Abilities"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "9306-c67b-a810-c6ad",
+								"_name": "6. Exalted Champion",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"_id": "0be5-b600-f824-9ca3",
+					"_name": "Warlord Traits (Codex)",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true"
+				}
+			]
+		},
+		"sharedRules": {
+			"rule": {
+				"description": "Use this Stratagem when choosing your army. You can include Sorcerers and Chaos Rhinos in a Vanguard Detachment that includes only FALLEN units. If you do so, they replace their <MARK OF CHAOS>, HERETIC ASTARTES and <LEGION> keywords with the FALLEN keyword. FALLEN Sorcerers also replace their Death to the False Emperor ability with the Fallen Angels ability from the Fallen datasheet. Pick a FALLEN Detachment from your army to be a Fallen Angels Specialist Detachment. FALLEN units in that Detachment gain the FALLEN ANGELS keyword, but they lose the IMPERIUM Faction keyword (if they have it).",
+				"_id": "77ef-14af-644c-c8bb",
+				"_name": "Fallen Angels",
+				"_hidden": "false"
+			}
+		},
+		"sharedProfiles": {
+			"profile": [
+				{
+					"characteristics": {
+						"characteristic": [
+							{
+								"_name": "Range",
+								"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+								"__text": "48\""
+							},
+							{
+								"_name": "Type",
+								"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+								"__text": "Heavy D6"
+							},
+							{
+								"_name": "S",
+								"_typeId": "59b1-319e-ec13-d466",
+								"__text": "5"
+							},
+							{
+								"_name": "AP",
+								"_typeId": "75aa-a838-b675-6484",
+								"__text": "0"
+							},
+							{
+								"_name": "D",
+								"_typeId": "ae8a-3137-d65b-4ca7",
+								"__text": "1"
+							},
+							{
+								"_name": "Abilities",
+								"_typeId": "837d-5e63-aeb7-1410",
+								"__text": "-"
+							}
+						]
+					},
+					"_id": "a6fe-c733-e20e-612a",
+					"_name": "Havoc launcher",
+					"_hidden": "false",
+					"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+					"_typeName": "Weapon"
+				},
+				{
+					"characteristics": {
+						"characteristic": [
+							{
+								"_name": "Range",
+								"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+								"__text": "Melee"
+							},
+							{
+								"_name": "Type",
+								"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+								"__text": "Melee"
+							},
+							{
+								"_name": "S",
+								"_typeId": "59b1-319e-ec13-d466",
+								"__text": "+1"
+							},
+							{
+								"_name": "AP",
+								"_typeId": "75aa-a838-b675-6484",
+								"__text": "-1"
+							},
+							{
+								"_name": "D",
+								"_typeId": "ae8a-3137-d65b-4ca7",
+								"__text": "1"
+							},
+							{
+								"_name": "Abilities",
+								"_typeId": "837d-5e63-aeb7-1410",
+								"__text": "-"
+							}
+						]
+					},
+					"_id": "27bf-3479-cfdc-84b1",
+					"_name": "Chainaxe",
+					"_hidden": "false",
+					"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+					"_typeName": "Weapon"
+				},
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "You can re-roll hit rolls of 1 for any Fallen unit when shooting (including when firing Overwatch) as long as the unit did not move in its last Movement phase. In addition, Fallen units can never lose more than 1 model as the result of any single failed Morale test; any additional casualties beyond the first are ignored."
+						}
+					},
+					"_id": "efe6-7bbc-5953-3290",
+					"_name": "Fallen Angels",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "d541-6e16-d152-db06",
+		"_name": "Fallen",
+		"_revision": "13",
+		"_battleScribeVersion": "2.03",
+		"_authorName": "BSData Developers",
+		"_authorContact": "@Mad_Spy",
+		"_authorUrl": "https://discord.gg/KqPVhds",
+		"_library": "false",
+		"_gameSystemId": "28ec-711c-d87f-3aeb",
+		"_gameSystemRevision": "132"
+	}
+}
