@@ -27,7 +27,12 @@ width: 100%
     width: 50 rem;
     height: 43.75rem;
 }
-.rar{
+#demo{
     width: 6rem;
     height: 7rem;
+}
+#smlColor{
+    height: 14.2%;
+    width: 100%;
+    
 }
