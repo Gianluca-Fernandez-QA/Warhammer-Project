@@ -1,7 +1,22 @@
-
+body{
+    background-color: darkgray;
+}
 #navBa{
     width: 100%;
 }
 .img-fluid{
-height: 75px;
+
+
+}
+#banner{
+    width: fit-content;
+    height: 100px;
+width: 100%
+}
+#logo{
+    height: 100px;
+    width: 5%;
+}
+.navbar-brand{
+    height: 100%;
 }
