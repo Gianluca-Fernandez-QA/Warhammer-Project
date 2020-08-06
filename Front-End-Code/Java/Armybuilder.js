@@ -37,7 +37,6 @@ function Chaos(){
             { Army: "FW Heretic Astartes", link: "A5" },
             { Army: "FW Renegade and Heretics", link: "A5" },
             { Army: "Gellerpox Infected", link: "A5" },
-            { Army: "Servants of the Abyss", link: "A5" },
             { Army: "Thousand Sons", link: "A5" },
             { Army: "Titanicus Traitoris", link: "A5" },
         ]
