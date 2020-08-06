@@ -1,0 +1,2965 @@
+﻿{
+	"catalogue": {
+		"publications": {
+			"publication": {
+				"_id": "f731-6aa6-pubN66377",
+				"_name": "Codex: Officio Assassinorum"
+			}
+		},
+		"categoryEntries": {
+			"categoryEntry": [
+				{
+					"_id": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+					"_name": "Elites",
+					"_hidden": "false"
+				},
+				{
+					"_id": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+					"_name": "No Force Org Slot",
+					"_hidden": "false"
+				},
+				{
+					"_id": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+					"_name": "HQ",
+					"_hidden": "false"
+				},
+				{
+					"_id": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+					"_name": "Troops",
+					"_hidden": "false"
+				},
+				{
+					"_id": "c274d0b0-5866-44bc-9810-91c136ae7438",
+					"_name": "Fast Attack",
+					"_hidden": "false"
+				},
+				{
+					"_id": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+					"_name": "Heavy Support",
+					"_hidden": "false"
+				},
+				{
+					"_id": "b961-92d7-c36f-fa6f",
+					"_name": "Vindicare Assassin",
+					"_hidden": "false"
+				},
+				{
+					"_id": "80f8-6d43-129c-995e",
+					"_name": "Callidus Assassin",
+					"_hidden": "false"
+				},
+				{
+					"_id": "cb26-b18b-847d-368f",
+					"_name": "Culexus Assassin",
+					"_hidden": "false"
+				},
+				{
+					"_id": "6488-77cc-2ad3-7ae6",
+					"_name": "Eversor Assassin",
+					"_hidden": "false"
+				}
+			]
+		},
+		"selectionEntries": {
+			"selectionEntry": {
+				"categoryLinks": {
+					"categoryLink": {
+						"_id": "a16b-6fd6-c2ba-6d66",
+						"_name": "New CategoryLink",
+						"_hidden": "false",
+						"_targetId": "fcff-0f21-93e6-1ddc",
+						"_primary": "true"
+					}
+				},
+				"selectionEntries": {
+					"selectionEntry": [
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "e6e6-5c2d-c35a-3cf5",
+									"_type": "max"
+								}
+							},
+							"rules": {
+								"rule": {
+									"description": "Use this Statagem after an enemy CHARACTER model is slain by an OFFICIO ASSASSINORUM unit from your army. You gain 2 Command Points (or 3 Command Points if the CHARACTER was your opponent's Warlord). You can only use this Stratagem once for each enemy Character model slain.",
+									"_id": "a920-6294-7463-72c8",
+									"_name": "Priority Threat Neutralised - 1 CP",
+									"_hidden": "false"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "3d54-719f-dced-552e",
+							"_name": "General",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"modifiers": {
+								"modifier": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "force",
+											"_value": "0.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_childId": "80f8-6d43-129c-995e",
+											"_type": "equalTo"
+										}
+									},
+									"_type": "set",
+									"_field": "hidden",
+									"_value": "true"
+								}
+							},
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "7a69-64df-d749-6af4",
+									"_type": "max"
+								}
+							},
+							"rules": {
+								"rule": [
+									{
+										"description": "Use this Stratagem in your Movement phase. Choose one CALLIDUS ASSASSIN from your army. That model can Advance and charge this turn. In addition, until the start of the next battle round, substract 1 from hit rolls for attacks that target the chosen model.",
+										"_id": "bf4b-5850-c404-e53d",
+										"_name": "Stratagem (Callidus) Acrobatic - 1 CP",
+										"_hidden": "false"
+									},
+									{
+										"description": "Use this Stratagem at the start of any battle round after the first. Choose one CALLIDUS ASSASSIN from your army. That model's Reigh of Confusion ability is considered to be in effect until the end of that battle round. You can only use this Stratagem once per battle.",
+										"_id": "e199-9c65-6d80-8e39",
+										"_name": "Stratagem (Callidus) Supreme Deception - 2 CP",
+										"_hidden": "false"
+									}
+								]
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "f169-93ec-895a-16c1",
+							"_name": "Callidus",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"modifiers": {
+								"modifier": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "force",
+											"_value": "0.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_childId": "cb26-b18b-847d-368f",
+											"_type": "equalTo"
+										}
+									},
+									"_type": "set",
+									"_field": "hidden",
+									"_value": "true"
+								}
+							},
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "fc11-6cfb-03b7-b8ac",
+									"_type": "max"
+								}
+							},
+							"rules": {
+								"rule": [
+									{
+										"description": "Use this Stratagem at the start of the Fight phase. Choose one CULEXUS ASSASSIN from your army. Enemy units within 3\" of that model cannot be chosen to fight this phase until after all other units have done so, even if they charged. If one of those units has an ability that allows them to fight first this phase, they instead fight in this phase as if they do not have that ability.",
+										"_id": "04cf-3693-e46d-116a",
+										"_name": "Stratagem (Culexus) Soul Horror - 2 CP",
+										"_hidden": "false"
+									},
+									{
+										"description": "Use this Stratagem in your Shooting phase, before choosing a CULEXUS ASSASSIN to shoot with. Until the end of the phase, the Damage charateristic of that model's ranged weapons is increased to D3.",
+										"_id": "2802-7ced-96c6-a859",
+										"_name": "Stratagem (Culexus) Pariah's Gaze - 1 CP",
+										"_hidden": "false"
+									}
+								]
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "9b6b-ea94-3d30-fb22",
+							"_name": "Culexus",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"modifiers": {
+								"modifier": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "force",
+											"_value": "0.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_childId": "6488-77cc-2ad3-7ae6",
+											"_type": "equalTo"
+										}
+									},
+									"_type": "set",
+									"_field": "hidden",
+									"_value": "true"
+								}
+							},
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "6870-7294-62c5-984c",
+									"_type": "max"
+								}
+							},
+							"rules": {
+								"rule": [
+									{
+										"description": "Use this Stratagem at the start of any phase. Choose one EVERSOR ASSASSIN from your army. Until the end of that phase, roll one D6 each time that model loses a wound (excluding those lost as the result of a mortal wound); on a 4+ the wound is not lost.",
+										"_id": "1d18-acd4-9a02-433e",
+										"_name": "Stratagem (Eversor) Hypermetabolism - 1 CP",
+										"_hidden": "false"
+									},
+									{
+										"description": "Use this Stratagem at the end of the Fight phase. Choose one EVERSOR ASSASSIN from your army to fight with, even if that model has already fought this phase. After that model has fought, roll one D6. On a 1, 2 or 3 it suffers 1 mortal wound.",
+										"_id": "b53f-3942-dafc-084d",
+										"_name": "Stratagem (Eversor) Stimm Overload - 2 CP",
+										"_hidden": "false"
+									}
+								]
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "b180-d1ea-918a-812f",
+							"_name": "Eversor",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"modifiers": {
+								"modifier": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "force",
+											"_value": "0.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_childId": "b961-92d7-c36f-fa6f",
+											"_type": "equalTo"
+										}
+									},
+									"_type": "set",
+									"_field": "hidden",
+									"_value": "true"
+								}
+							},
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "9e30-b4f9-e984-8d64",
+									"_type": "max"
+								}
+							},
+							"rules": {
+								"rule": [
+									{
+										"description": "Use this Stratagem in your Shooting phase, after a VINDICARE ASSASSIN from your army shoots. That model can shoot one additional time this phase (this must be at a different target).",
+										"_id": "50a2-9055-eda2-4d95",
+										"_name": "Stratagem (Vindicare) Double Kill - 1 CP",
+										"_hidden": "false"
+									},
+									{
+										"description": "Use this Stratagem in your Shooting phase, after an attack made with an exitus pistol or extus rifle by a VINDICARE ASSASSIN from your army scores a hit against a target that is either a VEHICLE or a MONSTER. Do not make a wound roll for that attack; instead that hit inflicts D3 mortal wounds on the target. If this stratagem is used then the Head Shot ability dies not apply to that attack.",
+										"_id": "c804-6fed-64cd-efa2",
+										"_name": "Stratagem (Vindicare) Turbo-Penetrator Round - 1 CP",
+										"_hidden": "false"
+									}
+								]
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "0945-f053-f64a-6e78",
+							"_name": "Vindicare",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					]
+				},
+				"costs": {
+					"cost": [
+						{
+							"_name": " PL",
+							"_typeId": "e356-c769-5920-6e14",
+							"_value": "0.0"
+						},
+						{
+							"_name": "CP",
+							"_typeId": "2d3b-b544-ad49-fb75",
+							"_value": "0.0"
+						},
+						{
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "0.0"
+						}
+					]
+				},
+				"_id": "b2b2-a0a3-6984-ee22",
+				"_name": "Show Stratagems",
+				"_hidden": "false",
+				"_collective": "false",
+				"_import": "false",
+				"_type": "upgrade"
+			}
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "51df-6a92-8992-c54d",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+							"_primary": "true"
+						}
+					},
+					"_id": "db00-f7c5-866c-8900",
+					"_name": "Callidus Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "false",
+					"_targetId": "08d2-59b2-b846-88c7",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "4859-71f7-4b37-fa96",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+							"_primary": "true"
+						}
+					},
+					"_id": "6aca-ac5e-e885-5719",
+					"_name": "Culexus Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "false",
+					"_targetId": "15d3-57f0-2c9d-f074",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "055f-1869-1fe5-b15b",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+							"_primary": "true"
+						}
+					},
+					"_id": "f2ce-ade4-1ddc-bbfa",
+					"_name": "Eversor Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "false",
+					"_targetId": "8e8a-617b-5665-f83f",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "1fc9-8e28-47af-9bc8",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+							"_primary": "true"
+						}
+					},
+					"_id": "4987-9b5c-b321-8f89",
+					"_name": "Vindicare Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "false",
+					"_targetId": "8d0f-297a-5547-8a6b",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "primary-catalogue",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "f731-6aa6-c141-8937",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "c67d-38f9-5a55-7a54",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "0f35-2c34-ba6a-8105",
+							"_primary": "true"
+						}
+					},
+					"_id": "2e96-69c1-6aab-d649",
+					"_name": "Culexus Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "15d3-57f0-2c9d-f074",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "primary-catalogue",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "f731-6aa6-c141-8937",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "e23c-6e29-c488-1893",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "0f35-2c34-ba6a-8105",
+							"_primary": "true"
+						}
+					},
+					"_id": "d524-c866-5c4f-fce9",
+					"_name": "Eversor Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8e8a-617b-5665-f83f",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "primary-catalogue",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "f731-6aa6-c141-8937",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "813e-31b2-1352-8e99",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "0f35-2c34-ba6a-8105",
+							"_primary": "true"
+						}
+					},
+					"_id": "4532-2a1d-49f5-1481",
+					"_name": "Vindicare Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8d0f-297a-5547-8a6b",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "primary-catalogue",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "f731-6aa6-c141-8937",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "4aa0-9bb5-4511-4fc8",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "0f35-2c34-ba6a-8105",
+							"_primary": "true"
+						}
+					},
+					"_id": "863e-aa69-737f-77d7",
+					"_name": "Callidus Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "08d2-59b2-b846-88c7",
+					"_type": "selectionEntry"
+				}
+			]
+		},
+		"sharedSelectionEntries": {
+			"selectionEntry": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "41af-75ce-79d2-ddff",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "9fec-ebd4-6d24-9032",
+							"_value": "1.0"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "force",
+							"_value": "-1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "9fec-ebd4-6d24-9032",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "7\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "2+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "2+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "4"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "5"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "5"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "9"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "6+"
+										}
+									]
+								},
+								"_id": "7a9966cc-d937-cff8-b2ef-a3835d634710",
+								"_name": "Callidus Assassin",
+								"_publicationId": "f731-6aa6-pubN66377",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "This model can Fall Back and still shoot and charge in the same turn."
+									}
+								},
+								"_id": "338c-945e-a475-6b37",
+								"_name": "Hit and Run",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "If you have any models with this ability in your army, then during the first battle round you must roll a dice each time your opponent spends Command Points (CPs) to use a Stratagem. On a 4+, your opponent must spend one extra CP to use that Stratagem, or else it has no effect (the CPs spend so far are lost). This ability cannot affect Stratagems used 'before the battle begins'."
+									}
+								},
+								"_id": "41a0-3a33-8fa4-7367",
+								"_name": "Reign of Confusion",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "During deployment, you can set up this model in disguise instead of placing it on the battlefield.  At the end of any of your Movement phases this model can revert to its true form - set it up anywhere on the battlefield that is more than D6+3\" away from any enemy models.  For example if you roll a 4, the model can be set up anywhere that is more than 7\" from any enemy model."
+									}
+								},
+								"_id": "252e-b493-59fe-9452",
+								"_name": "Polymorphine",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "b85fb9c6-1cb6-b86f-e169-38e4876f5a5e",
+								"_name": "Lightning Reflexes",
+								"_hidden": "false",
+								"_targetId": "62ec-db58-d522-deda",
+								"_type": "rule"
+							},
+							{
+								"_id": "0fabde47-09f0-fbb4-bdf4-e3d7316bfe5d",
+								"_name": "Independent Operative",
+								"_hidden": "false",
+								"_targetId": "6fa7-7d69-7fce-f215",
+								"_type": "rule"
+							},
+							{
+								"_id": "1a42-55ae-1faa-13c3",
+								"_name": "Execution Force",
+								"_hidden": "false",
+								"_targetId": "2dc4-c403-ca18-9344",
+								"_type": "rule"
+							},
+							{
+								"_id": "ba86-7cca-c6db-c7a5",
+								"_name": "Agent of the Imperium",
+								"_hidden": "false",
+								"_targetId": "75cc-bbe6-5af6-bef9",
+								"_type": "rule"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "9d86-5953-da6f-06db",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "fc32-0aaf-b457-2ae2",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "8984-3469-eae2-1ddd",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "4ad1-1315-97ea-dd25",
+								"_primary": "false"
+							},
+							{
+								"_id": "e78c-d265-89b3-9c40",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "80f8-6d43-129c-995e",
+								"_primary": "false"
+							},
+							{
+								"_id": "0a5d-fefd-e95a-5993",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "fd8c-57a5-c94f-7da2",
+								"_name": "Agent of the Imperium",
+								"_hidden": "false",
+								"_targetId": "0f35-2c34-ba6a-8105",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "9\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Assault 1"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "*"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "*"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "*"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "Roll 3D6 if a unit is hit by this weapon; if the roll is equal to or greater then the target unit's highest Leadership characteristic, then it suffers D3 mortal wounds."
+												}
+											]
+										},
+										"_id": "1087ea17-340c-7b23-f6fd-a0bd958525b2",
+										"_name": "Neural Shredder",
+										"_publicationId": "f731-6aa6-pubN66377",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "ccd8a82c-8335-71ad-3fe1-db6b350f808a",
+								"_name": "Neural Shredder",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Melee"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "User"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-3"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "2"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "Invulnerable saves cannot be taken against attacks made with this weapon"
+												}
+											]
+										},
+										"_id": "51bf8492-c218-0b3c-d1d5-a9772898d229",
+										"_name": "Phase Sword",
+										"_publicationId": "f731-6aa6-pubN66377",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "f50e39a4-cc9d-9eb9-316f-9825f8033f08",
+								"_name": "Phase Sword",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Melee"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "*"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-1"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "Each time the bearer fights, it can make 1 additional attack with this weapon. This weapon wounds on a 3+, unless it is targeting a VEHICLE. in which case it wounds on a 6+"
+												}
+											]
+										},
+										"_id": "c1fe0116-c198-e6d3-4b8a-43d21a86332b",
+										"_name": "Poison Blades",
+										"_publicationId": "f731-6aa6-pubN66377",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "4d4a171a-d572-a868-dfa8-12aeb849da38",
+								"_name": "Poison Blades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "2b32-761f-43ee-1081",
+								"_name": "Is a Custom Character",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "43c4-8968-c599-ad5f",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "63e6-7477-d7b6-d444",
+								"_name": "Custom Character Selections",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8774-e003-4a50-56c7",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "100.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "5.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "08d2-59b2-b846-88c7",
+					"_name": "Callidus Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "41af-75ce-79d2-ddff",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "32f0-972b-803d-fc6d",
+							"_value": "1.0"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "force",
+							"_value": "-1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "32f0-972b-803d-fc6d",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "7\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "2+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "2+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "4"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "5"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "4"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "9"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "6+"
+										}
+									]
+								},
+								"_id": "b7984e3f-310e-4b87-ad93-59fdee9b15e1",
+								"_name": "Culexus Assassin",
+								"_publicationId": "f731-6aa6-pubN66377",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Each time an enemy model attacks this model, the attacks are resolved as if the the attacker had a BS/WS of 6+"
+									}
+								},
+								"_id": "08a0-a7cf-9df0-61f0",
+								"_name": "Etherium",
+								"_publicationId": "f731-6aa6-pubN66377",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Armour saves cannot be taken against close combat attacks made by this model"
+									}
+								},
+								"_id": "56b8-7376-7809-cce9",
+								"_name": "Life Drain",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "This model can never be targeted or affected by psychic powers in any way. PSYKERS that are within 18\" of any Culexus Assassins must subtract 2 from Psychic tests and Deny the witch tests they take."
+									}
+								},
+								"_id": "188f-a12e-5ec8-001c",
+								"_name": "Abomination",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "This model can target a CHARACTER that is a PSYKER, even if it is not the closest enemy unit. In addition, this model can make an attack with a psyk-out grenade in the same phase it uses it's animus speculum."
+									}
+								},
+								"_id": "a9b3-8751-d45c-5aa1",
+								"_name": "Psychic Assassin",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "0ed99c09-c2a6-5618-7f0d-164be6f7e135",
+								"_hidden": "false",
+								"_targetId": "6fa7-7d69-7fce-f215",
+								"_type": "rule"
+							},
+							{
+								"_id": "da5b3a0a-5de6-8724-80e6-19467786ecd8",
+								"_hidden": "false",
+								"_targetId": "62ec-db58-d522-deda",
+								"_type": "rule"
+							},
+							{
+								"_id": "e9c8-5d93-b106-e07f",
+								"_name": "Execution Force",
+								"_hidden": "false",
+								"_targetId": "2dc4-c403-ca18-9344",
+								"_type": "rule"
+							},
+							{
+								"_id": "3cef-5045-50de-74d9",
+								"_name": "Agent of the Imperium",
+								"_hidden": "false",
+								"_targetId": "75cc-bbe6-5af6-bef9",
+								"_type": "rule"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "7a16-ed28-7f08-f3ad",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "4ec6-bee2-383f-c4f9",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "a2a0-ed3a-9c47-3bf8",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "4ad1-1315-97ea-dd25",
+								"_primary": "false"
+							},
+							{
+								"_id": "b8e6-21a5-96fa-e0b5",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "f543-5ce2-54a7-0220",
+								"_name": "Agent of the Imperium",
+								"_hidden": "false",
+								"_targetId": "0f35-2c34-ba6a-8105",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "18\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Assault D3"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "5"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-4"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "Change this weapon's type to Assault D6 if there are enemy PSYKERS within 18\" of the bearer"
+												}
+											]
+										},
+										"_id": "b880e6e8-1036-c1da-270a-f2de3a110ce8",
+										"_name": "Animus Speculum",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "f18e83a8-da27-0161-d471-f992ffcbeb01",
+								"_name": "Animus Speculum",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "6\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Grenade D3"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "2"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "0"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "Each time you roll a hit roll of 6+ for this weapon when targeting a PSYKER or DAEMON, the target suffers a mortal wound instead of the normal damage. Blast."
+												}
+											]
+										},
+										"_id": "294b3223-8bcf-8c7e-0ca0-93542e88eb4a",
+										"_name": "Psyk-out Grenades",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "91095a9c-7fd4-5f44-a36d-59d1c13318d5",
+								"_name": "Psyk-out Grenades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "0df5-ab0a-2d52-7407",
+								"_name": "Is A Custom Character",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "43c4-8968-c599-ad5f",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "9b97-313a-1272-16ea",
+								"_name": "Custom Character Selections",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8774-e003-4a50-56c7",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "100.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "5.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "15d3-57f0-2c9d-f074",
+					"_name": "Culexus Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "41af-75ce-79d2-ddff",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "d049-d9ba-fdc7-18b8",
+							"_value": "1.0"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "force",
+							"_value": "-1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "d049-d9ba-fdc7-18b8",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "7\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "2+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "2+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "4"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "6"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "6"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "9"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "6+"
+										}
+									]
+								},
+								"_id": "30c1de5d-ef54-98e7-f53f-d840be9d344a",
+								"_name": "Eversor Assassin",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "When making a charge roll for this model, roll 3D6 rather then 2D6. In Addition, add 2 to this model's Attack characteristic if they charged in the preceding Charge phase."
+									}
+								},
+								"_id": "11ca-699d-c700-2f05",
+								"_name": "Frenzon",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Each time an enemy unit falls back whilst within 1\" of this model, this model can immeadiately make a shooting attack against that enemy as if it were its shooting phase."
+									}
+								},
+								"_id": "4d49-183a-dab8-252d",
+								"_name": "Sentinel Array",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "If this model is reduced to zero Wounds, roll a D6 for each enemy unit that is within 6\" of this model before removing it from the battlefield. On a roll of 4+ the enemy unit suffers D3 Mortal wounds"
+									}
+								},
+								"_id": "ac6a-7eac-95a4-487f",
+								"_name": "Bio-meltdown",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Each Time an enemy model is slain as the result of an attack made with a melee weapon by this model, this model can immediately make one additional attack against the same unit. These additional attacks cannot themselves generate additional attacks. In addition this model can consolidate up to 6\" instead of 3\""
+									}
+								},
+								"_id": "cc3f-ba70-b4e2-7e1a",
+								"_name": "Killing Rampage",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "5e946fdd-eb22-855f-414f-3aa3d3dbb3a2",
+								"_hidden": "false",
+								"_targetId": "6fa7-7d69-7fce-f215",
+								"_type": "rule"
+							},
+							{
+								"_id": "d5dc9752-0566-02d2-384d-af5344442d10",
+								"_hidden": "false",
+								"_targetId": "62ec-db58-d522-deda",
+								"_type": "rule"
+							},
+							{
+								"_id": "50bc-d02a-4519-6b93",
+								"_name": "Execution Force",
+								"_hidden": "false",
+								"_targetId": "2dc4-c403-ca18-9344",
+								"_type": "rule"
+							},
+							{
+								"_id": "1bd0-b6c3-4486-da39",
+								"_name": "Agent of the Imperium",
+								"_hidden": "false",
+								"_targetId": "75cc-bbe6-5af6-bef9",
+								"_type": "rule"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "8ea0-4983-5fa1-7123",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "d4ca-7db6-2b24-6f81",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "45e7-2ed0-143b-9ed8",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "4ad1-1315-97ea-dd25",
+								"_primary": "false"
+							},
+							{
+								"_id": "962e-8a41-ac1e-b950",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "6488-77cc-2ad3-7ae6",
+								"_primary": "false"
+							},
+							{
+								"_id": "6edd-4255-1a09-107d",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "fdd6-1051-4524-75bf",
+								"_name": "Agent of the Imperium",
+								"_hidden": "false",
+								"_targetId": "0f35-2c34-ba6a-8105",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"infoLinks": {
+									"infoLink": {
+										"_id": "dd2d-2a36-9a7c-bd22",
+										"_name": "Power sword",
+										"_hidden": "false",
+										"_targetId": "47df-8e01-d0cf-58e8",
+										"_type": "profile"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "ef8b65c6-5292-b3bf-7559-65cc552b12a8",
+								"_name": "Power Sword",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "4\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Grenade 1"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "8"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-4"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "D6"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "You can re-roll failed wound rolls for this weapon if the target is a VEHICLE"
+												}
+											]
+										},
+										"_id": "8d15-0eb3-f8c9-2705",
+										"_name": "Melta bombs",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "226e7674-c226-7edd-3e8c-59e9434a8be7",
+								"_name": "Melta bombs",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "12\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Pistol 4"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "4"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-1"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "You can reroll failed wound rolls for this weapon if the target is an INFANTRY model"
+												}
+											]
+										},
+										"_id": "90e5d899-878a-43d7-636c-70db0ed32ef0",
+										"_name": "Executioner Pistol",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "b92ec135-7404-97df-46e7-3fc9406e2029",
+								"_name": "Executioner Pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Melee"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "+1"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-1"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "You can reroll failed wound rolls with this weapon"
+												}
+											]
+										},
+										"_id": "a7674648-569b-d1b1-42a3-9aee727f249c",
+										"_name": "Neuro-gauntlet",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "ee446415-1fda-3a6c-b956-f1b921d91a50",
+								"_name": "Neuro-gauntlet",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "f129-d205-5dec-813e",
+								"_name": "Is A Custom Character",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "43c4-8968-c599-ad5f",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "ff02-9c36-a15b-c059",
+								"_name": "Custom Character Selections",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8774-e003-4a50-56c7",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "100.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "5.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "8e8a-617b-5665-f83f",
+					"_name": "Eversor Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "41af-75ce-79d2-ddff",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "4402-7590-1d76-a8b7",
+							"_value": "1.0"
+						}
+					},
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "force",
+							"_value": "-1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "4402-7590-1d76-a8b7",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Enemy models do not gain the bonus to thier saving throws for being in cover against attacks made with ranged weapons by this model."
+									}
+								},
+								"_id": "c61f-a4b1-dfed-3178",
+								"_name": "Spy Mask",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Subtract 1 from hit rolls for attacks made with ranged weapons that target this model. If this model is in or on a terrain feature, subtract 2 instead."
+									}
+								},
+								"_id": "9a9e-b03d-a60f-17bd",
+								"_name": "Stealth Suit",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Each time you select a target for a weapon this model is making an attack with, you can ignore the Look Out, Sir rule. In addition, each time an unmodified wound roll of 6 is made for an attack with a ranged weapon by this model, the Damage for that attack is D6."
+									}
+								},
+								"_id": "2f1e-0051-0924-f5a5",
+								"_name": "Deadshot",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "7\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "2+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "2+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "4"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "5"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "5"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "9"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "6+"
+										}
+									]
+								},
+								"_id": "73a4-db77-cbfd-54af",
+								"_name": "Vindicare Assassin",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "If this model remained stationary in its previous movement phase, it always hits on a 2+ when firing a ranged weapon, regardless of modifiers. (hit rolls of 6 are still required when firing overwatch)"
+									}
+								},
+								"_id": "4c5b-5f0a-bd8c-0a8c",
+								"_name": "Faultless Aim",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "After this model has made an attack with a ranged weapon, roll one D6 if a model suffered damage from that attack but has not been slain; on a 3+ that model suffers 1 mortal wound and, if that model is not slain, you can roll one more D6. This time, that model suffers 1 mortal wound on a 4+. Keep rolling one D6, increasing the result required, to cause a mortal wound by 1 each time, until the model being rolled for is slain or the roll is failed."
+									}
+								},
+								"_id": "afbe-7c9e-41ca-f2ad",
+								"_name": "Head Shot",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "ab27194b-af30-39f0-03e3-120426e68738",
+								"_name": "Independent Operative",
+								"_hidden": "false",
+								"_targetId": "6fa7-7d69-7fce-f215",
+								"_type": "rule"
+							},
+							{
+								"_id": "d68c92bc-93c7-97b1-4dde-a4636bdd8a1f",
+								"_name": "Lightning Reflexes",
+								"_hidden": "false",
+								"_targetId": "62ec-db58-d522-deda",
+								"_type": "rule"
+							},
+							{
+								"_id": "a628-1545-bb46-c350",
+								"_name": "Execution Force",
+								"_hidden": "false",
+								"_targetId": "2dc4-c403-ca18-9344",
+								"_type": "rule"
+							},
+							{
+								"_id": "b164-02a3-a608-ed38",
+								"_name": "Agent of the Imperium",
+								"_hidden": "false",
+								"_targetId": "75cc-bbe6-5af6-bef9",
+								"_type": "rule"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "2c69-b722-161f-bc5f",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "bbc6-f971-007e-2a84",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "b961-92d7-c36f-fa6f",
+								"_primary": "false"
+							},
+							{
+								"_id": "b756-4065-3988-702a",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "4ad1-1315-97ea-dd25",
+								"_primary": "false"
+							},
+							{
+								"_id": "3a3e-d262-1fae-73cc",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "e3ba-6c41-4f00-f19b",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "deda-c5c8-e460-f73b",
+								"_name": "Agent of the Imperium",
+								"_hidden": "false",
+								"_targetId": "0f35-2c34-ba6a-8105",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "12"
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Grenade d6"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "*"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "*"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "*"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "This weapon does not inflict any damage on the target. Instead, if a unit is hit by any blind grenades, your opponent must subtract 1 from all hit rolls made until the end of the turn. Blast."
+												}
+											]
+										},
+										"_id": "a993-65d8-6d9b-9eca",
+										"_name": "Blind Grenades",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "00dd29e2-73ac-c7cb-7047-22eb951c2678",
+								"_name": "Blind Grenades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "72\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Heavy 1"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "5"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-3"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "D3"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "Invulnerable saves cannot be taken against a wound inflicted by this weapon. This weapon inflicts wounds against INFANTRY units on 2+"
+												}
+											]
+										},
+										"_id": "a2ee7b8e-eb53-29a3-ff27-a24d01c3e5f3",
+										"_name": "Exitus Rifle",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "6fad1db2-4c89-7483-1542-37a1375d1f6a",
+								"_name": "Exitus Rifle",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "minSelections",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "maxSelections",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "12\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Pistol 1"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "4"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-3"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "D3"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "Invulnerable saves cannot be taken against a wound inflicted by this weapon. This weapon inflicts wounds against INFANTRY units on 2+"
+												}
+											]
+										},
+										"_id": "247e1f7f-7863-0194-580f-16527c134264",
+										"_name": "Exitus Pistol",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "f8f0db3c-0d34-8e40-c259-202f65a961fb",
+								"_name": "Exitus Pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "133d-4f4a-285d-5eae",
+								"_name": "Is A Custom Character",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "43c4-8968-c599-ad5f",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "0f25-6eab-5a3a-3dfa",
+								"_name": "Custom Character Selections",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8774-e003-4a50-56c7",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "100.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "5.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "8d0f-297a-5547-8a6b",
+					"_name": "Vindicare Assassin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				}
+			]
+		},
+		"sharedRules": {
+			"rule": [
+				{
+					"description": "This Model can never have a Warlord Trait. During deployment, you can set this model up in concealment instead of placing it on the battlefield. At the end of any of your movement phases, this model can reveal it's position - set it up anywhere on the battlefield that is more then 9\" from any enemy model.",
+					"_id": "6fa7-7d69-7fce-f215",
+					"_name": "Independent Operative",
+					"_publicationId": "f731-6aa6-pubN66377",
+					"_hidden": "false"
+				},
+				{
+					"description": "A model with this special rule has a 4+ invulnerable save.",
+					"_id": "62ec-db58-d522-deda",
+					"_name": "Lightning Reflexes",
+					"_publicationId": "f731-6aa6-pubN66377",
+					"_hidden": "false"
+				},
+				{
+					"description": "If your Warlord has the IMPERIUM keyword (excluding FALLEN), you can include this unit in your army as part\nof a Vanguard Detachment even if that Detachment contains no HQ units. If you do so, that Detachment’s Command Benefits are changed to ‘None’ and its Restrictions are changed to ‘This Detachment cannot include the same datasheet more than once.’",
+					"_id": "2dc4-c403-ca18-9344",
+					"_name": "Execution Force",
+					"_page": "",
+					"_hidden": "false"
+				},
+				{
+					"description": "If your army is Battle-forged, you can include 1 AGENT OF THE IMPERIUM unit in each IMPERIUM (excluding FALLEN) Patrol, Battalion and Brigade Detachment in your army without those units taking up slots in those Detachments. The inclusion of an AGENT OF THE IMPERIUM unit does not prevent other units from their Detachment from benefiting from Detachment abilities (e.g. Chapter Tactics, Defenders of Humanity etc.), and it does not prevent other units from your army benefiting from abilities that require every model in your army to have that ability (e.g. Combat Doctrines). An AGENT OF THE IMPERIUM unit included in a Patrol, Battalion or Brigade Detachment in this manner is ignored for any rules that state all units from that Detachment must have at least one Faction keyword in common (e.g. in a matched play game) and when determining your Army Faction.",
+					"_id": "75cc-bbe6-5af6-bef9",
+					"_name": "Agent of the Imperium",
+					"_hidden": "false"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "f731-6aa6-c141-8937",
+		"_name": "Imperium - Officio Assassinorum",
+		"_revision": "19",
+		"_battleScribeVersion": "2.03",
+		"_authorName": "BSData Developers",
+		"_authorContact": "Discord: @Alphalas | Twitter: @kingoverlord",
+		"_authorUrl": "https://discord.gg/KqPVhds",
+		"_library": "false",
+		"_gameSystemId": "28ec-711c-d87f-3aeb",
+		"_gameSystemRevision": "145"
+	}
+}

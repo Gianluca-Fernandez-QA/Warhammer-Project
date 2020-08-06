@@ -1,0 +1,2299 @@
+﻿{
+	"catalogue": {
+		"publications": {
+			"publication": {
+				"_id": "a008-1eeb-pubN69744",
+				"_name": "Codex: Space Marines"
+			}
+		},
+		"categoryEntries": {
+			"categoryEntry": [
+				{
+					"_id": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+					"_name": "Elites",
+					"_hidden": "false"
+				},
+				{
+					"_id": "be18-af79-8c70-633f",
+					"_name": "Faction: Astra Telepathica",
+					"_hidden": "false"
+				},
+				{
+					"_id": "8bcf-a0bd-54ad-9531",
+					"_name": "Faction: Sisters of Silence",
+					"_hidden": "false"
+				},
+				{
+					"_id": "8f2a-01c6-005f-1866",
+					"_name": "Witchseekers",
+					"_hidden": "false"
+				},
+				{
+					"_id": "8b48-20db-5b9b-5fd7",
+					"_name": "Null-Maiden Rhino",
+					"_hidden": "false"
+				},
+				{
+					"_id": "dd65-0ed5-6aa3-0f9f",
+					"_name": "Vigilators",
+					"_hidden": "false"
+				},
+				{
+					"_id": "4b0b-94bb-a2de-73d3",
+					"_name": "Prosecutors",
+					"_hidden": "false"
+				}
+			]
+		},
+		"forceEntries": {
+			"forceEntry": {
+				"forceEntries": {
+					"forceEntry": {
+						"categoryLinks": {
+							"categoryLink": [
+								{
+									"_id": "252f-c1ff-8221-7ded",
+									"_name": "No Force Org Slot",
+									"_hidden": "false",
+									"_targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+									"_primary": "false"
+								},
+								{
+									"_id": "1771-dd1b-11e6-43d0",
+									"_name": "Troops",
+									"_hidden": "false",
+									"_targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+									"_primary": "false"
+								},
+								{
+									"_id": "7fd7-8b99-ac88-8069",
+									"_name": "Elites",
+									"_hidden": "false",
+									"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+									"_primary": "false"
+								},
+								{
+									"_id": "42fe-6cd3-da91-11fb",
+									"_name": "Fast Attack",
+									"_hidden": "false",
+									"_targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+									"_primary": "false"
+								},
+								{
+									"_id": "54c6-9e68-2d64-6bb4",
+									"_name": "Heavy Support",
+									"_hidden": "false",
+									"_targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+									"_primary": "false"
+								},
+								{
+									"_id": "bf72-ed07-1fd4-c59c",
+									"_name": "Flyer",
+									"_hidden": "false",
+									"_targetId": "e888-1504-aa61-95ff",
+									"_primary": "false"
+								},
+								{
+									"_id": "035f-4885-38b3-62ad",
+									"_name": "Dedicated Transport",
+									"_hidden": "false",
+									"_targetId": "1b66-3f5f-6705-079a",
+									"_primary": "false"
+								}
+							]
+						},
+						"_id": "ff3a-fba8-4f66-fe7e",
+						"_name": "Vanguard Detachment",
+						"_hidden": "false"
+					}
+				},
+				"categoryLinks": {
+					"categoryLink": [
+						{
+							"_id": "aa44-0720-c786-3f16",
+							"_name": "No Force Org Slot",
+							"_hidden": "false",
+							"_targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+							"_primary": "false"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "3.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true",
+									"_id": "74a9-d419-0750-7fe7",
+									"_type": "max"
+								}
+							},
+							"_id": "ef92-397a-e8ae-4247",
+							"_name": "Troops",
+							"_hidden": "false",
+							"_targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+							"_primary": "false"
+						},
+						{
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "force",
+										"_value": "3.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "true",
+										"_id": "1260-95a2-f111-3b36",
+										"_type": "min"
+									},
+									{
+										"_field": "selections",
+										"_scope": "force",
+										"_value": "6.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "true",
+										"_id": "a39f-f0cc-48bc-cc14",
+										"_type": "max"
+									}
+								]
+							},
+							"_id": "b806-0210-5b0a-e3e3",
+							"_name": "Elites",
+							"_hidden": "false",
+							"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+							"_primary": "false"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "2.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true",
+									"_id": "5ad3-41d0-06b0-382f",
+									"_type": "max"
+								}
+							},
+							"_id": "54b7-18c3-0ff9-1788",
+							"_name": "Fast Attack",
+							"_hidden": "false",
+							"_targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+							"_primary": "false"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "2.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true",
+									"_id": "1c40-3b26-8398-b7a5",
+									"_type": "max"
+								}
+							},
+							"_id": "175e-846f-5fee-c0af",
+							"_name": "Heavy Support",
+							"_hidden": "false",
+							"_targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+							"_primary": "false"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "2.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true",
+									"_id": "1f52-4460-79c7-a575",
+									"_type": "max"
+								}
+							},
+							"_id": "5c63-ed0c-b241-53e8",
+							"_name": "Flyer",
+							"_hidden": "false",
+							"_targetId": "e888-1504-aa61-95ff",
+							"_primary": "false"
+						},
+						{
+							"modifiers": {
+								"modifier": {
+									"repeats": {
+										"repeat": [
+											{
+												"_field": "selections",
+												"_scope": "force",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "true",
+												"_childId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+												"_repeats": "1",
+												"_roundUp": "false"
+											},
+											{
+												"_field": "selections",
+												"_scope": "force",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "true",
+												"_childId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+												"_repeats": "1",
+												"_roundUp": "false"
+											},
+											{
+												"_field": "selections",
+												"_scope": "force",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "true",
+												"_childId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+												"_repeats": "1",
+												"_roundUp": "false"
+											},
+											{
+												"_field": "selections",
+												"_scope": "force",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "true",
+												"_childId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+												"_repeats": "1",
+												"_roundUp": "false"
+											},
+											{
+												"_field": "selections",
+												"_scope": "force",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "true",
+												"_childId": "e888-1504-aa61-95ff",
+												"_repeats": "1",
+												"_roundUp": "false"
+											},
+											{
+												"_field": "selections",
+												"_scope": "force",
+												"_value": "1.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "true",
+												"_childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+												"_repeats": "1",
+												"_roundUp": "false"
+											}
+										]
+									},
+									"_type": "increment",
+									"_field": "ad3b-39d0-127d-22d7",
+									"_value": "1"
+								}
+							},
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true",
+									"_id": "ad3b-39d0-127d-22d7",
+									"_type": "max"
+								}
+							},
+							"_id": "78fe-c642-53cd-02c4",
+							"_name": "Dedicated Transport",
+							"_hidden": "false",
+							"_targetId": "1b66-3f5f-6705-079a",
+							"_primary": "false"
+						},
+						{
+							"_id": "bf38-950d-c2fe-675e",
+							"_name": "Warlord",
+							"_hidden": "true",
+							"_targetId": "ae09-117e-a6fa-316b",
+							"_primary": "false"
+						},
+						{
+							"_id": "40ac-0dab-737b-4ac1",
+							"_name": "Relic Elites",
+							"_hidden": "false",
+							"_targetId": "8d86-9490-0f7d-a5b5",
+							"_primary": "false"
+						},
+						{
+							"_id": "6076-877b-5363-d98e",
+							"_name": "Relic Heavy Support",
+							"_hidden": "false",
+							"_targetId": "6c4c-a416-b8cb-c380",
+							"_primary": "false"
+						}
+					]
+				},
+				"_id": "0383-bad5-390e-4cca",
+				"_name": "Vanguard Detachment",
+				"_hidden": "false"
+			}
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"_id": "52cc-58c5-d85d-6f8d",
+					"_name": "Prosecutors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4e40-4bc6-5bbb-7b98",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5994-9445-8e5b-b14c",
+					"_name": "Null-Maiden Rhino",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d233-0d52-7b70-1fdd",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "49b0-ced5-73bc-d24b",
+					"_name": "Vigilators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7392-e278-494b-8b66",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b669-5c7b-1e8a-e3d1",
+					"_name": "Witchseekers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7ce8-5cff-cc35-753d",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "928f-92a5-9bea-1e0e",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+							"_primary": "true"
+						}
+					},
+					"_id": "1748-828a-22e9-3d53",
+					"_name": "Ephrael Stern and Kyganil of the Bloody Tears",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7dca-e055-7a15-4bf3",
+					"_type": "selectionEntry"
+				}
+			]
+		},
+		"sharedSelectionEntries": {
+			"selectionEntry": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "4e40-4bc6-5bbb-7b98",
+									"_value": "5.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "model",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "increment",
+							"_field": "e356-c769-5920-6e14",
+							"_value": "3"
+						}
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": {
+									"_name": "Description",
+									"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+									"__text": "Each time you select a target for a ranged weapon a model in this unit is making an attack with, you can ignore the Look Out, Sir rule if the target is a PSYKER."
+								}
+							},
+							"_id": "129c-2c6a-a47f-fd78",
+							"_name": "Prosecution Protocols",
+							"_hidden": "false",
+							"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+							"_typeName": "Abilities"
+						}
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "8231-f4e8-3a05-3261",
+								"_name": "New InfoLink",
+								"_hidden": "false",
+								"_targetId": "68d7-b6a1-b037-6183",
+								"_type": "rule"
+							},
+							{
+								"_id": "5b1e-3106-1b7d-7993",
+								"_name": "New InfoLink",
+								"_hidden": "false",
+								"_targetId": "bbdc-1bda-2f32-9369",
+								"_type": "rule"
+							},
+							{
+								"_id": "4efd-4819-8919-1dc4",
+								"_name": "Null Maidens",
+								"_hidden": "false",
+								"_targetId": "1d9b-613f-0500-05ef",
+								"_type": "rule"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "ef5f-c184-738d-6cbc",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+								"_primary": "true"
+							},
+							{
+								"_id": "cd19-1daa-0bcb-8e69",
+								"_name": "Faction: Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "e298-eade-af3c-8832",
+								"_name": "Faction: Astra Telepathica",
+								"_hidden": "false",
+								"_targetId": "be18-af79-8c70-633f",
+								"_primary": "false"
+							},
+							{
+								"_id": "0612-004b-2f9c-47f4",
+								"_name": "Faction: Sisters of Silence",
+								"_hidden": "false",
+								"_targetId": "8bcf-a0bd-54ad-9531",
+								"_primary": "false"
+							},
+							{
+								"_id": "bf5f-fb67-19c7-9038",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "de24-b147-eb9d-f217",
+								"_name": "Prosecutors",
+								"_hidden": "false",
+								"_targetId": "4b0b-94bb-a2de-73d3",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "4.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "18d6-1300-536e-feca",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "9.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "b217-50d6-a479-cd02",
+											"_type": "max"
+										}
+									]
+								},
+								"infoLinks": {
+									"infoLink": {
+										"modifiers": {
+											"modifier": {
+												"_type": "set",
+												"_field": "name",
+												"_value": "Prosecutor"
+											}
+										},
+										"_id": "fa48-82b7-dd6e-11f0",
+										"_name": "Sister",
+										"_hidden": "false",
+										"_targetId": "51d5-499d-ed37-9100",
+										"_type": "profile"
+									}
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "7948-0b4d-2303-f5a0",
+														"_type": "max"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "aa46-94ae-f5c4-9671",
+														"_type": "min"
+													}
+												]
+											},
+											"_id": "2452-60bc-7b05-2639",
+											"_name": "Boltgun",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "ca06-ac13-d02f-6f9a",
+											"_type": "selectionEntry"
+										},
+										{
+											"_id": "747c-48a7-7208-5991",
+											"_name": "Psyk-Out Grenades",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "fde4-9464-39bc-8968",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "12.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "1065-a44d-41ef-61bd",
+								"_name": "Prosecutor",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "f834-4bda-247d-068f",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "703c-df6d-d43e-5576",
+											"_type": "min"
+										}
+									]
+								},
+								"infoLinks": {
+									"infoLink": {
+										"_id": "21dc-f003-bbdc-4a1b",
+										"_name": "New InfoLink",
+										"_hidden": "false",
+										"_targetId": "a3b5-26be-117c-5dfa",
+										"_type": "profile"
+									}
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "d70a-f2d4-8d12-5719",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "1749-7a19-f0b4-76af",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "3410-fcac-4e1f-ae0d",
+											"_name": "New EntryLink",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "b61f-a3c1-827d-c5b6",
+											"_type": "selectionEntry"
+										},
+										{
+											"_id": "86a7-06fa-37b3-d53f",
+											"_name": "Psyk-Out Grenades",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "fde4-9464-39bc-8968",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "12.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "3e04-24a0-dada-2b39",
+								"_name": "Sister Superior",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "358a-e15b-58b5-0a65",
+								"_name": "Battle Honors",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "3145-c26a-8d83-7c86",
+								"_name": "Unit has battle honors?",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "3.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "4e40-4bc6-5bbb-7b98",
+					"_name": "Prosecutors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "At the start of your turn, if this model has lost any wounds, you can roll one D6; on a 6 thism odel regains 1 lost wound."
+									}
+								},
+								"_id": "05fb-55c1-c5d0-2453",
+								"_name": "Self-Repair",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Capacity",
+										"_typeId": "15aa-1916-a38b-d223",
+										"__text": "This model can transport 10 SISTERS OF SILENCE INFANTRY models."
+									}
+								},
+								"_id": "f921-0782-81b7-2577",
+								"_name": "Null-Maiden Rhino",
+								"_publicationId": "a008-1eeb-pubN69744",
+								"_hidden": "false",
+								"_typeId": "b3a8-0452-7436-44d1",
+								"_typeName": "Transport"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "*"
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "6+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "*"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "6"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "7"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "10"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "*"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "8"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "aefb-58d6-c136-217f",
+								"_name": "Null-Maiden Rhino",
+								"_publicationId": "a008-1eeb-pubN69744",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "8e45-c866-b2d4-c9ab",
+											"__text": "6-10"
+										},
+										{
+											"_name": "Characteristic 1",
+											"_typeId": "bf41-c860-50bc-2a7e",
+											"__text": "12\""
+										},
+										{
+											"_name": "Characteristic 2",
+											"_typeId": "dc18-e51f-309b-8efa",
+											"__text": "3+"
+										},
+										{
+											"_name": "Characteristic 3",
+											"_typeId": "df06-8eca-150f-90ba",
+											"__text": "3"
+										}
+									]
+								},
+								"_id": "abc6-7dfe-4533-443f",
+								"_name": "Null-Maiden Rhino 1",
+								"_hidden": "false",
+								"_typeId": "5f4f-ea74-0630-4afe",
+								"_typeName": "Wound Track"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "8e45-c866-b2d4-c9ab",
+											"__text": "3-5"
+										},
+										{
+											"_name": "Characteristic 1",
+											"_typeId": "bf41-c860-50bc-2a7e",
+											"__text": "6\""
+										},
+										{
+											"_name": "Characteristic 2",
+											"_typeId": "dc18-e51f-309b-8efa",
+											"__text": "4+"
+										},
+										{
+											"_name": "Characteristic 3",
+											"_typeId": "df06-8eca-150f-90ba",
+											"__text": "D3"
+										}
+									]
+								},
+								"_id": "02da-e95f-db6f-30c1",
+								"_name": "Null-Maiden Rhino 2",
+								"_hidden": "false",
+								"_typeId": "5f4f-ea74-0630-4afe",
+								"_typeName": "Wound Track"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "8e45-c866-b2d4-c9ab",
+											"__text": "1-2"
+										},
+										{
+											"_name": "Characteristic 1",
+											"_typeId": "bf41-c860-50bc-2a7e",
+											"__text": "3\""
+										},
+										{
+											"_name": "Characteristic 2",
+											"_typeId": "dc18-e51f-309b-8efa",
+											"__text": "5+"
+										},
+										{
+											"_name": "Characteristic 3",
+											"_typeId": "df06-8eca-150f-90ba",
+											"__text": "1"
+										}
+									]
+								},
+								"_id": "7aea-7a1e-3922-8854",
+								"_name": "Null-Maiden Rhino 3",
+								"_hidden": "false",
+								"_typeId": "5f4f-ea74-0630-4afe",
+								"_typeName": "Wound Track"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "When this model is destroyed, roll one D6 before any embarked models disembark, and before removing it from play. On a 6 it expldes, and each unit within 6\" suffers D3 mortal wounds."
+									}
+								},
+								"_id": "f9c7-234a-b561-566d",
+								"_name": "Explodes",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "8e45-c866-b2d4-c9ab",
+											"__text": "-"
+										},
+										{
+											"_name": "Characteristic 1",
+											"_typeId": "bf41-c860-50bc-2a7e",
+											"__text": "M"
+										},
+										{
+											"_name": "Characteristic 2",
+											"_typeId": "dc18-e51f-309b-8efa",
+											"__text": "BS"
+										},
+										{
+											"_name": "Characteristic 3",
+											"_typeId": "df06-8eca-150f-90ba",
+											"__text": "A"
+										}
+									]
+								},
+								"_id": "63fb-58b0-fe2f-859d",
+								"_name": "Null-Maiden Rhino",
+								"_hidden": "false",
+								"_typeId": "5f4f-ea74-0630-4afe",
+								"_typeName": "Wound Track"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "bf81-be82-621d-6b5e",
+								"_name": "Smoke Launchers",
+								"_hidden": "false",
+								"_targetId": "c883-3078-1367-cc2c",
+								"_type": "profile"
+							},
+							{
+								"_id": "63eb-464f-73b0-b1b0",
+								"_name": "Null Maidens",
+								"_hidden": "false",
+								"_targetId": "1d9b-613f-0500-05ef",
+								"_type": "rule"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "8609-90d5-c659-e642",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1b66-3f5f-6705-079a",
+							"_primary": "true"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "a58c-7157-6cb1-1496",
+								"_name": "Battle Honors",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "8f4e-78a1-a877-65fc",
+								"_name": "Has Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"_type": "set",
+										"_field": "points",
+										"_value": "0.0"
+									}
+								},
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "71aa-a020-70eb-f7f1",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "0d2f-2483-f5ee-63c5",
+											"_type": "max"
+										}
+									]
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "2.0"
+									}
+								},
+								"_id": "6960-b276-92d2-fa7e",
+								"_name": "Storm bolter",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "2b03-8d64-3711-f300",
+								"_type": "selectionEntry"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"_type": "set",
+										"_field": "points",
+										"_value": "5.0"
+									}
+								},
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "5597-4d2b-05e5-25bd",
+										"_type": "max"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "6.0"
+									}
+								},
+								"_id": "c8e8-860a-79b5-ce62",
+								"_name": "Hunter-killer missile",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "32bf-b117-4ecf-5165",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "75.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "3.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "d233-0d52-7b70-1fdd",
+					"_name": "Null-Maiden Rhino",
+					"_page": "0",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "7392-e278-494b-8b66",
+									"_value": "5.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "model",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "increment",
+							"_field": "e356-c769-5920-6e14",
+							"_value": "4"
+						}
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "a9ef-ca40-f4eb-ad2b",
+								"_name": "New InfoLink",
+								"_hidden": "false",
+								"_targetId": "68d7-b6a1-b037-6183",
+								"_type": "rule"
+							},
+							{
+								"_id": "43b1-e243-98ca-7093",
+								"_name": "Witch Hunters",
+								"_hidden": "false",
+								"_targetId": "bbdc-1bda-2f32-9369",
+								"_type": "rule"
+							},
+							{
+								"_id": "cfc7-8eef-2914-1b37",
+								"_name": "Null Maidens",
+								"_hidden": "false",
+								"_targetId": "1d9b-613f-0500-05ef",
+								"_type": "rule"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "8173-a712-8432-022a",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+								"_primary": "true"
+							},
+							{
+								"_id": "7f8e-db7f-fcc8-bb04",
+								"_name": "Faction: Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "1244-399e-7e66-5478",
+								"_name": "Faction: Astra Telepathica",
+								"_hidden": "false",
+								"_targetId": "be18-af79-8c70-633f",
+								"_primary": "false"
+							},
+							{
+								"_id": "e18b-c0c9-82aa-9c82",
+								"_name": "Faction: Sisters of Silence",
+								"_hidden": "false",
+								"_targetId": "8bcf-a0bd-54ad-9531",
+								"_primary": "false"
+							},
+							{
+								"_id": "a49b-56ba-2ae5-bf53",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "968b-abb4-551d-7635",
+								"_name": "Vigilators",
+								"_hidden": "false",
+								"_targetId": "dd65-0ed5-6aa3-0f9f",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "4.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "6418-960c-2693-069c",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "9.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "751c-4047-a63b-2227",
+											"_type": "max"
+										}
+									]
+								},
+								"infoLinks": {
+									"infoLink": {
+										"modifiers": {
+											"modifier": {
+												"_type": "set",
+												"_field": "name",
+												"_value": "Vigilator"
+											}
+										},
+										"_id": "30c4-06e9-85d1-de05",
+										"_name": "New InfoLink",
+										"_hidden": "false",
+										"_targetId": "51d5-499d-ed37-9100",
+										"_type": "profile"
+									}
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"_id": "a01b-fe50-2ea7-8ff0",
+											"_name": "Executioner Greatblade",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "c519-ed06-1c3c-02a9",
+											"_type": "selectionEntry"
+										},
+										{
+											"_id": "dee7-debe-95c4-0f03",
+											"_name": "Psyk-Out Grenades",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "fde4-9464-39bc-8968",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "17.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "8cb6-d8a7-f681-40c5",
+								"_name": "Vigilator",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "59b1-575c-7024-00bd",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "9488-fcf4-e233-62a3",
+											"_type": "min"
+										}
+									]
+								},
+								"infoLinks": {
+									"infoLink": {
+										"_id": "de36-cffd-bdd5-61e3",
+										"_name": "New InfoLink",
+										"_hidden": "false",
+										"_targetId": "a3b5-26be-117c-5dfa",
+										"_type": "profile"
+									}
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"_id": "384c-f7a5-a60e-8097",
+											"_name": "Psyk-Out Grenades",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "fde4-9464-39bc-8968",
+											"_type": "selectionEntry"
+										},
+										{
+											"_id": "f074-3e42-9ad7-12da",
+											"_name": "Executioner Greatblade",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "c519-ed06-1c3c-02a9",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "17.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "6aab-d9a0-000f-7a21",
+								"_name": "Sister Superior",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "221e-871c-7381-94b9",
+								"_name": "Battle Honors",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "7c9b-f6a6-21aa-442e",
+								"_name": "Unit has battle honors?",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "4.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "7392-e278-494b-8b66",
+					"_name": "Vigilators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "7ce8-5cff-cc35-753d",
+									"_value": "5.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "model",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "increment",
+							"_field": "e356-c769-5920-6e14",
+							"_value": "5"
+						}
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "7154-c494-e849-3c4a",
+								"_name": "New InfoLink",
+								"_hidden": "false",
+								"_targetId": "68d7-b6a1-b037-6183",
+								"_type": "rule"
+							},
+							{
+								"_id": "8bf8-9b25-8580-5684",
+								"_name": "New InfoLink",
+								"_hidden": "false",
+								"_targetId": "bbdc-1bda-2f32-9369",
+								"_type": "rule"
+							},
+							{
+								"_id": "247b-24eb-ee54-e430",
+								"_name": "Null Maidens",
+								"_hidden": "false",
+								"_targetId": "1d9b-613f-0500-05ef",
+								"_type": "rule"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "77d1-ed79-e6f0-7ab3",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+								"_primary": "true"
+							},
+							{
+								"_id": "2f3f-d90e-71d4-730a",
+								"_name": "Faction: Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "cc6b-2cf8-1586-10da",
+								"_name": "Faction: Astra Telepathica",
+								"_hidden": "false",
+								"_targetId": "be18-af79-8c70-633f",
+								"_primary": "false"
+							},
+							{
+								"_id": "7feb-7204-0ca0-e902",
+								"_name": "Faction: Sisters of Silence",
+								"_hidden": "false",
+								"_targetId": "8bcf-a0bd-54ad-9531",
+								"_primary": "false"
+							},
+							{
+								"_id": "7532-7036-fef0-66a9",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "8ab5-9c2c-64d3-c8e1",
+								"_name": "Witchseekers",
+								"_hidden": "false",
+								"_targetId": "8f2a-01c6-005f-1866",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "4.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "6306-760e-6eb6-0346",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "9.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "d572-2ad4-65cc-5b10",
+											"_type": "max"
+										}
+									]
+								},
+								"infoLinks": {
+									"infoLink": {
+										"modifiers": {
+											"modifier": {
+												"_type": "set",
+												"_field": "name",
+												"_value": "Witchseeker"
+											}
+										},
+										"_id": "c6c1-2908-cd3f-59fe",
+										"_name": "New InfoLink",
+										"_hidden": "false",
+										"_targetId": "51d5-499d-ed37-9100",
+										"_type": "profile"
+									}
+								},
+								"selectionEntries": {
+									"selectionEntry": {
+										"constraints": {
+											"constraint": [
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "4881-b4df-ce6c-2809",
+													"_type": "max"
+												},
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "8f34-a41d-f406-1ff8",
+													"_type": "min"
+												}
+											]
+										},
+										"infoLinks": {
+											"infoLink": {
+												"_id": "2751-8119-8a3c-edea",
+												"_name": "Flamer",
+												"_hidden": "false",
+												"_targetId": "cdc3-3459-a28c-a9cf",
+												"_type": "profile"
+											}
+										},
+										"costs": {
+											"cost": [
+												{
+													"_name": " PL",
+													"_typeId": "e356-c769-5920-6e14",
+													"_value": "0.0"
+												},
+												{
+													"_name": "CP",
+													"_typeId": "2d3b-b544-ad49-fb75",
+													"_value": "0.0"
+												},
+												{
+													"_name": "pts",
+													"_typeId": "points",
+													"_value": "0.0"
+												}
+											]
+										},
+										"_id": "b7aa-8e4f-cccd-b749",
+										"_name": "Flamer",
+										"_hidden": "false",
+										"_collective": "true",
+										"_import": "true",
+										"_type": "upgrade"
+									}
+								},
+								"entryLinks": {
+									"entryLink": {
+										"_id": "715f-85ad-1b89-8cb5",
+										"_name": "Psyk-Out Grenades",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "fde4-9464-39bc-8968",
+										"_type": "selectionEntry"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "18.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "7f87-2fb3-f4d7-56b5",
+								"_name": "Witchseeker",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "false",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "88ad-b081-e382-f584",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "6349-726e-b229-0932",
+											"_type": "min"
+										}
+									]
+								},
+								"infoLinks": {
+									"infoLink": {
+										"_id": "9c2f-bde9-a28b-2e44",
+										"_name": "New InfoLink",
+										"_hidden": "false",
+										"_targetId": "a3b5-26be-117c-5dfa",
+										"_type": "profile"
+									}
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"_id": "91da-92ad-d0e8-033a",
+											"_name": "Psyk-Out Grenades",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "fde4-9464-39bc-8968",
+											"_type": "selectionEntry"
+										},
+										{
+											"modifiers": {
+												"modifier": {
+													"_type": "set",
+													"_field": "points",
+													"_value": "0.0"
+												}
+											},
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "7603-5de5-91fe-2fb3",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "700c-dcde-9222-ec5f",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "f3cd-47ae-169f-cfe8",
+											"_name": "Flamer",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "fd22-6743-2d4c-dd62",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "18.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "5b1d-9fd8-9be9-5722",
+								"_name": "Sister Superior",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "c156-42fb-557a-18b5",
+								"_name": "Battle Honors",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "2505-c214-95dd-85ab",
+								"_name": "Unit has battle honors?",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "5.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "7ce8-5cff-cc35-753d",
+					"_name": "Witchseekers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "7f5e-9ffd-6488-6413",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "221b-7f1c-60ca-9a88",
+								"_type": "min"
+							}
+						]
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "6\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Grenade D3"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "2"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "0"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "1"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "When resolving an attack made with this weapon against a PSYKER or DAEMON unit, a hit roll of 6+ inflicts a mortal wound on the target and the attack sequence ends."
+									}
+								]
+							},
+							"_id": "09ef-b060-3351-ab33",
+							"_name": "Psyk-Out Grenades",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "fde4-9464-39bc-8968",
+					"_name": "Psyk-Out Grenades",
+					"_hidden": "false",
+					"_collective": "true",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "a68f-050e-2ffa-6a9c",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "5efc-2dc2-0ea2-3421",
+								"_type": "min"
+							},
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "c5f9-28f5-6ff7-f920",
+								"_type": "min"
+							},
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "2774-af5a-b54b-7db8",
+								"_type": "max"
+							}
+						]
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "Melee"
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Melee"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "+1"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "D3"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410"
+									}
+								]
+							},
+							"_id": "2858-51c2-08df-5584",
+							"_name": "Executioner Greatblade",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "c519-ed06-1c3c-02a9",
+					"_name": "Executioner Greatblade",
+					"_hidden": "false",
+					"_collective": "true",
+					"_import": "true",
+					"_type": "upgrade"
+				}
+			]
+		},
+		"sharedRules": {
+			"rule": [
+				{
+					"description": "When resolving an attack made by a model in this unit against a PSYKER unit, you can re-roll the wound roll.",
+					"_id": "bbdc-1bda-2f32-9369",
+					"_name": "Witch Hunters",
+					"_hidden": "false"
+				},
+				{
+					"description": "This unit cannot be targeted or affected by psychic powers. When a Psychic test or a Deny the Witch test is taken for an enemy model, subtract 1 from the total for each unit from your army with this ability within 18\" of that model (to a maximum of -4).",
+					"_id": "68d7-b6a1-b037-6183",
+					"_name": "Psychic Abomination",
+					"_hidden": "false"
+				},
+				{
+					"description": "If you have an IMPERIUM Warlord (excluding a FALLEN warlord), you can include this unit in a Vanguard Detachment. If you do so, that Detachment's HQ requirements are changed to 0-2 and its Command Benefits are changed to \"None\".",
+					"_id": "1d9b-613f-0500-05ef",
+					"_name": "Null Maidens",
+					"_page": "",
+					"_hidden": "false"
+				}
+			]
+		},
+		"sharedProfiles": {
+			"profile": [
+				{
+					"characteristics": {
+						"characteristic": [
+							{
+								"_name": "M",
+								"_typeId": "0bdf-a96e-9e38-7779",
+								"__text": "7\""
+							},
+							{
+								"_name": "WS",
+								"_typeId": "e7f0-1278-0250-df0c",
+								"__text": "3+"
+							},
+							{
+								"_name": "BS",
+								"_typeId": "381b-eb28-74c3-df5f",
+								"__text": "3+"
+							},
+							{
+								"_name": "S",
+								"_typeId": "2218-aa3c-265f-2939",
+								"__text": "3"
+							},
+							{
+								"_name": "T",
+								"_typeId": "9c9f-9774-a358-3a39",
+								"__text": "3"
+							},
+							{
+								"_name": "W",
+								"_typeId": "f330-5e6e-4110-0978",
+								"__text": "1"
+							},
+							{
+								"_name": "A",
+								"_typeId": "13fc-b29b-31f2-ab9f",
+								"__text": "2"
+							},
+							{
+								"_name": "Ld",
+								"_typeId": "00ca-f8b8-876d-b705",
+								"__text": "8"
+							},
+							{
+								"_name": "Save",
+								"_typeId": "c0df-df94-abd7-e8d3",
+								"__text": "3+"
+							}
+						]
+					},
+					"_id": "51d5-499d-ed37-9100",
+					"_name": "Sister",
+					"_hidden": "false",
+					"_typeId": "800f-21d0-4387-c943",
+					"_typeName": "Unit"
+				},
+				{
+					"characteristics": {
+						"characteristic": [
+							{
+								"_name": "M",
+								"_typeId": "0bdf-a96e-9e38-7779",
+								"__text": "7\""
+							},
+							{
+								"_name": "WS",
+								"_typeId": "e7f0-1278-0250-df0c",
+								"__text": "3+"
+							},
+							{
+								"_name": "BS",
+								"_typeId": "381b-eb28-74c3-df5f",
+								"__text": "3+"
+							},
+							{
+								"_name": "S",
+								"_typeId": "2218-aa3c-265f-2939",
+								"__text": "3"
+							},
+							{
+								"_name": "T",
+								"_typeId": "9c9f-9774-a358-3a39",
+								"__text": "3"
+							},
+							{
+								"_name": "W",
+								"_typeId": "f330-5e6e-4110-0978",
+								"__text": "1"
+							},
+							{
+								"_name": "A",
+								"_typeId": "13fc-b29b-31f2-ab9f",
+								"__text": "3"
+							},
+							{
+								"_name": "Ld",
+								"_typeId": "00ca-f8b8-876d-b705",
+								"__text": "9"
+							},
+							{
+								"_name": "Save",
+								"_typeId": "c0df-df94-abd7-e8d3",
+								"__text": "3+"
+							}
+						]
+					},
+					"_id": "a3b5-26be-117c-5dfa",
+					"_name": "Sister Superior",
+					"_hidden": "false",
+					"_typeId": "800f-21d0-4387-c943",
+					"_typeName": "Unit"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": {
+				"_id": "0748-53c2-7a8b-f6fc",
+				"_name": "Imperium - Inquisition",
+				"_targetId": "e373-3c0a-1185-46ea",
+				"_type": "catalogue",
+				"_importRootEntries": "true"
+			}
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "a008-1eeb-8c4e-96b7",
+		"_name": "Imperium - Sisters of Silence",
+		"_revision": "17",
+		"_battleScribeVersion": "2.03",
+		"_authorName": "BSData Developers",
+		"_authorContact": "Discord: @Alphalas | Twitter: @_alphalas",
+		"_authorUrl": "https://discord.gg/KqPVhds",
+		"_library": "false",
+		"_gameSystemId": "28ec-711c-d87f-3aeb",
+		"_gameSystemRevision": "143"
+	}
+}

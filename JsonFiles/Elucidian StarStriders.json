@@ -1,0 +1,3277 @@
+﻿{
+	"catalogue": {
+		"publications": {
+			"publication": {
+				"_id": "b619-ccba-pubN66040",
+				"_name": "Codex: Elucidian Starstriders"
+			}
+		},
+		"categoryEntries": {
+			"categoryEntry": [
+				{
+					"_id": "286c-17a6-c298-88b5",
+					"_name": "Faction: Elucidian Starstriders",
+					"_hidden": "false"
+				},
+				{
+					"_id": "aa3d-a05c-a35a-bfe9",
+					"_name": "Voidsmen-at-Arms",
+					"_hidden": "false"
+				},
+				{
+					"_id": "4d44-2a53-2c16-cca5",
+					"_name": "Adeptus Mechanicus",
+					"_hidden": "false"
+				},
+				{
+					"_id": "700b-df23-f39b-e8b0",
+					"_name": "Mars",
+					"_hidden": "false"
+				},
+				{
+					"_id": "7df3-2edc-c726-41b6",
+					"_name": "Tech-Priest",
+					"_hidden": "false"
+				},
+				{
+					"_id": "f457-0a02-0a09-3dc3",
+					"_name": "Lectro-Maester",
+					"_hidden": "false"
+				},
+				{
+					"_id": "92d4-90c4-6ab7-3fa0",
+					"_name": "Rogue Trader",
+					"_hidden": "false"
+				},
+				{
+					"_id": "6fa0-fde1-94a1-880c",
+					"_name": "Faction: Astra Cartographica",
+					"_hidden": "false"
+				},
+				{
+					"_id": "1ed0-1ca9-8c59-0acd",
+					"_name": "Rejuvenat Adept",
+					"_hidden": "false"
+				},
+				{
+					"_id": "e1cf-c1a7-d518-4685",
+					"_name": "Adeptus Ministorum",
+					"_hidden": "false"
+				},
+				{
+					"_id": "8e86-de74-2b56-27fa",
+					"_name": "Death Cult Executioner",
+					"_hidden": "false"
+				}
+			]
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "33af-0728-d3ae-e793",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+							"_primary": "true"
+						}
+					},
+					"_id": "ace2-bf11-81ad-541b",
+					"_name": "Nitsch's Squad",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "bbfa-3999-2731-1c30",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "144c-d477-c6ac-a7f1",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+							"_primary": "true"
+						}
+					},
+					"_id": "7ad3-d4ce-96f4-0535",
+					"_name": "Elucia Vhane",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "399e-3014-2283-8196",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "49a1-9654-f29c-5f73",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+							"_primary": "true"
+						}
+					},
+					"_id": "8344-4711-793c-f6ae",
+					"_name": "Larsen van der Grauss",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fff8-6f8f-0b1a-c3f9",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true",
+									"_childId": "399e-3014-2283-8196",
+									"_type": "atLeast"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "a069-bd87-a973-9b47",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+							"_primary": "true"
+						}
+					},
+					"_id": "a7fe-ceb1-52bb-f240",
+					"_name": "Sanistasia Minst",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7286-f2e2-422c-c2ef",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "b0a1-41dc-364a-272b",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+							"_primary": "true"
+						}
+					},
+					"_id": "506b-3d3c-4a00-4869",
+					"_name": "Knosso Prond",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "99e1-4638-0d70-0391",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true",
+									"_childId": "399e-3014-2283-8196",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "7b33-d8fc-ede3-df6e",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+							"_primary": "true"
+						}
+					},
+					"_id": "89a4-bcb2-dd94-7321",
+					"_name": "Sanistasia Minst",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7286-f2e2-422c-c2ef",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "bceb-2fd8-bd33-6304",
+					"_name": "Operative Requisition Sanctioned",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0b7d-bfe1-b63e-ecb6",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "bb68-4378-94e0-6819",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+							"_primary": "true"
+						}
+					},
+					"_id": "bc86-b96d-8ef7-9dd3",
+					"_name": "Ephrael Stern and Kyganil of the Bloody Tears",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7dca-e055-7a15-4bf3",
+					"_type": "selectionEntry"
+				}
+			]
+		},
+		"sharedSelectionEntries": {
+			"selectionEntry": [
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "true",
+							"_id": "9de4-e293-8192-3fce",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "399e-3014-2283-8196",
+												"_value": "0.0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "6217-33f6-b8f0-f1fa",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "hidden",
+										"_value": "true"
+									}
+								},
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "If your army is Battle-forged you receive 3 additional Command Points. These can only be spent to use Elucidian Starstriders Stratagems."
+									}
+								},
+								"_id": "2733-95db-1145-ce95",
+								"_name": "Explorator Fleetmaster",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "7",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "6\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "3+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "3+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "3"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "3"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "4"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "3"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "9"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "55be-3068-456b-380f",
+								"_name": "Elucia Vhane",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "9",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Once per battle, at the start of the Fight phase, pick an enemy model within 1\" of Elucia Vhane and roll a dice; on a 4+ that model's unit suffers D3 mortal wounds."
+									}
+								},
+								"_id": "6521-def5-4978-19e7",
+								"_name": "Concealed Archeotech Weapon",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "9",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Elucia Vhane has a 4+ invulnerable save."
+									}
+								},
+								"_id": "26d6-2302-08cc-c147",
+								"_name": "Disruption Field Generator",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "9",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Re-roll hit rolls of 1 made for attacks by friendly ELUCIDIAN STARSTRIDERS units within 6\" of Elucia Vhane."
+									}
+								},
+								"_id": "4ca2-216b-58e9-8e3f",
+								"_name": "Multi-Spectral Auspicator",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "9",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "9fd9-ac9b-1d6b-99c3",
+							"_name": "Warrant of Trade",
+							"_hidden": "false",
+							"_targetId": "3277-45f7-c674-bd66",
+							"_type": "profile"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "89d3-c9a1-f8f1-6984",
+								"_name": "Character",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "6b79-7619-8d5e-1f02",
+								"_name": "Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "8f3f-30d8-1f46-e9c9",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "0395-cdc9-cff1-8893",
+								"_name": "Faction: Elucidian Starstriders",
+								"_hidden": "false",
+								"_targetId": "286c-17a6-c298-88b5",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "03d5-d231-4798-5c97",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "c566-dd56-4c2a-7154",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Melee"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "User"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-4"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "-"
+												}
+											]
+										},
+										"_id": "e0ca-d005-0745-ff1c",
+										"_name": "Monomolecular Cane-rapier",
+										"_publicationId": "b619-ccba-pubN66040",
+										"_page": "9",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "57d2-bd0f-8bce-494b",
+								"_name": "Monomolecular Cane-rapier",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "193f-1e51-1ce4-0f06",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "ad7b-a708-50fe-0841",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "12\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Pistol 1"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "4"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-2"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "2"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "-"
+												}
+											]
+										},
+										"_id": "469e-8f05-3da5-37d9",
+										"_name": "Heirloom Pistol",
+										"_publicationId": "b619-ccba-pubN66040",
+										"_page": "9",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "ad15-4299-a12e-a1c6",
+								"_name": "Heirloom Pistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "5150-ad70-4678-15e3",
+								"_name": "Warlord",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "6217-33f6-b8f0-f1fa",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "92b1-900b-e7c8-71d5",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "6b1d-b324-ad6d-1074",
+											"_type": "max"
+										}
+									]
+								},
+								"_id": "2809-35cc-66a4-91d8",
+								"_name": "Concussion Grenades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c8df-57df-b18e-397d",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "50.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "4.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "399e-3014-2283-8196",
+					"_name": "Elucia Vhane",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "true",
+							"_id": "90d3-ed4e-b4ea-722b",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "7\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "3+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "4+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "4"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "3"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "2"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "4"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "8"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "5+"
+										}
+									]
+								},
+								"_id": "f505-6fcc-2824-e171",
+								"_name": "Knosso Prond",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "19",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "This model has a 5+ invulnerable save."
+									}
+								},
+								"_id": "8650-012e-58b4-c564",
+								"_name": "Uncanny Reflexes",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "19",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "You can re-roll failed hit rolls for this model in a turn in which it charged, made a Heroic Intervention, or was charged by an enemy unit."
+									}
+								},
+								"_id": "0d57-a103-40ed-20e1",
+								"_name": "Zealot",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "19",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "d9a5-9f17-02bc-ec94",
+								"_name": "Rogue Trader Retinue",
+								"_hidden": "false",
+								"_targetId": "3964-9765-7208-059f",
+								"_type": "profile"
+							},
+							{
+								"_id": "9a60-9ad9-1d19-66c9",
+								"_name": "Warrant of Trade",
+								"_hidden": "false",
+								"_targetId": "3277-45f7-c674-bd66",
+								"_type": "profile"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "29c0-f9e9-2d67-84f2",
+								"_name": "Character",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "fcca-4d97-beba-b417",
+								"_name": "Faction: Elucidian Starstriders",
+								"_hidden": "false",
+								"_targetId": "286c-17a6-c298-88b5",
+								"_primary": "false"
+							},
+							{
+								"_id": "9ada-5bc8-ba90-6d9a",
+								"_name": "Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "0bc4-2f4a-363c-54dc",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "2207-df06-69d6-550f",
+								"_name": "Adeptus Ministorum",
+								"_hidden": "false",
+								"_targetId": "e1cf-c1a7-d518-4685",
+								"_primary": "false"
+							},
+							{
+								"_id": "ec08-f3d0-529e-7c98",
+								"_name": "Death Cult Executioner",
+								"_hidden": "false",
+								"_targetId": "8e86-de74-2b56-27fa",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "42d2-eb64-1893-aef4",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "7a8c-ed90-b7ba-0614",
+											"_type": "min"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "9\""
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Pistol 1"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "1"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-1"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "This weapon always wounds on the roll of a 2+, unless the target is a VEHICLE or TITANIC unit."
+												}
+											]
+										},
+										"_id": "9300-f17f-e5a3-723c",
+										"_name": "Dartmask",
+										"_publicationId": "b619-ccba-pubN66040",
+										"_page": "19",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "c2d4-a874-3ca0-25d6",
+								"_name": "Dartmask",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "eab5-8a54-992b-532f",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "cd79-538e-6ba1-417b",
+											"_type": "min"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Range",
+													"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Type",
+													"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+													"__text": "Melee"
+												},
+												{
+													"_name": "S",
+													"_typeId": "59b1-319e-ec13-d466",
+													"__text": "User"
+												},
+												{
+													"_name": "AP",
+													"_typeId": "75aa-a838-b675-6484",
+													"__text": "-2"
+												},
+												{
+													"_name": "D",
+													"_typeId": "ae8a-3137-d65b-4ca7",
+													"__text": "1"
+												},
+												{
+													"_name": "Abilities",
+													"_typeId": "837d-5e63-aeb7-1410",
+													"__text": "-"
+												}
+											]
+										},
+										"_id": "73e5-c467-3ddc-f745",
+										"_name": "Death Cult Power Blade",
+										"_publicationId": "b619-ccba-pubN66040",
+										"_page": "19",
+										"_hidden": "false",
+										"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "2b1f-3168-ca74-b55a",
+								"_name": "Death Cult Power Blade",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "677b-c370-1763-9c6b",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "7388-d267-1f76-430c",
+											"_type": "max"
+										}
+									]
+								},
+								"_id": "c850-ada3-a294-2076",
+								"_name": "Concussion Grenades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c8df-57df-b18e-397d",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "6bda-b3ae-79d8-e894",
+								"_name": "Warlord",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "6217-33f6-b8f0-f1fa",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "a765-bbe7-954f-e8e1",
+								"_name": "Warlord Traits",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "e935-78b4-b59a-7e9c",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "28.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "3.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "99e1-4638-0d70-0391",
+					"_name": "Knosso Prond",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "true",
+							"_id": "9b34-870c-9dbf-c24b",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "6\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "4+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "4+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "3"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "3"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "2"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "2"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "8"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "bb56-e97b-4bdd-2e86",
+								"_name": "Larsen van der Grauss",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "15",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Friendly ELUCIDIAN STARSTRIDERS units wholly within 6\" of this model have a 5+ invulnerable save."
+									}
+								},
+								"_id": "38f0-0269-5b4e-c199",
+								"_name": "Voltageist Array",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "15",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "4382-7d92-a2dd-b241",
+								"_name": "Rogue Trader Retinue",
+								"_hidden": "false",
+								"_targetId": "3964-9765-7208-059f",
+								"_type": "profile"
+							},
+							{
+								"_id": "189e-9d51-7252-6dfa",
+								"_name": "Warrant of Trade",
+								"_hidden": "false",
+								"_targetId": "3277-45f7-c674-bd66",
+								"_type": "profile"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "87af-a797-0af5-c1d1",
+								"_name": "Faction: Elucidian Starstriders",
+								"_hidden": "false",
+								"_targetId": "286c-17a6-c298-88b5",
+								"_primary": "false"
+							},
+							{
+								"_id": "a805-1236-c31e-137e",
+								"_name": "Character",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "1d65-65ea-1074-5329",
+								"_name": "Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "1cf9-7645-72da-03e3",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "0156-9806-0a44-f175",
+								"_name": "Adeptus Mechanicus",
+								"_hidden": "false",
+								"_targetId": "4d44-2a53-2c16-cca5",
+								"_primary": "false"
+							},
+							{
+								"_id": "b288-22a7-8cc9-99ba",
+								"_name": "Lectro-Maester",
+								"_hidden": "false",
+								"_targetId": "f457-0a02-0a09-3dc3",
+								"_primary": "false"
+							},
+							{
+								"_id": "2207-7a63-901c-f29a",
+								"_name": "Mars",
+								"_hidden": "false",
+								"_targetId": "700b-df23-f39b-e8b0",
+								"_primary": "false"
+							},
+							{
+								"_id": "0ad5-f721-f9d1-23b7",
+								"_name": "Tech-Priest",
+								"_hidden": "false",
+								"_targetId": "7df3-2edc-c726-41b6",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": {
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "13a8-59f2-73a9-19a5",
+										"_type": "min"
+									},
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "f223-4900-5149-eb18",
+										"_type": "max"
+									}
+								]
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Range",
+												"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+												"__text": "12\""
+											},
+											{
+												"_name": "Type",
+												"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+												"__text": "Pistol 1"
+											},
+											{
+												"_name": "S",
+												"_typeId": "59b1-319e-ec13-d466",
+												"__text": "5"
+											},
+											{
+												"_name": "AP",
+												"_typeId": "75aa-a838-b675-6484",
+												"__text": "0"
+											},
+											{
+												"_name": "D",
+												"_typeId": "ae8a-3137-d65b-4ca7",
+												"__text": "1"
+											},
+											{
+												"_name": "Abilities",
+												"_typeId": "837d-5e63-aeb7-1410",
+												"__text": "Each unmodified ht roll of 6 for an attack with this weapon scores 3 hits."
+											}
+										]
+									},
+									"_id": "1dd5-5a1b-f293-ff63",
+									"_name": "Voltaic Pistol",
+									"_hidden": "false",
+									"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+									"_typeName": "Weapon"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "56d0-6e40-7cf5-eac8",
+							"_name": "Voltaic Pistol",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "b7eb-d5e7-abe0-6af0",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "cc00-4089-cab8-f23a",
+											"_type": "max"
+										}
+									]
+								},
+								"_id": "9b4d-7c10-0aa5-e14b",
+								"_name": "Concussion Grenades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c8df-57df-b18e-397d",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "f378-21d6-17e6-eb2e",
+								"_name": "Warlord",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "6217-33f6-b8f0-f1fa",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "9371-e341-e32b-0613",
+								"_name": "Warlord Traits",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "e935-78b4-b59a-7e9c",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "25.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "4.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "fff8-6f8f-0b1a-c3f9",
+					"_name": "Larsen van der Grauss",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "true",
+							"_id": "1d43-638b-ef5f-389c",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "6\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "4+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "4+"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "3"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "3"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "2"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "2"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "7"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "5+"
+										}
+									]
+								},
+								"_id": "3e87-7779-67f1-97d3",
+								"_name": "Sanistasia Minst",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "17",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Sanistasia Minst does not take up a slot in a detachment that includes ELUCIA VHANE."
+									}
+								},
+								"_id": "4c06-9d17-335d-c9ef",
+								"_name": "Constant Companion",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "17",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "At the end of each Movemnt phase, this model can attempt to heal a single friendly ELUCIDIAN STARSTRIDERS INFANTRY unit within 3\". If it does so, roll a D6; on a 4+ one model from the unit regains 1 lost wound. If the unit is NITSCH'S SQUAD, one model slain earlier in the battle is returned to the unit instead."
+									}
+								},
+								"_id": "1028-a692-e050-111d",
+								"_name": "Healing Serum",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "17",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "a3cf-18e0-e3a6-f692",
+								"_name": "Warrant of Trade",
+								"_hidden": "false",
+								"_targetId": "3277-45f7-c674-bd66",
+								"_type": "profile"
+							},
+							{
+								"_id": "05f9-f60b-1d68-5b88",
+								"_name": "Rogue Trader Retinue",
+								"_hidden": "false",
+								"_targetId": "3964-9765-7208-059f",
+								"_type": "profile"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "5737-bee1-d3e1-ee67",
+								"_name": "Character",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "62db-55ef-0983-2d9c",
+								"_name": "Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "b317-94c5-db5e-0cd4",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "72fc-2e37-a0ec-25c4",
+								"_name": "Faction: Elucidian Starstriders",
+								"_hidden": "false",
+								"_targetId": "286c-17a6-c298-88b5",
+								"_primary": "false"
+							},
+							{
+								"_id": "8e5b-0e59-4504-0f8f",
+								"_name": "Rejuvenat Adept",
+								"_hidden": "false",
+								"_targetId": "1ed0-1ca9-8c59-0acd",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": {
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "b456-70a3-54f4-228e",
+										"_type": "min"
+									},
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1.0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "c915-8dc2-47b6-00b7",
+										"_type": "max"
+									}
+								]
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Range",
+												"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+												"__text": "Melee"
+											},
+											{
+												"_name": "Type",
+												"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+												"__text": "Melee"
+											},
+											{
+												"_name": "S",
+												"_typeId": "59b1-319e-ec13-d466",
+												"__text": "User"
+											},
+											{
+												"_name": "AP",
+												"_typeId": "75aa-a838-b675-6484",
+												"__text": "-1"
+											},
+											{
+												"_name": "D",
+												"_typeId": "ae8a-3137-d65b-4ca7",
+												"__text": "1"
+											},
+											{
+												"_name": "Abilities",
+												"_typeId": "837d-5e63-aeb7-1410",
+												"__text": "-"
+											}
+										]
+									},
+									"_id": "9b30-0b46-a5d7-a094",
+									"_name": "Scalpel Claw",
+									"_publicationId": "b619-ccba-pubN66040",
+									"_page": "17",
+									"_hidden": "false",
+									"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+									"_typeName": "Weapon"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "a0ce-d3d1-3536-8db1",
+							"_name": "Scalpel Claw",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "3bf5-ba65-48ed-6592",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "2ffb-a9bd-08c2-2f3d",
+											"_type": "max"
+										}
+									]
+								},
+								"_id": "64e0-1e9d-a0fb-f560",
+								"_name": "Concussion Grenades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c8df-57df-b18e-397d",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "5b1f-8e83-9982-c06f",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "c27d-92d0-658f-d5e9",
+											"_type": "max"
+										}
+									]
+								},
+								"_id": "34d8-cb97-76fc-e7fd",
+								"_name": "Laspistol",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "b6d8-94a9-9017-cc3c",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "aa47-c088-32c5-c001",
+								"_name": "Warlord",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "6217-33f6-b8f0-f1fa",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "0fd9-fe38-c52c-4fff",
+								"_name": "Warlord Traits",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "e935-78b4-b59a-7e9c",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "20.0"
+							},
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "1.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "7286-f2e2-422c-c2ef",
+					"_name": "Sanistasia Minst",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "true",
+							"_id": "1ff4-22b9-1594-6b23",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "Add 1 to the Leadership characteristic of models in this unit whilst it is wholly within 6\" of ELUCIA VHANE."
+									}
+								},
+								"_id": "f525-0db8-163a-fe97",
+								"_name": "Loyal Retainers",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "12",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "The death of Aximillion is ignored for the purposes of Morale tests."
+									}
+								},
+								"_id": "1864-b1bf-954b-3945",
+								"_name": "Aximillion",
+								"_publicationId": "b619-ccba-pubN66040",
+								"_page": "12",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "bc36-403a-2b9e-8219",
+								"_name": "Warrant of Trade",
+								"_hidden": "false",
+								"_targetId": "3277-45f7-c674-bd66",
+								"_type": "profile"
+							},
+							{
+								"_id": "ef08-2d13-3746-a5e0",
+								"_name": "Rogue Trader Retinue",
+								"_hidden": "false",
+								"_targetId": "3964-9765-7208-059f",
+								"_type": "profile"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "5da4-3193-0140-cd1b",
+								"_name": "Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "e51e-4f68-a13e-0c45",
+								"_name": "Faction: Elucidian Starstriders",
+								"_hidden": "false",
+								"_targetId": "286c-17a6-c298-88b5",
+								"_primary": "false"
+							},
+							{
+								"_id": "f543-0ae4-0fd2-69c5",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "e728-7357-bb53-6b73",
+								"_name": "Voidsmen-at-Arms",
+								"_hidden": "false",
+								"_targetId": "aa3d-a05c-a35a-bfe9",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "a5e5-fa24-76ef-f646",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "e4eb-a832-b269-9537",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "M",
+													"_typeId": "0bdf-a96e-9e38-7779",
+													"__text": "6\""
+												},
+												{
+													"_name": "WS",
+													"_typeId": "e7f0-1278-0250-df0c",
+													"__text": "4+"
+												},
+												{
+													"_name": "BS",
+													"_typeId": "381b-eb28-74c3-df5f",
+													"__text": "3+"
+												},
+												{
+													"_name": "S",
+													"_typeId": "2218-aa3c-265f-2939",
+													"__text": "3"
+												},
+												{
+													"_name": "T",
+													"_typeId": "9c9f-9774-a358-3a39",
+													"__text": "3"
+												},
+												{
+													"_name": "W",
+													"_typeId": "f330-5e6e-4110-0978",
+													"__text": "2"
+												},
+												{
+													"_name": "A",
+													"_typeId": "13fc-b29b-31f2-ab9f",
+													"__text": "2"
+												},
+												{
+													"_name": "Ld",
+													"_typeId": "00ca-f8b8-876d-b705",
+													"__text": "8"
+												},
+												{
+													"_name": "Save",
+													"_typeId": "c0df-df94-abd7-e8d3",
+													"__text": "5+"
+												}
+											]
+										},
+										"_id": "cdd2-53fb-c91d-050f",
+										"_name": "Voidsmaster Nitsch",
+										"_publicationId": "b619-ccba-pubN66040",
+										"_page": "12",
+										"_hidden": "false",
+										"_typeId": "800f-21d0-4387-c943",
+										"_typeName": "Unit"
+									}
+								},
+								"selectionEntries": {
+									"selectionEntry": {
+										"constraints": {
+											"constraint": [
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "2002-0fb8-3f24-dcd5",
+													"_type": "min"
+												},
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "8703-0ff2-6dc7-6757",
+													"_type": "max"
+												}
+											]
+										},
+										"profiles": {
+											"profile": {
+												"characteristics": {
+													"characteristic": [
+														{
+															"_name": "Range",
+															"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+															"__text": "12\""
+														},
+														{
+															"_name": "Type",
+															"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+															"__text": "Assault 2"
+														},
+														{
+															"_name": "S",
+															"_typeId": "59b1-319e-ec13-d466",
+															"__text": "4"
+														},
+														{
+															"_name": "AP",
+															"_typeId": "75aa-a838-b675-6484",
+															"__text": "0"
+														},
+														{
+															"_name": "D",
+															"_typeId": "ae8a-3137-d65b-4ca7",
+															"__text": "2"
+														},
+														{
+															"_name": "Abilities",
+															"_typeId": "837d-5e63-aeb7-1410",
+															"__text": "If the target is within half range, add 1 to this weapon's Strength characteristic."
+														}
+													]
+												},
+												"_id": "df17-f2e7-c426-fa43",
+												"_name": "Artificer Shotgun",
+												"_publicationId": "b619-ccba-pubN66040",
+												"_page": "12",
+												"_hidden": "false",
+												"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+												"_typeName": "Weapon"
+											}
+										},
+										"costs": {
+											"cost": [
+												{
+													"_name": " PL",
+													"_typeId": "e356-c769-5920-6e14",
+													"_value": "0.0"
+												},
+												{
+													"_name": "pts",
+													"_typeId": "points",
+													"_value": "0.0"
+												},
+												{
+													"_name": "CP",
+													"_typeId": "2d3b-b544-ad49-fb75",
+													"_value": "0.0"
+												}
+											]
+										},
+										"_id": "f267-cb01-e996-7e02",
+										"_name": "Artificer Shotgun",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_type": "upgrade"
+									}
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "fe55-6ab5-66ff-29b9",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "bb70-6522-d01d-08da",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "3676-7843-e86d-11d6",
+											"_name": "Laspistol",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "b6d8-94a9-9017-cc3c",
+											"_type": "selectionEntry"
+										},
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "0a29-8c5b-82ec-66dd",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "deaa-f068-09c6-96e6",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "984d-bfbc-a0f6-8c89",
+											"_name": "Concussion Grenades",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "c8df-57df-b18e-397d",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "7.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "89ea-5026-b124-be6f",
+								"_name": "Voidsmaster Nitsch",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "3.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "8505-b400-8e7a-fe48",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "3.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "1993-f01a-4d36-99d1",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "M",
+													"_typeId": "0bdf-a96e-9e38-7779",
+													"__text": "6\""
+												},
+												{
+													"_name": "WS",
+													"_typeId": "e7f0-1278-0250-df0c",
+													"__text": "4+"
+												},
+												{
+													"_name": "BS",
+													"_typeId": "381b-eb28-74c3-df5f",
+													"__text": "3+"
+												},
+												{
+													"_name": "S",
+													"_typeId": "2218-aa3c-265f-2939",
+													"__text": "3"
+												},
+												{
+													"_name": "T",
+													"_typeId": "9c9f-9774-a358-3a39",
+													"__text": "3"
+												},
+												{
+													"_name": "W",
+													"_typeId": "f330-5e6e-4110-0978",
+													"__text": "1"
+												},
+												{
+													"_name": "A",
+													"_typeId": "13fc-b29b-31f2-ab9f",
+													"__text": "1"
+												},
+												{
+													"_name": "Ld",
+													"_typeId": "00ca-f8b8-876d-b705",
+													"__text": "7"
+												},
+												{
+													"_name": "Save",
+													"_typeId": "c0df-df94-abd7-e8d3",
+													"__text": "5+"
+												}
+											]
+										},
+										"_id": "baf2-288e-6181-ac1b",
+										"_name": "Voidsman",
+										"_publicationId": "b619-ccba-pubN66040",
+										"_page": "12",
+										"_hidden": "false",
+										"_typeId": "800f-21d0-4387-c943",
+										"_typeName": "Unit"
+									}
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "df82-252f-29b2-6c72",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "8dc0-b01c-80d0-f051",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "f5f0-5836-e5bf-6f0d",
+											"_name": "Laspistol",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "b6d8-94a9-9017-cc3c",
+											"_type": "selectionEntry"
+										},
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "c298-4df4-dc48-afae",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "055f-de96-0a89-5191",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "b63b-4553-dcf2-7639",
+											"_name": "Lasgun",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "169d-cfff-0ece-7d89",
+											"_type": "selectionEntry"
+										},
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "6c42-7bca-9c66-4bc5",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "d8e1-f404-1196-9812",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "f236-fbd6-b97b-7fcc",
+											"_name": "Concussion Grenades",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "c8df-57df-b18e-397d",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "7.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "e774-dbaf-609a-7ea1",
+								"_name": "Voidsman",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "66fa-f982-0b3a-a831",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "2da1-1688-0990-1d5f",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "M",
+													"_typeId": "0bdf-a96e-9e38-7779",
+													"__text": "6\""
+												},
+												{
+													"_name": "WS",
+													"_typeId": "e7f0-1278-0250-df0c",
+													"__text": "4+"
+												},
+												{
+													"_name": "BS",
+													"_typeId": "381b-eb28-74c3-df5f",
+													"__text": "3+"
+												},
+												{
+													"_name": "S",
+													"_typeId": "2218-aa3c-265f-2939",
+													"__text": "3"
+												},
+												{
+													"_name": "T",
+													"_typeId": "9c9f-9774-a358-3a39",
+													"__text": "3"
+												},
+												{
+													"_name": "W",
+													"_typeId": "f330-5e6e-4110-0978",
+													"__text": "1"
+												},
+												{
+													"_name": "A",
+													"_typeId": "13fc-b29b-31f2-ab9f",
+													"__text": "1"
+												},
+												{
+													"_name": "Ld",
+													"_typeId": "00ca-f8b8-876d-b705",
+													"__text": "7"
+												},
+												{
+													"_name": "Save",
+													"_typeId": "c0df-df94-abd7-e8d3",
+													"__text": "5+"
+												}
+											]
+										},
+										"_id": "a089-4dc6-71b5-f783",
+										"_name": "Voidsman",
+										"_publicationId": "b619-ccba-pubN66040",
+										"_page": "12",
+										"_hidden": "false",
+										"_typeId": "800f-21d0-4387-c943",
+										"_typeName": "Unit"
+									}
+								},
+								"selectionEntries": {
+									"selectionEntry": {
+										"constraints": {
+											"constraint": [
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "8e17-3354-ee5a-4482",
+													"_type": "min"
+												},
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1.0",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "c162-b46b-de5a-4532",
+													"_type": "max"
+												}
+											]
+										},
+										"profiles": {
+											"profile": {
+												"characteristics": {
+													"characteristic": [
+														{
+															"_name": "Range",
+															"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+															"__text": "24\""
+														},
+														{
+															"_name": "Type",
+															"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+															"__text": "Heavy 4"
+														},
+														{
+															"_name": "S",
+															"_typeId": "59b1-319e-ec13-d466",
+															"__text": "4"
+														},
+														{
+															"_name": "AP",
+															"_typeId": "75aa-a838-b675-6484",
+															"__text": "-1"
+														},
+														{
+															"_name": "D",
+															"_typeId": "ae8a-3137-d65b-4ca7",
+															"__text": "2"
+														},
+														{
+															"_name": "Abilities",
+															"_typeId": "837d-5e63-aeb7-1410",
+															"__text": "-"
+														}
+													]
+												},
+												"_id": "b683-0544-8f8d-ca4e",
+												"_name": "Rotor Cannon",
+												"_publicationId": "b619-ccba-pubN66040",
+												"_page": "12",
+												"_hidden": "false",
+												"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+												"_typeName": "Weapon"
+											}
+										},
+										"costs": {
+											"cost": [
+												{
+													"_name": " PL",
+													"_typeId": "e356-c769-5920-6e14",
+													"_value": "0.0"
+												},
+												{
+													"_name": "pts",
+													"_typeId": "points",
+													"_value": "0.0"
+												},
+												{
+													"_name": "CP",
+													"_typeId": "2d3b-b544-ad49-fb75",
+													"_value": "0.0"
+												}
+											]
+										},
+										"_id": "fdf2-644e-8408-452a",
+										"_name": "Rotor Cannon",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_type": "upgrade"
+									}
+								},
+								"entryLinks": {
+									"entryLink": [
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "5c1d-d4e4-d968-2eef",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "98d1-4cd2-8a95-b63d",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "6ec4-03c3-fefc-a5d7",
+											"_name": "Laspistol",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "b6d8-94a9-9017-cc3c",
+											"_type": "selectionEntry"
+										},
+										{
+											"constraints": {
+												"constraint": [
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "e4a1-6e5b-6fa7-3464",
+														"_type": "min"
+													},
+													{
+														"_field": "selections",
+														"_scope": "parent",
+														"_value": "1.0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_id": "9e49-3b0f-46d3-b0b9",
+														"_type": "max"
+													}
+												]
+											},
+											"_id": "c06d-dacc-b6db-48b9",
+											"_name": "Concussion Grenades",
+											"_hidden": "false",
+											"_collective": "false",
+											"_import": "true",
+											"_targetId": "c8df-57df-b18e-397d",
+											"_type": "selectionEntry"
+										}
+									]
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "7.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "3123-e13c-86c6-9129",
+								"_name": "Voidsman",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "5ed7-c877-0aba-ff0c",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "bee0-99c6-6baa-6df2",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "M",
+													"_typeId": "0bdf-a96e-9e38-7779",
+													"__text": "8\""
+												},
+												{
+													"_name": "WS",
+													"_typeId": "e7f0-1278-0250-df0c",
+													"__text": "3+"
+												},
+												{
+													"_name": "BS",
+													"_typeId": "381b-eb28-74c3-df5f",
+													"__text": "-"
+												},
+												{
+													"_name": "S",
+													"_typeId": "2218-aa3c-265f-2939",
+													"__text": "3"
+												},
+												{
+													"_name": "T",
+													"_typeId": "9c9f-9774-a358-3a39",
+													"__text": "3"
+												},
+												{
+													"_name": "W",
+													"_typeId": "f330-5e6e-4110-0978",
+													"__text": "1"
+												},
+												{
+													"_name": "A",
+													"_typeId": "13fc-b29b-31f2-ab9f",
+													"__text": "2"
+												},
+												{
+													"_name": "Ld",
+													"_typeId": "00ca-f8b8-876d-b705",
+													"__text": "5"
+												},
+												{
+													"_name": "Save",
+													"_typeId": "c0df-df94-abd7-e8d3",
+													"__text": "6+"
+												}
+											]
+										},
+										"_id": "f582-6f0b-311c-011f",
+										"_name": "Aximillion",
+										"_publicationId": "b619-ccba-pubN66040",
+										"_page": "12",
+										"_hidden": "false",
+										"_typeId": "800f-21d0-4387-c943",
+										"_typeName": "Unit"
+									}
+								},
+								"costs": {
+									"cost": [
+										{
+											"_name": "pts",
+											"_typeId": "points",
+											"_value": "7.0"
+										},
+										{
+											"_name": " PL",
+											"_typeId": "e356-c769-5920-6e14",
+											"_value": "0.0"
+										},
+										{
+											"_name": "CP",
+											"_typeId": "2d3b-b544-ad49-fb75",
+											"_value": "0.0"
+										}
+									]
+								},
+								"_id": "707b-c499-fdc5-1da4",
+								"_name": "Aximillion",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "model"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "3.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "bbfa-3999-2731-1c30",
+					"_name": "Nitsch's Squad",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"infoLinks": {
+						"infoLink": {
+							"_id": "964f-123b-65ff-eb2b",
+							"_name": "Laspistol",
+							"_hidden": "false",
+							"_targetId": "f2b7-768f-a270-de64",
+							"_type": "profile"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "b6d8-94a9-9017-cc3c",
+					"_name": "Laspistol",
+					"_hidden": "false",
+					"_collective": "true",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"infoLinks": {
+						"infoLink": {
+							"_id": "61f8-e434-3ab5-66e8",
+							"_name": "Lasgun",
+							"_hidden": "false",
+							"_targetId": "d174-eb55-aaa6-d032",
+							"_type": "profile"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "169d-cfff-0ece-7d89",
+					"_name": "Lasgun",
+					"_hidden": "false",
+					"_collective": "true",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "6\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Grenade D3"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "3"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "0"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "1"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Each time an attack is made with this weapon that targets a unit within 1\" of any Obstacles or Area Terrain features, add 1 to the Strength and Damage characteristics of that attack."
+									}
+								]
+							},
+							"_id": "bbab-dc4c-eafe-b915",
+							"_name": "Concussion Grenade",
+							"_publicationId": "b619-ccba-pubN66040",
+							"_page": "",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "c8df-57df-b18e-397d",
+					"_name": "Concussion Grenades",
+					"_hidden": "false",
+					"_collective": "true",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "42ae-4017-4d37-4ca0",
+							"_type": "max"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "eedc-5c79-f644-b39c",
+							"_name": "Warlord",
+							"_hidden": "false",
+							"_targetId": "ae09-117e-a6fa-316b",
+							"_primary": "false"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "6217-33f6-b8f0-f1fa",
+					"_name": "Warlord",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				}
+			]
+		},
+		"sharedSelectionEntryGroups": {
+			"selectionEntryGroup": {
+				"modifiers": {
+					"modifier": {
+						"conditions": {
+							"condition": {
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "0.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_childId": "6217-33f6-b8f0-f1fa",
+								"_type": "equalTo"
+							}
+						},
+						"_type": "set",
+						"_field": "hidden",
+						"_value": "true"
+					}
+				},
+				"constraints": {
+					"constraint": {
+						"_field": "selections",
+						"_scope": "parent",
+						"_value": "1.0",
+						"_percentValue": "false",
+						"_shared": "true",
+						"_includeChildSelections": "false",
+						"_includeChildForces": "false",
+						"_id": "f947-f884-1ade-f622",
+						"_type": "max"
+					}
+				},
+				"entryLinks": {
+					"entryLink": [
+						{
+							"_id": "d16a-ce33-8648-134d",
+							"_name": "Warlord Traits (BRB)",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "d442-1f03-d9da-e77f",
+							"_type": "selectionEntryGroup"
+						},
+						{
+							"_id": "31e4-ecfe-323c-c883",
+							"_name": "Warlord Traits (CA)",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "f673-3d9b-bb1b-377f",
+							"_type": "selectionEntryGroup"
+						}
+					]
+				},
+				"_id": "e935-78b4-b59a-7e9c",
+				"_name": "Warlord Traits",
+				"_hidden": "false",
+				"_collective": "false",
+				"_import": "true"
+			}
+		},
+		"sharedProfiles": {
+			"profile": [
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "A model with this ability can embark onto any IMPERIUM TRANSPORT, even though the transport in question might normally only permit models with other Faction keywords to do so. All other restrictions apply normally."
+						}
+					},
+					"_id": "3277-45f7-c674-bd66",
+					"_name": "Warrant of Trade",
+					"_publicationId": "b619-ccba-pubN66040",
+					"_page": "6",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				},
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "This ability has no effect unless your army includes ELUCIA VHANE. If it does, you cannot set up any units with this ability before you have set up ELUCIA VHANE. When you set up ELUCIA VHANE during deployment, all units with this ability are set up at the same time. When you set up ELUCIA VHANE on the battlefield for the first time, all units with this ability must be set up within 6\" of her or they must be set up in the same TRANSPORT as her. If they cannot be set up, they count as destroyed."
+						}
+					},
+					"_id": "3964-9765-7208-059f",
+					"_name": "Rogue Trader Retinue",
+					"_publicationId": "b619-ccba-pubN66040",
+					"_page": "7",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "ff76-72a1-b6ba-f98d",
+					"_name": "Imperium - Inquisition",
+					"_targetId": "e373-3c0a-1185-46ea",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "7c10-c8fc-2c4d-feb4",
+					"_name": "Imperium - Officio Assassinorum",
+					"_targetId": "f731-6aa6-c141-8937",
+					"_type": "catalogue",
+					"_importRootEntries": "false"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "b619-ccba-8c99-4699",
+		"_name": "Imperium - Elucidian Starstriders",
+		"_revision": "7",
+		"_battleScribeVersion": "2.03",
+		"_authorName": "BSData Developers",
+		"_authorContact": "@GenWilhelm",
+		"_authorUrl": "https://discord.gg/KqPVhds",
+		"_library": "false",
+		"_gameSystemId": "28ec-711c-d87f-3aeb",
+		"_gameSystemRevision": "141"
+	}
+}
