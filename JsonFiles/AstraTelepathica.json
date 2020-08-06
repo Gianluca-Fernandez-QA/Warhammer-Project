@@ -1,0 +1,995 @@
+﻿{
+	"catalogue": {
+		"publications": {
+			"publication": {
+				"_id": "104e-06dd-pubN65713",
+				"_name": "Codex: Astra Militarum"
+			}
+		},
+		"categoryEntries": {
+			"categoryEntry": [
+				{
+					"_id": "4e73-491c-d01a-5318",
+					"_name": "Faction: Astra Telepathica",
+					"_hidden": "false"
+				},
+				{
+					"_id": "0890-8723-7184-d191",
+					"_name": "Faction: Scholastica Psykana",
+					"_hidden": "false"
+				},
+				{
+					"_id": "8b59-d0de-69c5-2c53",
+					"_name": "Primaris Psyker",
+					"_hidden": "false"
+				},
+				{
+					"_id": "751d-39bf-3f92-fc7b",
+					"_name": "Wyrdvane Psykers",
+					"_hidden": "false"
+				},
+				{
+					"_id": "0529-accb-b64c-d8a9",
+					"_name": "Astropath",
+					"_hidden": "false"
+				}
+			]
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "72be-be4d-aeaa-14fe",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+								"_primary": "true"
+							},
+							{
+								"_id": "c53d-db45-3263-5bcf",
+								"_name": "Astropath",
+								"_hidden": "false",
+								"_targetId": "0529-accb-b64c-d8a9",
+								"_primary": "false"
+							},
+							{
+								"_id": "6bcf-909f-1eee-68e0",
+								"_name": "Character",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "60ee-f65e-8ef1-a6c0",
+								"_name": "Faction: Astra Militarum",
+								"_hidden": "false",
+								"_targetId": "3263-4233-4344-6228",
+								"_primary": "false"
+							},
+							{
+								"_id": "a8b3-295f-8a70-69c8",
+								"_name": "Faction: Astra Telepathica",
+								"_hidden": "false",
+								"_targetId": "4e73-491c-d01a-5318",
+								"_primary": "false"
+							},
+							{
+								"_id": "e17d-217a-a696-77af",
+								"_name": "Faction: Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "4207-7cc9-4610-5a4d",
+								"_name": "Faction: Scholastica Psykana",
+								"_hidden": "false",
+								"_targetId": "0890-8723-7184-d191",
+								"_primary": "false"
+							},
+							{
+								"_id": "90b8-ed46-00bf-272d",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "93ca-f788-31fd-37b5",
+								"_name": "Psyker",
+								"_hidden": "false",
+								"_targetId": "e691-aad7-d21c-1023",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "6ff3-27f6-d119-b33c",
+					"_name": "Astropath",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4d87-d7b3-de46-aaae",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "e57b-5440-673f-4351",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+								"_primary": "true"
+							},
+							{
+								"_id": "7879-0fe1-9005-d4ae",
+								"_name": "Faction: Astra Militarum",
+								"_hidden": "false",
+								"_targetId": "3263-4233-4344-6228",
+								"_primary": "false"
+							},
+							{
+								"_id": "3a7c-302d-2298-7dd1",
+								"_name": "Faction: Astra Telepathica",
+								"_hidden": "false",
+								"_targetId": "4e73-491c-d01a-5318",
+								"_primary": "false"
+							},
+							{
+								"_id": "a4d5-e952-2057-810d",
+								"_name": "Faction: Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "1c21-7a49-daab-c802",
+								"_name": "Faction: Scholastica Psykana",
+								"_hidden": "false",
+								"_targetId": "0890-8723-7184-d191",
+								"_primary": "false"
+							},
+							{
+								"_id": "9061-e7f3-c571-1842",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "63fc-4990-a549-c223",
+								"_name": "Psyker",
+								"_hidden": "false",
+								"_targetId": "e691-aad7-d21c-1023",
+								"_primary": "false"
+							},
+							{
+								"_id": "0992-8a23-8e1b-48ce",
+								"_name": "Wyrdvane Psykers",
+								"_hidden": "false",
+								"_targetId": "751d-39bf-3f92-fc7b",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "047b-f9f0-9b96-3c75",
+					"_name": "Wyrdvane Psykers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c415-d380-7760-f44f",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "6a85-0514-474c-6089",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+								"_primary": "true"
+							},
+							{
+								"_id": "299e-b067-f888-04f9",
+								"_name": "Character",
+								"_hidden": "false",
+								"_targetId": "ef18-746a-369f-43a4",
+								"_primary": "false"
+							},
+							{
+								"_id": "e6e6-8170-4b2d-38bc",
+								"_name": "Faction: Astra Militarum",
+								"_hidden": "false",
+								"_targetId": "3263-4233-4344-6228",
+								"_primary": "false"
+							},
+							{
+								"_id": "71be-9ae8-d316-9f9d",
+								"_name": "Faction: Astra Telepathica",
+								"_hidden": "false",
+								"_targetId": "4e73-491c-d01a-5318",
+								"_primary": "false"
+							},
+							{
+								"_id": "c827-2ef2-5b37-10aa",
+								"_name": "Faction: Imperium",
+								"_hidden": "false",
+								"_targetId": "84e2-9fa9-ebe6-1d18",
+								"_primary": "false"
+							},
+							{
+								"_id": "44bd-4b1e-77ff-75f6",
+								"_name": "Faction: Scholastica Psykana",
+								"_hidden": "false",
+								"_targetId": "0890-8723-7184-d191",
+								"_primary": "false"
+							},
+							{
+								"_id": "0bfd-9a2c-b09a-993d",
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_targetId": "3d52-fccf-10c0-3fae",
+								"_primary": "false"
+							},
+							{
+								"_id": "b39f-854a-699e-9ee6",
+								"_name": "Primaris Psyker",
+								"_hidden": "false",
+								"_targetId": "8b59-d0de-69c5-2c53",
+								"_primary": "false"
+							},
+							{
+								"_id": "0806-a75c-151f-f880",
+								"_name": "Psyker",
+								"_hidden": "false",
+								"_targetId": "e691-aad7-d21c-1023",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "c9b6-dbde-5c24-172f",
+					"_name": "Primaris Psyker",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fb34-a5b6-34df-4c26",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "bceb-2fd8-bd33-6304",
+					"_name": "Operative Requisition Sanctioned",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0b7d-bfe1-b63e-ecb6",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "ea27-2584-709c-f704",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+							"_primary": "true"
+						}
+					},
+					"_id": "b8a0-8ea7-4b6b-3c06",
+					"_name": "Ephrael Stern and Kyganil of the Bloody Tears",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7dca-e055-7a15-4bf3",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d33c-8019-f63f-a53a",
+					"_name": "Aradia Madellan",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "49ac-d380-7cf3-43f4",
+					"_type": "selectionEntry"
+				}
+			]
+		},
+		"sharedSelectionEntries": {
+			"selectionEntry": {
+				"constraints": {
+					"constraint": [
+						{
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "42b2-d0fe-c5fc-8087",
+							"_type": "max"
+						},
+						{
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "true",
+							"_id": "db7d-f039-c01d-48de",
+							"_type": "max"
+						}
+					]
+				},
+				"costs": {
+					"cost": [
+						{
+							"_name": " PL",
+							"_typeId": "e356-c769-5920-6e14",
+							"_value": "0.0"
+						},
+						{
+							"_name": "CP",
+							"_typeId": "2d3b-b544-ad49-fb75",
+							"_value": "0.0"
+						},
+						{
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "0.0"
+						}
+					]
+				},
+				"_id": "8c9b-d95d-cea9-a212",
+				"_name": "Warlord",
+				"_hidden": "false",
+				"_collective": "false",
+				"_import": "true",
+				"_type": "upgrade"
+			}
+		},
+		"sharedSelectionEntryGroups": {
+			"selectionEntryGroup": {
+				"selectionEntries": {
+					"selectionEntry": [
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "ab0e-ba5c-7e6e-1905",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Warp Charge",
+												"_typeId": "5ffd-b800-c317-532a",
+												"__text": "7"
+											},
+											{
+												"_name": "Range",
+												"_typeId": "fd64-cbc4-94de-24cc",
+												"__text": "18\""
+											},
+											{
+												"_name": "Details",
+												"_typeId": "ad96-dfa4-b4ed-656d",
+												"__text": "Choose an enemy unit within 18\" of the psyker. That unit subtracts 2 from its Leadership until the start of your next turn."
+											}
+										]
+									},
+									"_id": "bae9-3913-ebcb-3e8e",
+									"_name": "1) Terrifying Visions",
+									"_hidden": "false",
+									"_typeId": "ae70-4738-0161-bec0",
+									"_typeName": "Psychic Power"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "5d95-5e00-7396-f591",
+							"_name": "Terrifying Visions",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "723e-3467-13b5-cdd5",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Warp Charge",
+												"_typeId": "5ffd-b800-c317-532a",
+												"__text": "6"
+											},
+											{
+												"_name": "Range",
+												"_typeId": "fd64-cbc4-94de-24cc",
+												"__text": "2D6\""
+											},
+											{
+												"_name": "Details",
+												"_typeId": "ad96-dfa4-b4ed-656d",
+												"__text": "Draw a straight line 2D6\" long directly away from the psyker. Roll a die for each model the center of the line passes over. On a 4+ that model's unit suffers a mortal wound."
+											}
+										]
+									},
+									"_id": "a732-b611-ecbf-c00a",
+									"_name": "2) Gaze of the Emperor",
+									"_hidden": "false",
+									"_typeId": "ae70-4738-0161-bec0",
+									"_typeName": "Psychic Power"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "2985-6e1e-837b-8f22",
+							"_name": "Gaze of the Emperor",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "0d9d-cd1a-a75c-b2b1",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Warp Charge",
+												"_typeId": "5ffd-b800-c317-532a",
+												"__text": "6"
+											},
+											{
+												"_name": "Range",
+												"_typeId": "fd64-cbc4-94de-24cc",
+												"__text": "12\""
+											},
+											{
+												"_name": "Details",
+												"_typeId": "ad96-dfa4-b4ed-656d",
+												"__text": "Select a friendly ASTRA MILITARUM unit within 12\" of the psyker. Until the start of your next Psychic phase, add 1 to that unit's saving throws."
+											}
+										]
+									},
+									"_id": "4892-87a1-66e2-7521",
+									"_name": "3) Psychic Barrier",
+									"_hidden": "false",
+									"_typeId": "ae70-4738-0161-bec0",
+									"_typeName": "Psychic Power"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "c67a-2c54-f1b3-27a4",
+							"_name": "Psychic Barrier",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "ba46-d0e0-3c1e-21d5",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Warp Charge",
+												"_typeId": "5ffd-b800-c317-532a",
+												"__text": "6"
+											},
+											{
+												"_name": "Range",
+												"_typeId": "fd64-cbc4-94de-24cc",
+												"__text": "12\""
+											},
+											{
+												"_name": "Details",
+												"_typeId": "ad96-dfa4-b4ed-656d",
+												"__text": "Choose a friendly ASTRA MILITARUM unit within 12\" of the psyker. Until the start of your next turn, any enemy unit that targets the chosen unit with a ranged weapon suffers a -1 penalty to its hit rolls."
+											}
+										]
+									},
+									"_id": "61ac-5cdb-5ee9-09aa",
+									"_name": "4) Nightshroud",
+									"_hidden": "false",
+									"_typeId": "ae70-4738-0161-bec0",
+									"_typeName": "Psychic Power"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "64f3-40b9-121f-ad27",
+							"_name": "Nightshroud",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "4bf9-4a14-e875-c6f9",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Warp Charge",
+												"_typeId": "5ffd-b800-c317-532a",
+												"__text": "4"
+											},
+											{
+												"_name": "Range",
+												"_typeId": "fd64-cbc4-94de-24cc",
+												"__text": "12\""
+											},
+											{
+												"_name": "Details",
+												"_typeId": "ad96-dfa4-b4ed-656d",
+												"__text": "Select a friendly ASTRA MILITARUM unit within 12\" of the psyker. Until the start of your next Psychic phase, that unit automatically passes Morale tests."
+											}
+										]
+									},
+									"_id": "b950-a594-77d1-4ec2",
+									"_name": "5) Mental Fortitude",
+									"_hidden": "false",
+									"_typeId": "ae70-4738-0161-bec0",
+									"_typeName": "Psychic Power"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "7844-e286-3930-44a7",
+							"_name": "Mental Fortitude",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						},
+						{
+							"constraints": {
+								"constraint": {
+									"_field": "selections",
+									"_scope": "parent",
+									"_value": "1.0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_id": "5734-d8b7-fd5c-7b5b",
+									"_type": "max"
+								}
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Warp Charge",
+												"_typeId": "5ffd-b800-c317-532a",
+												"__text": "7"
+											},
+											{
+												"_name": "Range",
+												"_typeId": "fd64-cbc4-94de-24cc",
+												"__text": "18\""
+											},
+											{
+												"_name": "Details",
+												"_typeId": "ad96-dfa4-b4ed-656d",
+												"__text": "Select an enemy unit within 18\" of the psyker. Roll at D6. On a 2+, that unit suffers a mortal wound. Unless this mortal wound is negated, you can ten roll another die. On a 3+ that enemy unit suffers another mortal wound. Continue this process, adding 1 to the die roll required each time (so the next roll would need a 4+, than 5+, etc.) until you fail to cause a mortal wound, or the enemy unit is destroyed."
+											}
+										]
+									},
+									"_id": "4aa5-8850-5116-6724",
+									"_name": "6) Psychic Maelstrom",
+									"_hidden": "false",
+									"_typeId": "ae70-4738-0161-bec0",
+									"_typeName": "Psychic Power"
+								}
+							},
+							"costs": {
+								"cost": [
+									{
+										"_name": " PL",
+										"_typeId": "e356-c769-5920-6e14",
+										"_value": "0.0"
+									},
+									{
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0.0"
+									},
+									{
+										"_name": "CP",
+										"_typeId": "2d3b-b544-ad49-fb75",
+										"_value": "0.0"
+									}
+								]
+							},
+							"_id": "9d31-d80c-edad-2575",
+							"_name": "Psychic Maelstrom",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					]
+				},
+				"_id": "442f-9164-4920-a673",
+				"_name": "Psykana Discipline",
+				"_publicationId": "104e-06dd-pubN65713",
+				"_page": "137",
+				"_hidden": "false",
+				"_collective": "false",
+				"_import": "true"
+			}
+		},
+		"sharedProfiles": {
+			"profile": [
+				{
+					"characteristics": {
+						"characteristic": [
+							{
+								"_name": "M",
+								"_typeId": "0bdf-a96e-9e38-7779"
+							},
+							{
+								"_name": "WS",
+								"_typeId": "e7f0-1278-0250-df0c",
+								"__text": "2"
+							},
+							{
+								"_name": "BS",
+								"_typeId": "381b-eb28-74c3-df5f",
+								"__text": "3"
+							},
+							{
+								"_name": "S",
+								"_typeId": "2218-aa3c-265f-2939",
+								"__text": "2"
+							},
+							{
+								"_name": "T",
+								"_typeId": "9c9f-9774-a358-3a39",
+								"__text": "3"
+							},
+							{
+								"_name": "W",
+								"_typeId": "f330-5e6e-4110-0978",
+								"__text": "1"
+							},
+							{
+								"_name": "A",
+								"_typeId": "13fc-b29b-31f2-ab9f",
+								"__text": "1"
+							},
+							{
+								"_name": "Ld",
+								"_typeId": "00ca-f8b8-876d-b705",
+								"__text": "8"
+							},
+							{
+								"_name": "Save",
+								"_typeId": "c0df-df94-abd7-e8d3",
+								"__text": "5+"
+							}
+						]
+					},
+					"_id": "ba66-8ca0-fc60-66aa",
+					"_name": "Wyrdvane Psyker",
+					"_publicationId": "104e-06dd-pubN65713",
+					"_page": "42",
+					"_hidden": "false",
+					"_typeId": "800f-21d0-4387-c943",
+					"_typeName": "Unit"
+				},
+				{
+					"characteristics": {
+						"characteristic": [
+							{
+								"_name": "M",
+								"_typeId": "0bdf-a96e-9e38-7779"
+							},
+							{
+								"_name": "WS",
+								"_typeId": "e7f0-1278-0250-df0c",
+								"__text": "4"
+							},
+							{
+								"_name": "BS",
+								"_typeId": "381b-eb28-74c3-df5f",
+								"__text": "4"
+							},
+							{
+								"_name": "S",
+								"_typeId": "2218-aa3c-265f-2939",
+								"__text": "3"
+							},
+							{
+								"_name": "T",
+								"_typeId": "9c9f-9774-a358-3a39",
+								"__text": "3"
+							},
+							{
+								"_name": "W",
+								"_typeId": "f330-5e6e-4110-0978",
+								"__text": "2"
+							},
+							{
+								"_name": "A",
+								"_typeId": "13fc-b29b-31f2-ab9f",
+								"__text": "2"
+							},
+							{
+								"_name": "Ld",
+								"_typeId": "00ca-f8b8-876d-b705",
+								"__text": "9"
+							},
+							{
+								"_name": "Save",
+								"_typeId": "c0df-df94-abd7-e8d3",
+								"__text": "5+"
+							}
+						]
+					},
+					"_id": "cf04-018c-01ec-e86d",
+					"_name": "Primaris Psyker",
+					"_hidden": "false",
+					"_typeId": "800f-21d0-4387-c943",
+					"_typeName": "Unit"
+				},
+				{
+					"characteristics": {
+						"characteristic": [
+							{
+								"_name": "M",
+								"_typeId": "0bdf-a96e-9e38-7779",
+								"__text": "6\""
+							},
+							{
+								"_name": "WS",
+								"_typeId": "e7f0-1278-0250-df0c",
+								"__text": "5+"
+							},
+							{
+								"_name": "BS",
+								"_typeId": "381b-eb28-74c3-df5f",
+								"__text": "6+"
+							},
+							{
+								"_name": "S",
+								"_typeId": "2218-aa3c-265f-2939",
+								"__text": "3"
+							},
+							{
+								"_name": "T",
+								"_typeId": "9c9f-9774-a358-3a39",
+								"__text": "3"
+							},
+							{
+								"_name": "W",
+								"_typeId": "f330-5e6e-4110-0978",
+								"__text": "3"
+							},
+							{
+								"_name": "A",
+								"_typeId": "13fc-b29b-31f2-ab9f",
+								"__text": "1"
+							},
+							{
+								"_name": "Ld",
+								"_typeId": "00ca-f8b8-876d-b705",
+								"__text": "6"
+							},
+							{
+								"_name": "Save",
+								"_typeId": "c0df-df94-abd7-e8d3",
+								"__text": "6+"
+							}
+						]
+					},
+					"_id": "80af-9ba7-d28b-719f",
+					"_name": "Astropath",
+					"_publicationId": "104e-06dd-pubN65713",
+					"_page": "31",
+					"_hidden": "false",
+					"_typeId": "800f-21d0-4387-c943",
+					"_typeName": "Unit"
+				},
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "If this model is slain as a result of Perils of the Warp wilst within 6\" of a friendly COMMISSAR, they are executed before anything untoward can happen - the power they are attempting still fails, but units within 6\" of them do not suffer D3 mortal wounds as normal."
+						}
+					},
+					"_id": "5e70-965d-4d33-4589",
+					"_name": "It's for Your Own Good",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "215f-abf9-a7c1-7de4",
+					"_name": "Imperium - Officio Assassinorum",
+					"_targetId": "f731-6aa6-c141-8937",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "c638-7db7-cee2-80c5",
+					"_name": "Imperium - Astra Militarum",
+					"_targetId": "53e9d88f-7463-8c27-fe67-e1a0d1ed0287",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "104e-06dd-4514-8e80",
+		"_name": "Imperium - Adeptus Astra Telepathica",
+		"_revision": "17",
+		"_battleScribeVersion": "2.03",
+		"_authorName": "BSData Developers",
+		"_authorContact": "Discord: @Alphalas | Twitter: @_alphalas",
+		"_authorUrl": "https://discord.gg/KqPVhds",
+		"_library": "false",
+		"_gameSystemId": "28ec-711c-d87f-3aeb",
+		"_gameSystemRevision": "130"
+	}
+}
