@@ -79,13 +79,12 @@
         <div class="card" id="summary">
           <div class="card-body">
             <div class="btn-group">
-              <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Large button
+              <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+                FACTION
               </button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" onclick="test()">Aeldari</a>
-                <a class="dropdown-item" href="#">Chaos Knights</a></a>
+                <a class="dropdown-item" onclick="Aeldari()">Aeldari</a>
+                <a class="dropdown-item" href="#">Chaos Knights</a>
                 <a class="dropdown-item" href="#">Fallen</a>
                 <a class="dropdown-item" href="#">Imperium</a>
                 <a class="dropdown-item" href="#">Necrons</a>
@@ -97,20 +96,21 @@
             <br>
             <br>
             <br>
-            <div class="btn-group">
-              
-              <div class="dropdown-menu">
+
+              <div class="btn-group" id="Army">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" id="Army">
+                  ARMY
+                </button>
+                <div class="dropdown-menu" id="dropDownBtn">
+             
+                
           </div>
         </div>
       </div>
     </div>
 
   </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
+
   <script src="Java/Armybuilder.js"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
