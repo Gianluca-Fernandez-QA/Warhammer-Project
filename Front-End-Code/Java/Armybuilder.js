@@ -1,5 +1,8 @@
-
+function clearDropbox(){
+    let select = document.getElementById("dropDownBtn");
+    select.innerHTML ="";}
 function Aeldari(){
+    clearDropbox();
     let myJSONObject = {
         "searchResults": [
             { Army: "Craftworld", link: "A5" },
@@ -23,6 +26,7 @@ function Aeldari(){
     
 }
 function Chaos(){
+    clearDropbox();
     let myJSONObject = {
         "searchResults": [
             { Army: "Chaos Knights", link: "A5" },
@@ -53,6 +57,7 @@ function Chaos(){
     
 }
 function Fallen(){
+    clearDropbox();
     let myJSONObject = {
         "searchResults": [
             { Army: "Fallen", link: "A5" },
@@ -72,7 +77,8 @@ function Fallen(){
     
     
 }
-function Chaos(){
+function Imperium(){
+    clearDropbox();
     let myJSONObject = {
         "searchResults": [
             { Army: "Adepta Sororitas", link: "A5" },
@@ -104,6 +110,94 @@ function Chaos(){
             { Army: "Titan Legions", link: "A5" },
             { Army: "Ultramarines", link: "A5" },
             { Army: "White Scars", link: "A5" },
+        ]
+    };
+    let z = document.getElementById("dropDownBtn");
+    for(var i = 0; i <= Object.keys(myJSONObject.searchResults).length-1; i++) {
+        let a = document.createElement("a");
+    a.className="dropdown-item";
+    b = myJSONObject.searchResults[i].link;
+    a.onclick = function a(){
+        jsonImp(b);
+    };
+    a.innerHTML = myJSONObject.searchResults[i].Army;
+    z.appendChild(a);
+    }
+    
+    
+}
+function Necrons(){
+    clearDropbox();
+    let myJSONObject = {
+        "searchResults": [
+            { Army: "Necrons", link: "A5" },
+            
+        ]
+    };
+    let z = document.getElementById("dropDownBtn");
+    for(var i = 0; i <= Object.keys(myJSONObject.searchResults).length-1; i++) {
+        let a = document.createElement("a");
+    a.className="dropdown-item";
+    b = myJSONObject.searchResults[i].link;
+    a.onclick = function a(){
+        jsonImp(b);
+    };
+    a.innerHTML = myJSONObject.searchResults[i].Army;
+    z.appendChild(a);
+    }
+    
+    
+}
+function Orks(){
+    clearDropbox();
+    let myJSONObject = {
+        "searchResults": [
+            { Army: "Orks", link: "A5" },
+            
+        ]
+    };
+    let z = document.getElementById("dropDownBtn");
+    for(var i = 0; i <= Object.keys(myJSONObject.searchResults).length-1; i++) {
+        let a = document.createElement("a");
+    a.className="dropdown-item";
+    b = myJSONObject.searchResults[i].link;
+    a.onclick = function a(){
+        jsonImp(b);
+    };
+    a.innerHTML = myJSONObject.searchResults[i].Army;
+    z.appendChild(a);
+    }
+    
+    
+}
+function TauEmpire(){
+    clearDropbox();
+    let myJSONObject = {
+        "searchResults": [
+            { Army: "T'au Empire", link: "A5" },
+            
+        ]
+    };
+    let z = document.getElementById("dropDownBtn");
+    for(var i = 0; i <= Object.keys(myJSONObject.searchResults).length-1; i++) {
+        let a = document.createElement("a");
+    a.className="dropdown-item";
+    b = myJSONObject.searchResults[i].link;
+    a.onclick = function a(){
+        jsonImp(b);
+    };
+    a.innerHTML = myJSONObject.searchResults[i].Army;
+    z.appendChild(a);
+    }
+    
+    
+}
+function Tyranids(){
+    clearDropbox();
+    let myJSONObject = {
+        "searchResults": [
+            { Army: "Genestealer Cults", link: "A5" },
+            { Army: "Tyranids", link: "A5" },
         ]
     };
     let z = document.getElementById("dropDownBtn");
