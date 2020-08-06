@@ -214,5 +214,48 @@ function Tyranids(){
     
 }
 function jsonImp(a1){
-console.log(a1);
+    let tempBox = document.getElementById("Temp");
+    let dpDwn = document.createElement("div");
+      dpDwn.className = "dropdown show";
+      let atoggle = document.createElement("BUTTON");
+      atoggle.className = "btn btn-secondary btn-lg dropdown-toggle";
+      atoggle.setAttribute("type", "button");
+      atoggle.id = "dropdownMenuLink";
+      atoggle.setAttribute("data-toggle", "dropdown");
+      atoggle.setAttribute("aria-haspopup", "true");
+      atoggle.setAttribute("aria-expanded", "false");
+      atoggle.innerHTML = "HELLO!";
+      dpDwn.appendChild(atoggle);
+      let menu = document.createElement("div");
+      menu.className = "dropdown-menu";
+      menu.setAttribute("aria-labelledby", "dropdownMenuButton");
+      let a = document.createElement("a");
+      a.class="dropdown-item";
+      a.innerHTML = "RAARR!";
+      menu.appendChild(a);
+      dpDwn.appendChild(menu);
+      tempBox.appendChild(dpDwn);
+
+      //     fetch(a1)
+// .then(
+//   function(response) {
+      
+//     if (response.status !== 200) {
+//       console.log('Looks like there was a problem. Status Code: ' +
+//         response.status);
+//       return;
+//     }
+
+//     // Examine the text in the response
+//     response.json().then(function(data) {
+//       for (let i = 0; i < Object.keys(myJSONObject.searchResults).length-1; i++) {
+
+        
+//       }
+//     });
+//   }
+// )
+// .catch(function(err) {
+//   console.log('Fetch Error :-S', err);
+// });
 }
