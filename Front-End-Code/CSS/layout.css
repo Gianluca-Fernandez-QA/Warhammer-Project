@@ -33,6 +33,7 @@ width: 100%
 }
 #smlColor{
     height: 14.2%;
-    width: 100%;
-    
+    border: white;
+    border-style: solid;
+    border-width: 0.0625rem;
 }
