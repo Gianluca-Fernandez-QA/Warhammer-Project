@@ -1,5 +1,5 @@
 body{
-    background-color: darkgray;
+    background-color: #eaeaea;
 }
 #navBa{
     width: 100%;
@@ -19,4 +19,11 @@ width: 100%
 }
 .navbar-brand{
     height: 100%;
+}
+.twitter-timeline{
+    left: 5rem;
+}
+#summary{
+    width: 50 rem;
+    height: 43.75rem;
 }
