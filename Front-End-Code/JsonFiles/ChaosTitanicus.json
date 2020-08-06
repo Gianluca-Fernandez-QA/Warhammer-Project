@@ -1,0 +1,3542 @@
+﻿{
+	"catalogue": {
+		"publications": {
+			"publication": {
+				"_id": "8c3d-93c3-pubN65537",
+				"_name": "Imperial Armour - Index: Forces of Chaos"
+			}
+		},
+		"profileTypes": {
+			"profileType": {
+				"characteristicTypes": {
+					"characteristicType": [
+						{
+							"_id": "bdd9-9181-1cad-b79f",
+							"_name": "Remaining W"
+						},
+						{
+							"_id": "f560-9126-5959-48ba",
+							"_name": "M"
+						},
+						{
+							"_id": "8e95-6bfb-c560-252c",
+							"_name": "WS"
+						},
+						{
+							"_id": "ce76-ba62-9fc6-cdcc",
+							"_name": "BS"
+						},
+						{
+							"_id": "b269-3fa5-291a-8155",
+							"_name": "Void Shield"
+						}
+					]
+				},
+				"_id": "9276-4ade-22c4-5cb6",
+				"_name": "Wound Track, Titan"
+			}
+		},
+		"categoryEntries": {
+			"categoryEntry": [
+				{
+					"_id": "f367-b06c-c574-c7fe",
+					"_name": "God-engine",
+					"_hidden": "false"
+				},
+				{
+					"_id": "5f88-bd69-1096-78b6",
+					"_name": "Titanicus Traitoris",
+					"_hidden": "false"
+				},
+				{
+					"_id": "bc10-1aed-9d8c-724b",
+					"_name": "(Heretic Titan Legion)",
+					"_hidden": "false"
+				}
+			]
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"_id": "260e-b768-5bb1-7b7c",
+					"_name": "Chaos Reaver Battle Titan",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fe55-4a83-0126-51dc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7c73-e9b3-5df8-f68f",
+					"_name": "Chaos Warhound Scout Titan",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6f73-5883-b77b-583d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "51f6-06fc-31b3-5bd8",
+					"_name": "Chaos Warlord Battle Titan",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8819-eaf2-127e-efca",
+					"_type": "selectionEntry"
+				}
+			]
+		},
+		"sharedSelectionEntries": {
+			"selectionEntry": [
+				{
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "*"
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "*"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "*"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "10"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "10"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "60"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "5"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "1e47-b127-89a0-e169",
+								"_name": "Chaos Reaver Battle Titan",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "50-60+"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "20\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "4+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "2+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "3308-6126-55cb-8309",
+								"_name": "Chaos Reaver Battle Titan1",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "35-49"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "18\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "4+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "3+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "ea09-a389-4595-ec55",
+								"_name": "Chaos Reaver Battle Titan2",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "20-34"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "15\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "5+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "4+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "5+"
+										}
+									]
+								},
+								"_id": "b155-f38d-eff9-9d95",
+								"_name": "Chaos Reaver Battle Titan3",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "10-19"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "12\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "5+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "5+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "6+"
+										}
+									]
+								},
+								"_id": "bdf6-861d-91f7-8977",
+								"_name": "Chaos Reaver Battle Titan4",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "1-9"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "10\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "6+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "6+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "7+"
+										}
+									]
+								},
+								"_id": "2655-b41f-c3f4-11ba",
+								"_name": "Chaos Reaver Battle Titan5",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "2669-53dd-b0f8-9d74",
+								"_name": "Icon of the Apocalypse",
+								"_hidden": "false",
+								"_targetId": "11a1-f0e0-d62f-b6d4",
+								"_type": "profile"
+							},
+							{
+								"_id": "bfd1-04da-9cfc-ab30",
+								"_name": "Titan Void Shields",
+								"_hidden": "false",
+								"_targetId": "eba7-5f8d-c2a0-3165",
+								"_type": "profile"
+							},
+							{
+								"_id": "6407-ba19-cbe1-8b54",
+								"_name": "Titanic Gait",
+								"_hidden": "false",
+								"_targetId": "c5b5-f67d-f06e-f72a",
+								"_type": "profile"
+							},
+							{
+								"_id": "f7ed-b81a-6adb-ca9d",
+								"_name": "Infernal God-engine",
+								"_hidden": "false",
+								"_targetId": "a0ea-57a5-f34a-ad4b",
+								"_type": "profile"
+							},
+							{
+								"_id": "c0d3-a364-e86e-9394",
+								"_name": "Cataclysmic Explosion",
+								"_hidden": "false",
+								"_targetId": "9ff7-ac90-8912-3833",
+								"_type": "profile"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "91e9-c44a-8756-c594",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "bc10-1aed-9d8c-724b",
+								"_primary": "false"
+							},
+							{
+								"_id": "942e-3f3d-a400-edbe",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5f88-bd69-1096-78b6",
+								"_primary": "false"
+							},
+							{
+								"_id": "fcbd-a0a8-5423-e7ff",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "c8fd-783f-3230-493e",
+								"_primary": "false"
+							},
+							{
+								"_id": "4e13-f347-c8e2-1906",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "bdda-36f0-4f32-1639",
+								"_primary": "false"
+							},
+							{
+								"_id": "1599-3c99-7b84-11aa",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+								"_primary": "true"
+							},
+							{
+								"_id": "ac04-d19c-6afc-3178",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "f367-b06c-c574-c7fe",
+								"_primary": "false"
+							},
+							{
+								"_id": "ae40-4677-15ec-9ace",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5cf1-acf2-ca3b-c2e5",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntryGroups": {
+						"selectionEntryGroup": {
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "false",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "098e-d3df-6cc8-a097",
+										"_type": "max"
+									},
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "false",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "e5cd-1d6f-aeb8-a6f6",
+										"_type": "min"
+									}
+								]
+							},
+							"entryLinks": {
+								"entryLink": [
+									{
+										"_id": "85e8-2bca-059e-8df2",
+										"_name": "Reaver power fist",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "33a3-2ac8-0ade-9044",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "0d58-6c8f-8095-9429",
+										"_name": "Reaver melta cannon",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "d22d-e0eb-02e0-aa54",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "0c1d-287c-58fb-fc2d",
+										"_name": "Reaver volcano cannon",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "d066-23b5-b493-5424",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "13c3-c4a8-45e7-c682",
+										"_name": "Reaver chainfist",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "d336-c479-8d21-5cc3",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "76d4-c7d8-e79b-1630",
+										"_name": "Reaver laser blaster",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "f337-3828-e72f-1003",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "d3c3-39ca-8857-ad74",
+										"_name": "Reaver gatling blaster",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "f69f-342d-9819-7939",
+										"_type": "selectionEntry"
+									}
+								]
+							},
+							"_id": "383a-6fee-9ea1-bfa4",
+							"_name": "Arm mounted weapons",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "907e-f0e6-174e-33b2",
+								"_name": "Carapace mounted weapons",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "512e-2935-3305-3ac8",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "9dce-12c7-1a96-d460",
+								"_name": "Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "6511-396e-6c08-9402",
+								"_name": "Has Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "c116-7186-6317-719a",
+								"_name": "Titanic Stride",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8035-18bf-471c-9733",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "120.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "4000.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "fe55-4a83-0126-51dc",
+					"_name": "Chaos Reaver Battle Titan",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+										"__text": "When this model advances, increase its Move characteristic by 12\" instead of rolling a dice."
+									}
+								},
+								"_id": "3371-b6bc-cce1-d783",
+								"_name": "Flank Speed",
+								"_hidden": "false",
+								"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+								"_typeName": "Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "*"
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "*"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "*"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "10"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "9"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "35"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "4"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "504a-4734-4318-457a",
+								"_name": "Chaos Warhound Scout Titan",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "30-35+"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "24\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "5+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "2+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "de47-f21f-632a-feb0",
+								"_name": "Chaos Warhound Scout Titan1",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "20-29"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "18\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "5+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "3+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "5+"
+										}
+									]
+								},
+								"_id": "cd83-e514-abc5-26b0",
+								"_name": "Chaos Warhound Scout Titan2",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "10-19"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "12\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "6+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "4+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "6+"
+										}
+									]
+								},
+								"_id": "ad51-ba4e-d018-8b1b",
+								"_name": "Chaos Warhound Scout Titan3",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "1-9"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "8\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "6+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "4+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "7+"
+										}
+									]
+								},
+								"_id": "a395-0dd8-6575-9c1c",
+								"_name": "Chaos Warhound Scout Titan4",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "a5ac-0fdb-51be-6a7f",
+								"_name": "Infernal God-engine",
+								"_hidden": "false",
+								"_targetId": "a0ea-57a5-f34a-ad4b",
+								"_type": "profile"
+							},
+							{
+								"_id": "34e6-f291-bf29-37c7",
+								"_name": "Titan Void Shields",
+								"_hidden": "false",
+								"_targetId": "eba7-5f8d-c2a0-3165",
+								"_type": "profile"
+							},
+							{
+								"_id": "4563-d91b-9988-917b",
+								"_name": "Cataclysmic Explosion",
+								"_hidden": "false",
+								"_targetId": "9ff7-ac90-8912-3833",
+								"_type": "profile"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "5ac5-8233-2e20-034d",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "bc10-1aed-9d8c-724b",
+								"_primary": "false"
+							},
+							{
+								"_id": "d17e-a699-3c52-230c",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5cf1-acf2-ca3b-c2e5",
+								"_primary": "false"
+							},
+							{
+								"_id": "a99e-d400-1bb0-ff19",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "f367-b06c-c574-c7fe",
+								"_primary": "false"
+							},
+							{
+								"_id": "7d8f-e601-930a-0efa",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+								"_primary": "true"
+							},
+							{
+								"_id": "1b34-28b6-c957-7309",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "bdda-36f0-4f32-1639",
+								"_primary": "false"
+							},
+							{
+								"_id": "72ec-8a6a-c37d-a934",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5f88-bd69-1096-78b6",
+								"_primary": "false"
+							},
+							{
+								"_id": "3bc1-cc32-1508-98e3",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "c8fd-783f-3230-493e",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntryGroups": {
+						"selectionEntryGroup": {
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "false",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "9fdd-8a3d-50f8-8215",
+										"_type": "max"
+									},
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "false",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "be41-d005-cdcf-986c",
+										"_type": "min"
+									}
+								]
+							},
+							"entryLinks": {
+								"entryLink": [
+									{
+										"_id": "1503-67b0-c6b1-77a5",
+										"_name": "Titan plasma blastgun",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "a08d-9075-361e-016d",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "4f87-a360-30da-2ee8",
+										"_name": "Titan inferno gun",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "319e-bbf9-5938-65b9",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "ed76-3411-4f2c-de87",
+										"_name": "Titan vulcan mega-bolter",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "01ff-ff21-7c92-b62a",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "2e19-a6f7-c166-ee5e",
+										"_name": "Dual turbo-laser destructor",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "591d-791f-a46a-05da",
+										"_type": "selectionEntry"
+									}
+								]
+							},
+							"_id": "b16a-68ce-af9e-f7dd",
+							"_name": "Arm mounted weapons",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "6693-db57-5294-74c7",
+								"_name": "Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "6abb-2dd9-bd14-543e",
+								"_name": "Has Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "23b2-1b16-b6f4-c628",
+								"_name": "Titanic Stride",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8035-18bf-471c-9733",
+								"_type": "selectionEntry"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "75.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "2000.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "6f73-5883-b77b-583d",
+					"_name": "Chaos Warhound Scout Titan",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "model"
+				},
+				{
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "60-70+"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "18\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "4+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "2+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "ebe0-1086-6ef6-0c8c",
+								"_name": "Chaos Warlord Battle Titan1",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "40-59"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "14\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "4+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "3+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "e8bd-f07e-4789-e98f",
+								"_name": "Chaos Warlord Battle Titan2",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "20-39"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "12\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "5+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "4+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "45ac-6cf9-7712-87f6",
+								"_name": "Chaos Warlord Battle Titan3",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "10-19"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "10\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "5+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "4+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "5+"
+										}
+									]
+								},
+								"_id": "c65f-36c1-4db8-fed9",
+								"_name": "Chaos Warlord Battle Titan4",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Remaining W",
+											"_typeId": "bdd9-9181-1cad-b79f",
+											"__text": "1-9"
+										},
+										{
+											"_name": "M",
+											"_typeId": "f560-9126-5959-48ba",
+											"__text": "8\""
+										},
+										{
+											"_name": "WS",
+											"_typeId": "8e95-6bfb-c560-252c",
+											"__text": "6+"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "ce76-ba62-9fc6-cdcc",
+											"__text": "5+"
+										},
+										{
+											"_name": "Void Shield",
+											"_typeId": "b269-3fa5-291a-8155",
+											"__text": "6+"
+										}
+									]
+								},
+								"_id": "fcf4-3f17-1eb6-6e0c",
+								"_name": "Chaos Warlord Battle Titan5",
+								"_hidden": "false",
+								"_typeId": "9276-4ade-22c4-5cb6",
+								"_typeName": "Wound Track, Titan"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "M",
+											"_typeId": "0bdf-a96e-9e38-7779",
+											"__text": "*"
+										},
+										{
+											"_name": "WS",
+											"_typeId": "e7f0-1278-0250-df0c",
+											"__text": "*"
+										},
+										{
+											"_name": "BS",
+											"_typeId": "381b-eb28-74c3-df5f",
+											"__text": "*"
+										},
+										{
+											"_name": "S",
+											"_typeId": "2218-aa3c-265f-2939",
+											"__text": "16"
+										},
+										{
+											"_name": "T",
+											"_typeId": "9c9f-9774-a358-3a39",
+											"__text": "16"
+										},
+										{
+											"_name": "W",
+											"_typeId": "f330-5e6e-4110-0978",
+											"__text": "70"
+										},
+										{
+											"_name": "A",
+											"_typeId": "13fc-b29b-31f2-ab9f",
+											"__text": "5"
+										},
+										{
+											"_name": "Ld",
+											"_typeId": "00ca-f8b8-876d-b705",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "c0df-df94-abd7-e8d3",
+											"__text": "2+"
+										}
+									]
+								},
+								"_id": "28a0-5d1a-3658-49fc",
+								"_name": "Chaos Warlord Battle Titan",
+								"_hidden": "false",
+								"_typeId": "800f-21d0-4387-c943",
+								"_typeName": "Unit"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": [
+							{
+								"_id": "9768-4c20-8733-b01c",
+								"_name": "Icon of the Apocalypse",
+								"_hidden": "false",
+								"_targetId": "11a1-f0e0-d62f-b6d4",
+								"_type": "profile"
+							},
+							{
+								"_id": "65fd-6905-e90f-1c89",
+								"_name": "Infernal God-engine",
+								"_hidden": "false",
+								"_targetId": "a0ea-57a5-f34a-ad4b",
+								"_type": "profile"
+							},
+							{
+								"_id": "7bf8-91c3-64bc-119b",
+								"_name": "Titan Void Shields",
+								"_hidden": "false",
+								"_targetId": "eba7-5f8d-c2a0-3165",
+								"_type": "profile"
+							},
+							{
+								"_id": "f09c-210f-7dae-af41",
+								"_name": "Titanic Gait",
+								"_hidden": "false",
+								"_targetId": "c5b5-f67d-f06e-f72a",
+								"_type": "profile"
+							},
+							{
+								"_id": "d39a-78ff-0b12-1946",
+								"_name": "Cataclysmic Explosion",
+								"_hidden": "false",
+								"_targetId": "9ff7-ac90-8912-3833",
+								"_type": "profile"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "3612-893b-0987-2776",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5cf1-acf2-ca3b-c2e5",
+								"_primary": "false"
+							},
+							{
+								"_id": "0308-7c3c-2c5c-9fe0",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+								"_primary": "true"
+							},
+							{
+								"_id": "6898-4570-fda8-4f63",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "bdda-36f0-4f32-1639",
+								"_primary": "false"
+							},
+							{
+								"_id": "d309-f142-7fbb-b9a5",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "c8fd-783f-3230-493e",
+								"_primary": "false"
+							},
+							{
+								"_id": "73ca-c870-fc77-83ec",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "bc10-1aed-9d8c-724b",
+								"_primary": "false"
+							},
+							{
+								"_id": "629b-b17f-00c0-a3d4",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "f367-b06c-c574-c7fe",
+								"_primary": "false"
+							},
+							{
+								"_id": "ddc7-90ca-0023-9633",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "5f88-bd69-1096-78b6",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntryGroups": {
+						"selectionEntryGroup": {
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "false",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "df61-92d5-0095-003e",
+										"_type": "max"
+									},
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "2.0",
+										"_percentValue": "false",
+										"_shared": "false",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "caf4-7c45-4095-2653",
+										"_type": "min"
+									}
+								]
+							},
+							"entryLinks": {
+								"entryLink": [
+									{
+										"_id": "0888-928b-8fa6-65ec",
+										"_name": "Sunfury plasma annihilator",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "0ceb-689d-4890-8cf4",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "43c1-b865-691e-4dd8",
+										"_name": "Mori quake cannon",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "b0aa-744d-5752-7a70",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "d252-7be8-f3ba-6e5f",
+										"_name": "Saturnyne lascutter",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "56ee-470e-eef0-392c",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "8085-e7e6-3e7f-db85",
+										"_name": "Arioch Titan power claw",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "b124-08b6-9635-dd74",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "29ff-de0a-f11b-6b10",
+										"_name": "Warlord gatling blaster",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "8782-6342-20cb-992c",
+										"_type": "selectionEntry"
+									},
+									{
+										"_id": "4ffc-669b-d8d7-5c29",
+										"_name": "Belicosa volcano cannon",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_targetId": "6d00-bed4-98cd-3abb",
+										"_type": "selectionEntry"
+									}
+								]
+							},
+							"_id": "fbb2-7097-1e25-8e3f",
+							"_name": "Arm mounted weapons",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"modifiers": {
+									"modifier": [
+										{
+											"_type": "set",
+											"_field": "6bea-5491-6d3f-ca88",
+											"_value": "2"
+										},
+										{
+											"_type": "set",
+											"_field": "5183-31b4-c4a3-e343",
+											"_value": "2"
+										}
+									]
+								},
+								"_id": "7d78-d6e4-3162-5578",
+								"_name": "Carapace mounted weapons",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "512e-2935-3305-3ac8",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "9e10-b1c9-13fa-0c34",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "5a3e-b354-4491-a020",
+											"_type": "min"
+										}
+									]
+								},
+								"_id": "fdb5-98b3-1e4d-4b6c",
+								"_name": "Greater titanic stride",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8bfc-dba5-5107-7075",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "2.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "12e8-4d71-0146-babb",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "2.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "f013-3def-8ded-0a4a",
+											"_type": "min"
+										}
+									]
+								},
+								"_id": "dd2f-f329-5bb6-359e",
+								"_name": "Ardex-defensor twin lascannon",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "67f9-110f-ebce-f8a8",
+								"_type": "selectionEntry"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "2.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "5fe3-4f57-8ab6-c979",
+											"_type": "max"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "2.0",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "c057-c881-0138-8218",
+											"_type": "min"
+										}
+									]
+								},
+								"_id": "915d-7d5f-fad3-8975",
+								"_name": "Ardex-defensor maulers",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "577d-f6f0-b174-15f0",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "c08a-9186-4253-8f3b",
+								"_name": "Has Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "4763-757f-499f-d998",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "7e8e-1900-e2c0-c060",
+								"_name": "Battle Honours",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "5518-d0f5-a880-d71c",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "200.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "6000.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "8819-eaf2-127e-efca",
+					"_name": "Chaos Warlord Battle Titan",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "Melee"
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Melee"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "User"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-4"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "3"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Make 4 hit rolls for each attack made with this weapon, instead of 1."
+									}
+								]
+							},
+							"_id": "5a7e-b4e1-c8d3-d31e",
+							"_name": "Greater titanic stride",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "8bfc-dba5-5107-7075",
+					"_name": "Greater titanic stride",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "Melee"
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Melee"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "x2"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-5"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "12"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "If you slay a VEHICLE or MONSTER that does not have the TITANIC keyword with the Warlord power claw, select an enemy unit within 12\" and roll a D6; on a 4+ that unit suffers D6 mortal wounds as the dead body or debris is thrown at it."
+									}
+								]
+							},
+							"_id": "f794-ecf4-b20b-7a03",
+							"_name": "Arioch Titan power claw",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "4514-e067-5126-b048",
+							"_name": "Titan vulcan mega-bolter",
+							"_hidden": "false",
+							"_targetId": "cc41-13d3-cea4-b3a9",
+							"_type": "profile"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "b124-08b6-9635-dd74",
+					"_name": "Arioch Titan power claw w/ mega bolter",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "Melee"
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Melee"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "x2"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-5"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "10"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "If you slay a VEHICLE or MONSTER that does not have the TITANIC keyword with the Reaver power fist, select an enemy unit within 12\" and roll a D6; on a 4+ that unit suffers D6 mortal wounds as the dead body or debris is thrown at it."
+									}
+								]
+							},
+							"_id": "17f8-63b9-15c1-df59",
+							"_name": "Reaver power fist",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "33a3-2ac8-0ade-9044",
+					"_name": "Reaver power fist",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "Melee"
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Melee"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "x2"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-5"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "10"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Subtract 1 from hit rolls made with this weapon. Any wound roll of a 6 made with this attack on any VEHICLE, MONSTER, or BUILDING automatically inflicts an additional 2D6 mortal wounds on the target."
+									}
+								]
+							},
+							"_id": "e479-3756-8e5c-216f",
+							"_name": "Reaver chainfist",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "d336-c479-8d21-5cc3",
+					"_name": "Reaver chainfist",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "24\"-360\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro 3D6"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "20"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-5"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "6"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Units hit by this weapon must half their Move characteristic and cannot Advance in their following Movement phase. Blast."
+									}
+								]
+							},
+							"_id": "ec22-bdfe-dd35-35ad",
+							"_name": "Mori quake cannon",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "b0aa-744d-5752-7a70",
+					"_name": "Mori quake cannon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "72\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro 2D6"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "10"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-4"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "2D6"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "After resolving all damage on the target unit, roll a D6 for every other unit within 6\" of the target unit; on a 4+ that unit also suffers D3 hits using the weapon's profile. Blast."
+									}
+								]
+							},
+							"_id": "3e07-1175-31b8-1549",
+							"_name": "Sunfury plasma annihilator",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "0ceb-689d-4890-8cf4",
+					"_name": "Sunfury plasma annihilator",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "72\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro 12"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "8"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "3"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Against INFANTRY units, each successful hit inflicted by this weapon instead becomes 3 hits."
+									}
+								]
+							},
+							"_id": "245f-a6a9-5ec5-fad0",
+							"_name": "Warlord gatling blaster",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "8782-6342-20cb-992c",
+					"_name": "Warlord gatling blaster",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "24\"-360\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Heavy 12"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "7"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-2"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "2"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "This weapon can target units which are not visible to the bearer."
+									}
+								]
+							},
+							"_id": "093e-40a0-d74d-a806",
+							"_name": "Apocalypse missile launcher",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "56dd-5f22-1076-6a2e",
+					"_name": "Apocalypse missile launcher",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "72\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro 6"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "8"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "3"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Against INFANTRY units, each successful hit roll inflicted by this weapon instead becomes 3 hits."
+									}
+								]
+							},
+							"_id": "bc36-059b-ccd9-6648",
+							"_name": "Reaver gatling blaster",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "f69f-342d-9819-7939",
+					"_name": "Reaver gatling blaster",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "96\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro 3D3"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "10"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "2D6"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Any wound roll of a 6 made by this attack automatically inflicts an additional D3 mortal wounds on the target. Blast."
+									}
+								]
+							},
+							"_id": "805c-db35-bf33-b36e",
+							"_name": "Reaver laser blaster",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "f337-3828-e72f-1003",
+					"_name": "Reaver laser blaster",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Range",
+											"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+											"__text": "18\""
+										},
+										{
+											"_name": "Type",
+											"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+											"__text": "Heavy 1"
+										},
+										{
+											"_name": "S",
+											"_typeId": "59b1-319e-ec13-d466",
+											"__text": "12"
+										},
+										{
+											"_name": "AP",
+											"_typeId": "75aa-a838-b675-6484",
+											"__text": "-4"
+										},
+										{
+											"_name": "D",
+											"_typeId": "ae8a-3137-d65b-4ca7",
+											"__text": "6"
+										},
+										{
+											"_name": "Abilities",
+											"_typeId": "837d-5e63-aeb7-1410",
+											"__text": "After you have rolled a successful hit with this weapon, you may immediately roll for an additional hit against the same target unit; if this additional hit roll is successful, you may roll to hit again and again until either you miss or a total of 12 hits has been achieved. After the total number of hits has been determined for the weapon, resolve the attack."
+										}
+									]
+								},
+								"_id": "4244-5be3-4a07-2157",
+								"_name": "Saturnyne lascutter (shooting)",
+								"_hidden": "false",
+								"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+								"_typeName": "Weapon"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Range",
+											"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+											"__text": "Melee"
+										},
+										{
+											"_name": "Type",
+											"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+											"__text": "Melee"
+										},
+										{
+											"_name": "S",
+											"_typeId": "59b1-319e-ec13-d466",
+											"__text": "20"
+										},
+										{
+											"_name": "AP",
+											"_typeId": "75aa-a838-b675-6484",
+											"__text": "-5"
+										},
+										{
+											"_name": "D",
+											"_typeId": "ae8a-3137-d65b-4ca7",
+											"__text": "12"
+										},
+										{
+											"_name": "Abilities",
+											"_typeId": "837d-5e63-aeb7-1410",
+											"__text": "You may re-roll failed hit rolls for this weapon against targets with the MONSTER, BUILDING, or VEHICLE keyword."
+										}
+									]
+								},
+								"_id": "56b1-d3d2-f1e7-44bc",
+								"_name": "Saturnyne lascutter (melee)",
+								"_hidden": "false",
+								"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+								"_typeName": "Weapon"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "56ee-470e-eef0-392c",
+					"_name": "Saturnyne lascutter",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "96\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro 2D3"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "16"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "2D6"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Any wound roll of a 6 made with this weapon inflicts an additional D3 mortal wounds on the target. Blast."
+									}
+								]
+							},
+							"_id": "0e69-69dc-025a-21e3",
+							"_name": "Dual turbo-laser destructor",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "591d-791f-a46a-05da",
+					"_name": "Dual turbo-laser destructor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "180\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro D6"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "30"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-6"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "12"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Any wound roll of a 6 made with this weapon inflicts an additional D6 mortal wounds on the target. Blast."
+									}
+								]
+							},
+							"_id": "c78e-7880-b2fc-4110",
+							"_name": "Belicosa volcano cannon",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "6d00-bed4-98cd-3abb",
+					"_name": "Belicosa volcano cannon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Range",
+											"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+											"__text": "72\""
+										},
+										{
+											"_name": "Type",
+											"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+											"__text": "Macro 2D6"
+										},
+										{
+											"_name": "S",
+											"_typeId": "59b1-319e-ec13-d466",
+											"__text": "8"
+										},
+										{
+											"_name": "AP",
+											"_typeId": "75aa-a838-b675-6484",
+											"__text": "-3"
+										},
+										{
+											"_name": "D",
+											"_typeId": "ae8a-3137-d65b-4ca7",
+											"__text": "3"
+										},
+										{
+											"_name": "Abilities",
+											"_typeId": "837d-5e63-aeb7-1410",
+											"__text": "Blast"
+										}
+									]
+								},
+								"_id": "a973-2db1-a21d-29ae",
+								"_name": "Titan plasma blastgun, normal",
+								"_hidden": "false",
+								"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+								"_typeName": "Weapon"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Range",
+											"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+											"__text": "72\""
+										},
+										{
+											"_name": "Type",
+											"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+											"__text": "Macro 2D6"
+										},
+										{
+											"_name": "S",
+											"_typeId": "59b1-319e-ec13-d466",
+											"__text": "10"
+										},
+										{
+											"_name": "AP",
+											"_typeId": "75aa-a838-b675-6484",
+											"__text": "-4"
+										},
+										{
+											"_name": "D",
+											"_typeId": "ae8a-3137-d65b-4ca7",
+											"__text": "4"
+										},
+										{
+											"_name": "Abilities",
+											"_typeId": "837d-5e63-aeb7-1410",
+											"__text": "When using this firing mode, for each hit roll of 1, the Titan suffers a mortal wound after all of this weapon's shots have been resolved. These mortal wounds may nto be stopped by the Titan's own void shields. Blast."
+										}
+									]
+								},
+								"_id": "e3c0-7940-38aa-5ed0",
+								"_name": "Titan plasma blastgun, overcharged",
+								"_hidden": "false",
+								"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+								"_typeName": "Weapon"
+							}
+						]
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "a08d-9075-361e-016d",
+					"_name": "Titan plasma blastgun",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "72\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Heavy 40"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "6"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "2"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "-"
+									}
+								]
+							},
+							"_id": "cf11-a0a8-dd31-a17e",
+							"_name": "Twin Titan mega-bolter",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "0ca0-cd50-9704-3915",
+					"_name": "Twin Titan mega-bolter",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "24\"-360\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Heavy 10"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "6"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-2"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "2"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Against INFANTRY, the number of successful hits rolled for this weapon is doubled. Units attacked by this weapon do not gain any bonus to their saving throws for being in cover. This weapon can target units which are not visible to the bearer."
+									}
+								]
+							},
+							"_id": "e38c-fdce-bff7-7152",
+							"_name": "Incinerator missile bank",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "f84f-2b7a-7990-0f98",
+					"_name": "Incinerator missile bank",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "36\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Heavy 6"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "6"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-2"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "2"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Overwatch attacks with this weapon hit on a 5+ regardless of modifiers."
+									}
+								]
+							},
+							"_id": "9526-8066-793c-0ce3",
+							"_name": "Ardex-defensor maulers",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "577d-f6f0-b174-15f0",
+					"_name": "Ardex-defensor maulers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "48\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Heavy 2"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "9"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "D6"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Overwatch attacks with this wepaon hit on a 5+ regardless of modifiers. These weapons may only fire at targets behind the Titan."
+									}
+								]
+							},
+							"_id": "5095-e6eb-4b2e-db22",
+							"_name": "Ardex-defensor twin lascannon",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "67f9-110f-ebce-f8a8",
+					"_name": "Ardex-defensor twin lascannon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "180\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro D6"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "25"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-5"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "12"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "-"
+									}
+								]
+							},
+							"_id": "7abc-fa4c-ed2d-847c",
+							"_name": "Reaver volcano cannon",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "d066-23b5-b493-5424",
+					"_name": "Reaver volcano cannon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "48\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Macro 2D6"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "16"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-4"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "6"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Blast."
+									}
+								]
+							},
+							"_id": "6578-4c35-fd2a-6daf",
+							"_name": "Reaver melta cannon",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "d22d-e0eb-02e0-aa54",
+					"_name": "Reaver melta cannon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "18\""
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Heavy 4D6"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "7"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "4"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "This weapon hits automatically."
+									}
+								]
+							},
+							"_id": "9302-efc8-c55c-2d44",
+							"_name": "Titan inferno gun",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "319e-bbf9-5938-65b9",
+					"_name": "Titan inferno gun",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"infoLinks": {
+						"infoLink": {
+							"_id": "7aac-b3af-269a-3dc0",
+							"_name": "Titan vulcan mega-bolter",
+							"_hidden": "false",
+							"_targetId": "cc41-13d3-cea4-b3a9",
+							"_type": "profile"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "01ff-ff21-7c92-b62a",
+					"_name": "Titan vulcan mega-bolter",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "623f-0305-f8db-5ead",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1.0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "e076-c993-f641-c0c3",
+								"_type": "min"
+							}
+						]
+					},
+					"profiles": {
+						"profile": {
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Range",
+										"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+										"__text": "Melee"
+									},
+									{
+										"_name": "Type",
+										"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+										"__text": "Melee"
+									},
+									{
+										"_name": "S",
+										"_typeId": "59b1-319e-ec13-d466",
+										"__text": "User"
+									},
+									{
+										"_name": "AP",
+										"_typeId": "75aa-a838-b675-6484",
+										"__text": "-3"
+									},
+									{
+										"_name": "D",
+										"_typeId": "ae8a-3137-d65b-4ca7",
+										"__text": "3"
+									},
+									{
+										"_name": "Abilities",
+										"_typeId": "837d-5e63-aeb7-1410",
+										"__text": "Make 3 hit rolls for each attack made with this weapon, instead of 1."
+									}
+								]
+							},
+							"_id": "c6dc-491b-13f9-d175",
+							"_name": "Titanic Stride",
+							"_hidden": "false",
+							"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+							"_typeName": "Weapon"
+						}
+					},
+					"costs": {
+						"cost": [
+							{
+								"_name": " PL",
+								"_typeId": "e356-c769-5920-6e14",
+								"_value": "0.0"
+							},
+							{
+								"_name": "pts",
+								"_typeId": "points",
+								"_value": "0.0"
+							},
+							{
+								"_name": "CP",
+								"_typeId": "2d3b-b544-ad49-fb75",
+								"_value": "0.0"
+							}
+						]
+					},
+					"_id": "8035-18bf-471c-9733",
+					"_name": "Titanic Stride",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				}
+			]
+		},
+		"sharedSelectionEntryGroups": {
+			"selectionEntryGroup": {
+				"constraints": {
+					"constraint": [
+						{
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "false",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "5183-31b4-c4a3-e343",
+							"_type": "max"
+						},
+						{
+							"_field": "selections",
+							"_scope": "parent",
+							"_value": "1.0",
+							"_percentValue": "false",
+							"_shared": "false",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false",
+							"_id": "6bea-5491-6d3f-ca88",
+							"_type": "min"
+						}
+					]
+				},
+				"entryLinks": {
+					"entryLink": [
+						{
+							"_id": "83b8-b831-cc23-3f60",
+							"_name": "Dual turbo-laser destructor",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "591d-791f-a46a-05da",
+							"_type": "selectionEntry"
+						},
+						{
+							"_id": "74a6-8e11-7173-6819",
+							"_name": "Titan plasma blastgun",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "a08d-9075-361e-016d",
+							"_type": "selectionEntry"
+						},
+						{
+							"_id": "9452-13e0-9ffd-b727",
+							"_name": "Twin Titan mega-bolter",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "0ca0-cd50-9704-3915",
+							"_type": "selectionEntry"
+						},
+						{
+							"_id": "67b2-6c8f-602a-fe07",
+							"_name": "Apocalypse missile launcher",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "56dd-5f22-1076-6a2e",
+							"_type": "selectionEntry"
+						},
+						{
+							"_id": "9893-6a81-ab70-7251",
+							"_name": "Reaver laser blaster",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "f337-3828-e72f-1003",
+							"_type": "selectionEntry"
+						},
+						{
+							"_id": "c1f8-195f-aa7f-3dff",
+							"_name": "Reaver gatling blaster",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "f69f-342d-9819-7939",
+							"_type": "selectionEntry"
+						},
+						{
+							"_id": "7922-0c80-4273-d96a",
+							"_name": "Incinerator missile bank",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "f84f-2b7a-7990-0f98",
+							"_type": "selectionEntry"
+						}
+					]
+				},
+				"_id": "512e-2935-3305-3ac8",
+				"_name": "Carapace mounted weapons",
+				"_hidden": "false",
+				"_collective": "false",
+				"_import": "true"
+			}
+		},
+		"sharedProfiles": {
+			"profile": [
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding Monster and Vehicle models) as if they were not\nthere, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them."
+						}
+					},
+					"_id": "a0ea-57a5-f34a-ad4b",
+					"_name": "Infernal God-engine",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				},
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "Titans are protected by specialised void shield generators, near-impenetrable barriers of force projected out at a distance from their hulls in layers and designed to deflect and absorb the impact of high-energy attacks and missiles against them. In game terms, Titan void shields are represented by a unique kind of saving throw which the controlling player can opt to use instead of their normal save or invulnerable save against any form of attack except from weapons with the Melee type. like invulnerable saves, Titan void shield saves are unaffected by the AP of an attack, but unlike invulnerable saves they may also be used to negate mortal wounds. In this case, roll one dice for each mortal wound that has been inflicted on the Titan, with the mortal wound being ignored if the save roll is passed. Titan void shields must be continuously re-energised and renewed in combat operations and so as the Titan is damaged, the defensive potential of its void shields is reduced."
+						}
+					},
+					"_id": "eba7-5f8d-c2a0-3165",
+					"_name": "Titan Void Shields",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				},
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "When this model advances, increase its Move characteristic by 8\" instead of rolling a dice."
+						}
+					},
+					"_id": "c5b5-f67d-f06e-f72a",
+					"_name": "Titanic Gait",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				},
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "All enemy models within 9\" suffer a -2 penalty to their Leadership characteristic."
+						}
+					},
+					"_id": "11a1-f0e0-d62f-b6d4",
+					"_name": "Icon of the Apocalypse",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				},
+				{
+					"characteristics": {
+						"characteristic": {
+							"_name": "Description",
+							"_typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+							"__text": "If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield. On a 5+ it suffers a cataclysmic explosion and each unit within 3D6\" suffers 2D6 mortal wounds."
+						}
+					},
+					"_id": "9ff7-ac90-8912-3833",
+					"_name": "Cataclysmic Explosion",
+					"_hidden": "false",
+					"_typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+					"_typeName": "Abilities"
+				},
+				{
+					"characteristics": {
+						"characteristic": [
+							{
+								"_name": "Range",
+								"_typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+								"__text": "72\""
+							},
+							{
+								"_name": "Type",
+								"_typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+								"__text": "Heavy 20"
+							},
+							{
+								"_name": "S",
+								"_typeId": "59b1-319e-ec13-d466",
+								"__text": "6"
+							},
+							{
+								"_name": "AP",
+								"_typeId": "75aa-a838-b675-6484",
+								"__text": "-3"
+							},
+							{
+								"_name": "D",
+								"_typeId": "ae8a-3137-d65b-4ca7",
+								"__text": "2"
+							},
+							{
+								"_name": "Abilities",
+								"_typeId": "837d-5e63-aeb7-1410",
+								"__text": "-"
+							}
+						]
+					},
+					"_id": "cc41-13d3-cea4-b3a9",
+					"_name": "Titan vulcan mega-bolter",
+					"_hidden": "false",
+					"_typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+					"_typeName": "Weapon"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "8c3d-93c3-7a7a-5a11",
+		"_name": "Chaos - Titanicus Traitoris",
+		"_revision": "8",
+		"_battleScribeVersion": "2.03",
+		"_authorName": "BSData Developers",
+		"_authorContact": "@Mad_Spy",
+		"_authorUrl": "https://discord.gg/KqPVhds",
+		"_library": "false",
+		"_gameSystemId": "28ec-711c-d87f-3aeb",
+		"_gameSystemRevision": "131"
+	}
+}
