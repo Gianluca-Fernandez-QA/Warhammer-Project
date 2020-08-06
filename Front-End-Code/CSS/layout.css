@@ -1,0 +1,39 @@
+body{
+    background-color: #eaeaea;
+}
+#navBa{
+    width: 100%;
+}
+.img-fluid{
+
+
+}
+#banner{
+    width: fit-content;
+    height: 100px;
+width: 100%
+}
+#logo{
+    height: 100px;
+    width: 5%;
+}
+.navbar-brand{
+    height: 100%;
+}
+.twitter-timeline{
+    left: 5rem;
+}
+#summary{
+    width: 50 rem;
+    height: 43.75rem;
+}
+#demo{
+    width: 6rem;
+    height: 7rem;
+}
+#smlColor{
+    height: 14.2%;
+    border: white;
+    border-style: solid;
+    border-width: 0.0625rem;
+}
