@@ -37,3 +37,12 @@ width: 100%
     border-style: solid;
     border-width: 0.0625rem;
 }
+.dropdown .dropdown-menu{ max-height:25rem; overflow:auto; }
+.my-custom-scrollbar {
+    position: relative;
+    height: 31.25rem;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
