@@ -25,11 +25,6 @@ function stringdiv(a) {
         a.indexOf("¥", str.indexOf("¥") + 1))
     jsonImp(`${part}`);
     a = a.replace(armyString[1], "");
-
-    console.log(a);
-
-
-
     let itemNum = (a.split("¬").length - 1);
 
     console.log(itemNum);
