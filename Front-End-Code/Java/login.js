@@ -1,12 +1,24 @@
 
+var a = document.getElementById("btnCrt");
+a.addEventListener('click',function(e){
+   e.preventDefault(); // Cancel the native event
+   e.stopPropagation();// Don't bubble/capture the event
+}, false);
 function create(){
+    
 let username = document.getElementById("UserName").value;
 let password = document.getElementById("password").value;
 let name = document.getElementById("fullName").value;
 let email = document.getElementById("fullName").value;
 let usrpub = document.getElementById("public").checked;
 
-let data = { userName: `${username}`, password: `${password}`,name:`${name}`,email:`${email}`,userPublic:`${usrpub}` };
+let data = {
+    "userName": `${username}`,
+    "password": `${password}`,
+    "name": `${name}`,
+    "email": `${email}`,
+    "userPublic": `${usrpub}`
+};
 
 fetch('http://localhost:9001/UserCreation', {
   method: 'POST', // or 'PUT'
@@ -15,11 +27,8 @@ fetch('http://localhost:9001/UserCreation', {
   },
   body: JSON.stringify(data),
 })
-.then(response => response.json())
+.then(response => response)
 .then(data => {
-  console.log('Success:', data);
+  console.log(data);
 })
-.catch((error) => {
-  console.error('Error:', error);
-});
 }

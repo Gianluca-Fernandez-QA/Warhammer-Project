@@ -3,6 +3,7 @@ package com.qa.demo.controllers;
 import java.io.Console;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,9 +14,10 @@ import com.qa.demo.Entities.Usermain;
 import com.qa.demo.services.UserMainServices;
 import com.qa.demo.services.UserSecurityServices;
 
-
+@CrossOrigin
 @RestController
 public class UserController {
+	
 	@Autowired
 	UserSecurityServices usrSS;
 	@Autowired
