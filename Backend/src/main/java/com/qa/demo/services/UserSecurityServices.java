@@ -1,5 +1,6 @@
 package com.qa.demo.services;
 
+import java.io.Console;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,8 @@ public String newUser(UserSecurity u) {
 }
 
 public boolean login(String uName, String uPass) {
+	System.out.println(uName);
+	System.out.println(Repo.login(uName));
 	List<UserSecurity> a = Repo.login(uName);
 	String pass = a.get(0).getPassword();
 	if(uPass == pass) {
