@@ -14,5 +14,8 @@ public interface UserSecurityRepo extends JpaRepository<UserSecurity, String> {
 
 	@Query(value = "select * from user_security WHERE username=:a", nativeQuery = true)     
 	public List<UserSecurity> login(@Param("a")String a);
+	
+	@Query(value = "DELETE FROM user_security WHERE username=:a", nativeQuery = true)     
+	public List<UserSecurity> delete(@Param("a")String a);
 
 }

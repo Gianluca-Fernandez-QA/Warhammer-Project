@@ -1,5 +1,5 @@
 
-var a = document.getElementById("btnCrt");
+var a = document.getElementById("btn");
 a.addEventListener('click',function(e){
    e.preventDefault(); // Cancel the native event
    e.stopPropagation();// Don't bubble/capture the event
@@ -65,3 +65,32 @@ function login(){
     }
   })
   }
+  function deleteusr(){
+    
+    let username = document.getElementById("UserName").value;
+    let password = document.getElementById("password").value;
+  
+    
+    let data = {
+        "userName": `${username}`,
+        "password": `${password}`,
+    };
+    
+    fetch('http://localhost:9001/UserLogin', {
+      method: 'POST', // or 'PUT'
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+    .then(response => response)
+    .then(data => {
+      if(data.ok === true){
+        console.log("USER DELETED");
+        
+      }
+      else{
+        console.log("USER FAILED")
+      }
+    })
+    }

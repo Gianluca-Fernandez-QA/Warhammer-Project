@@ -20,11 +20,19 @@ public String newUser(UserSecurity u) {
 }
 
 public boolean login(String uName, String uPass) {
-	System.out.println(uName);
-	System.out.println(Repo.login(uName));
 	List<UserSecurity> a = Repo.login(uName);
 	String pass = a.get(0).getPassword();
 	if(uPass == pass) {
+	return true;
+	}else {
+	return false;
+	}
+}
+public boolean delete(String uName, String uPass) {
+	List<UserSecurity> a = Repo.login(uName);
+	String pass = a.get(0).getPassword();
+	if(uPass == pass) {
+		Repo.delete(uName);
 	return true;
 	}else {
 	return false;
