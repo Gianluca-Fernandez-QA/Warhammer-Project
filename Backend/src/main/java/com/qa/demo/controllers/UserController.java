@@ -4,6 +4,7 @@ import java.io.Console;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,13 +25,14 @@ public class UserController {
 	UserMainServices usrMS;
 @PostMapping("/UserCreation")
 public String  usrCreate(@RequestBody USER a) {
-	System.out.println(a.getUserName());
-	System.out.println(a.getEmail());
-	System.out.println(a.getName());
-	System.out.println(a.getPassword());
-	System.out.println(a.isUserPublic());
 	UserSecurity users = new UserSecurity(a.getUserName(), a.getPassword());
 	Usermain user = new Usermain(a.getName(), a.getEmail(), a.isUserPublic(),users); 
 	return usrSS.newUser(users)+ " "+ usrMS.newUser(user);
+}
+@PostMapping("/UserLogin")
+public String usrLogin(@RequestBody UserSecurity a) {
+	
+	return usrSS.login(a.getUsername(), a.getPassword());
+	
 }
 }
