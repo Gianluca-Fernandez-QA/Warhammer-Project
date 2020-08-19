@@ -18,13 +18,13 @@ public String newUser(UserSecurity u) {
 	return "User Security Created";
 }
 
-public String login(String uName, String uPass) {
+public boolean login(String uName, String uPass) {
 	List<UserSecurity> a = Repo.login(uName);
 	String pass = a.get(0).getPassword();
 	if(uPass == pass) {
-	return "USER LOGIN CONFIRMED";
+	return true;
 	}else {
-	return "USER DOES NOT EXIST";
+	return false;
 	}
 }
 }
