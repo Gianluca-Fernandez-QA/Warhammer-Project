@@ -1,6 +1,11 @@
 
-var a = document.getElementById("btn");
+let a = document.getElementById("btn");
 a.addEventListener('click',function(e){
+   e.preventDefault(); // Cancel the native event
+   e.stopPropagation();// Don't bubble/capture the event
+}, false);
+let b = document.getElementById("btn1");
+b.addEventListener('click',function(e){
    e.preventDefault(); // Cancel the native event
    e.stopPropagation();// Don't bubble/capture the event
 }, false);
@@ -76,7 +81,7 @@ function login(){
         "password": `${password}`,
     };
     
-    fetch('http://localhost:9001/UserLogin', {
+    fetch('http://localhost:9001/UserDelete', {
       method: 'POST', // or 'PUT'
       headers: {
         'Content-Type': 'application/json',
@@ -86,6 +91,7 @@ function login(){
     .then(response => response)
     .then(data => {
       if(data.ok === true){
+        console.log(data);
         console.log("USER DELETED");
         
       }
