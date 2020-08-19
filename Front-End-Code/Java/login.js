@@ -52,6 +52,16 @@ function login(){
   })
   .then(response => response)
   .then(data => {
-    console.log(data);
+    if(data.ok === true){
+      console.log("USER LOGIN");
+      let date = new Date();
+      let minutes = 30;
+      date.setTime(date.getTime() + (minutes * 60 * 1000));
+      document.cookie = `username=${username}; expires=${date};`;
+      document.cookie = `password=${password}; expires=${date};`;
+    }
+    else{
+      console.log("USER FAILED")
+    }
   })
   }
