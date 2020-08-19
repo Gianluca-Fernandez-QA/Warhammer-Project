@@ -287,7 +287,7 @@ function jsonImp(a1) {
                                 console.log(lol);
 
                                 tablePopulator(lol, data.catalogue.sharedSelectionEntries.selectionEntry[i]._name, data.catalogue.sharedSelectionEntries.selectionEntry[i].costs.cost[pointValueSelector]._value);
-
+                                save();
                                 ma = armyString.length;
 
 
@@ -365,7 +365,7 @@ function tablePopulator(a, b, c) {
         row.appendChild(td2);
         row.appendChild(td3);
         table.appendChild(row);
-        save();
+        
 
         console.log(armyString);
 
@@ -378,6 +378,7 @@ function quantity(a, b) {
 }
 function save() {
     let op = document.getElementById("table1");
+
     if (document.getElementById("btnsave") === undefined) {
         op.appendChild(btnsaveF());
     } else {
