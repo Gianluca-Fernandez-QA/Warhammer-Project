@@ -30,9 +30,12 @@ public String  usrCreate(@RequestBody USER a) {
 	return usrSS.newUser(users)+ " "+ usrMS.newUser(user);
 }
 @PostMapping("/UserLogin")
-public boolean usrLogin(@RequestBody UserSecurity a) {
+public boolean usrLogin(@RequestBody USER a) {
+	return usrSS.login(a.getUserName(), a.getPassword());
 	
-	return usrSS.login(a.getUsername(), a.getPassword());
-	
+}
+@PostMapping("/UserDelete")
+public boolean usrDelete(@RequestBody USER a) {
+	return usrSS.delete(a.getUserName(), a.getPassword());
 }
 }

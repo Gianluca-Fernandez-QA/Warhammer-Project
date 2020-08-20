@@ -1,12 +1,19 @@
 package com.qa.demo.Entities;
 
 public class USER {
+	private String id;
 	private String UserName;
 	private String Password;
 	private String name;
 	private String email;
 	private boolean UserPublic;
 	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
 	public String getUserName() {
 		return UserName;
 	}

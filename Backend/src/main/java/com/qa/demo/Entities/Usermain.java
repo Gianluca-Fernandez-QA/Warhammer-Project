@@ -18,8 +18,16 @@ public class Usermain {
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "UserName")
 	private UserSecurity user;
+	public Usermain() {}
 	
-	
+	public Usermain(long id, String name, String email, boolean userPublic, UserSecurity user) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		UserPublic = userPublic;
+		this.user = user;
+	}
 	public Usermain(String name, String email, boolean userPublic, UserSecurity user) {
 		super();
 		this.name = name;
