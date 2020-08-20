@@ -12,5 +12,8 @@ import com.qa.demo.Entities.Usermain;
 public interface UserMainRepo extends JpaRepository<Usermain, Long> {
 	
 	@Query(value = "SELECT * FROM usermain where user_name = :a", nativeQuery = true)     
-	public List<Usermain> delete(@Param("a")String a);
+	public List<Usermain> find(@Param("a")String a);
+	
+	@Query(value = "SELECT * FROM usermain where user_name = :a", nativeQuery = true)     
+	public Usermain ArmyCreate(@Param("a")String a);
 }

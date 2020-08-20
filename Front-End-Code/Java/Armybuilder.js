@@ -365,7 +365,7 @@ function tablePopulator(a, b, c) {
         row.appendChild(td2);
         row.appendChild(td3);
         table.appendChild(row);
-        
+
 
         console.log(armyString);
 
@@ -385,7 +385,6 @@ function save() {
         op.innerHTML = "";
         op.appendChild(btnsaveF());
     }
-
 }
 function btnsaveF() {
     let atoggle = document.createElement("BUTTON");
@@ -401,6 +400,62 @@ function btnsaveF() {
 
         }
         localStorage.setItem('army', armyarray);
+        armyStorer()
     }
     return atoggle;
 }
+
+
+function armyStorer() {
+    let usercookie = getCookie("username")
+    let passCookie = getCookie("password")
+    if (usercookie.length != 0) {
+        //redirect somewhere 
+
+        let armyarray = "";
+        for (let i = 0; i < armyString.length; i++) {
+
+            armyarray = armyarray + armyString[i];
+
+        }
+        let data = {
+            "userName": `${usercookie}`,
+            "password": `${passCookie}`,
+            "armyName": `${document.getElementById("armyname").value}`,
+            "armyBody": `${armyarray}`
+        };
+
+        fetch('http://localhost:9001/ArmyCreate', {
+            method: 'POST', // or 'PUT'
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then(response => response)
+            .then(data => {
+                if (data.ok === true) {
+                    console.log(data)
+                    alert("ARMY CREATED")
+                }
+                else {
+                    alert("ENTER CREDITIALS AGAIN")
+                }
+            })
+    }
+}
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }

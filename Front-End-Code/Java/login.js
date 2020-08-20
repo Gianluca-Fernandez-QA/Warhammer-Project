@@ -1,14 +1,4 @@
 
-let a = document.getElementById("btn");
-a.addEventListener('click',function(e){
-   e.preventDefault(); // Cancel the native event
-   e.stopPropagation();// Don't bubble/capture the event
-}, false);
-let b = document.getElementById("btn1");
-b.addEventListener('click',function(e){
-   e.preventDefault(); // Cancel the native event
-   e.stopPropagation();// Don't bubble/capture the event
-}, false);
 function create(){
     
 let username = document.getElementById("UserName").value;
@@ -100,3 +90,14 @@ function login(){
       }
     })
     }
+
+    let a = document.getElementById("btn");
+    a.addEventListener('click',function(e){
+       e.preventDefault(); // Cancel the native event
+       e.stopPropagation();// Don't bubble/capture the event
+    }, false);
+    let b = document.getElementById("btn1");
+    b.addEventListener('click',function(e){
+       e.preventDefault(); // Cancel the native event
+       e.stopPropagation();// Don't bubble/capture the event
+    }, false);
