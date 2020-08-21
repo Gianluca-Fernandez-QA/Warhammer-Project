@@ -1,0 +1,9 @@
+com\qa\demo\Entities\UserSecurity.class
+com\qa\demo\BackendApplication.class
+com\qa\demo\controllers\UserController.class
+com\qa\demo\services\UserSecurityServices.class
+com\qa\demo\Entities\USER.class
+com\qa\demo\repo\UserMainRepo.class
+com\qa\demo\repo\UserSecurityRepo.class
+com\qa\demo\Entities\Usermain.class
+com\qa\demo\services\UserMainServices.class
