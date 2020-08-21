@@ -1,0 +1,6 @@
+projectKey=com.QA:springApp
+serverUrl=http://34.105.165.77:9000
+serverVersion=7.5.0.20543
+dashboardUrl=http://34.105.165.77:9000/dashboard?id=com.QA%3AspringApp
+ceTaskId=AXQQEj_CpIDl4g-AX48e
+ceTaskUrl=http://34.105.165.77:9000/api/ce/task?id=AXQQEj_CpIDl4g-AX48e
