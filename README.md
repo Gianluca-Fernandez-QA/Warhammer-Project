@@ -1,5 +1,12 @@
 # Warhammer Assistant
 A website designed to assist warhammer users in the creation of an army and paint schemes
+
+#Jira Board
+https://qa-gianluca-fernandez1.atlassian.net/jira/software/projects/WP/boards/7
+
+#Presentation
+https://docs.google.com/presentation/d/1cuIyjWtfAswikbPCy6-aUuvDHRNVJlh4liu8mgwmM7U/edit?usp=sharing
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
