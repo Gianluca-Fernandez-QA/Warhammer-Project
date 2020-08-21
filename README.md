@@ -41,7 +41,7 @@ This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat-tip to anyone whose code was used
-* Shout-out to anyone who helped you out
-* Inspiration
-* etc.
+* Shout out to
+* https://github.com/BSData/wh40k - For the data
+* https://codebeautify.org/xmltojson - for parsing the data
+* And to the QA team for the oppurtunity
