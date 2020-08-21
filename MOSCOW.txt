@@ -1,0 +1,16 @@
+MOSCOW
+
+Must have
+JAR FILE UPLOADED
+WEBSITE UPLOADED
+RISK ASSESSMENT
+UML DIAGRAMS
+WIREFRAMES
+Should have
+PAINT SCHEME PAGE UPLOADED 
+README UPLOADED
+ALTER Armybuilder.js to allow for full function
+Could have
+Included a encryption function for password
+ 
+Won't have (this time)
