@@ -18,7 +18,7 @@ import com.qa.demo.Entities.Usermain;
 public interface UserSecurityRepo extends JpaRepository<UserSecurity, String> {
 
 	@Query(value = "select * from user_security WHERE username=:a", nativeQuery = true)    
-	public List<UserSecurity> login(@Param("a")String a);
+	public UserSecurity login(@Param("a")String a);
 	
 	
 	

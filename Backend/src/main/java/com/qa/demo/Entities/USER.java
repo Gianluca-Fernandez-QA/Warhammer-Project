@@ -8,6 +8,17 @@ public class USER {
 	private String email;
 	private boolean UserPublic;
 	
+	
+	
+	public USER(String id, String userName, String password, String name, String email, boolean userPublic) {
+		super();
+		this.id = id;
+		UserName = userName;
+		Password = password;
+		this.name = name;
+		this.email = email;
+		UserPublic = userPublic;
+	}
 	public String getId() {
 		return id;
 	}

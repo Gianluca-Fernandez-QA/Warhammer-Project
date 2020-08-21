@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.qa.demo.Entities.ArmyBuild;
 import com.qa.demo.Entities.ArmyBuilder;
+import com.qa.demo.Entities.UserSecurity;
 import com.qa.demo.Entities.Usermain;
 import com.qa.demo.repo.UserMainRepo;
 import com.qa.demo.repo.UserSecurityRepo;

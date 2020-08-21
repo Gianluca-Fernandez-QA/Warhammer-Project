@@ -24,8 +24,8 @@ public String newUser(UserSecurity u) {
 }
 
 public boolean login(String uName, String uPass) {
-	List<UserSecurity> a = Repo.login(uName);
-	String pass = a.get(0).getPassword();
+	UserSecurity a = Repo.login(uName);
+	String pass = a.getPassword();
 	if(uPass.equals(pass)) {
 	return true;
 	}else {
